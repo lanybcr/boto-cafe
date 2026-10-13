@@ -3,13 +3,14 @@
 Uso (na raiz do projeto):
     python -m src.gerar_dados
 """
-from . import banco, gerador, validacao
+from . import banco, gerador, sql_rfm, validacao
 
 
 def main() -> None:
     dados = gerador.gerar_tudo()
     banco.salvar_sqlite(dados)
     banco.exportar_csvs(dados)
+    sql_rfm.criar_views()  # camada SQL (RFM) dentro do próprio banco
 
     for tabela in banco.TABELAS:
         print(f"{tabela:<14} {len(dados[tabela]):>7,} linhas")

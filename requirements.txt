@@ -1,11 +1,13 @@
-﻿pandas>=2.2
-numpy>=1.26
-Faker>=24.0
-matplotlib>=3.8
-seaborn>=0.13
-plotly>=5.20
-streamlit>=1.35
-jupyter>=1.0
-nbformat>=5.9
-nbconvert>=7.0
-ipykernel>=6.29
+# Versões fixadas: as mesmas com que o projeto foi gerado e testado (Python 3.12).
+# Com versões fixas, SEED=42 gera exatamente os mesmos dados em qualquer máquina.
+pandas==3.0.6
+numpy==2.5.3
+Faker==40.41.0
+matplotlib==3.11.2
+seaborn==0.13.2
+plotly==7.1.0
+streamlit==1.65.0
+jupyter==1.1.1
+nbformat==5.11.1
+nbconvert==7.17.1
+ipykernel==7.4.0
