@@ -1,0 +1,2001 @@
+id,nome,email,cidade,estado,data_cadastro,canal_aquisicao
+1,Sophie Alves Gonçalves,sophiealvesgoncalves@example.com,ananindeua,PA,2024-10-07,Google
+2,Gael Henrique Rodrigues Freitas,gael.henrique.rodrigues.freitas@example.com,Recife,PE,2024-10-07,Google
+3,Jade Almeida Duarte,jade_almeida_duarte@example.com,Niterói,RJ,2024-10-07,Instagram
+4,Isabelly Marques da Mata,isabelly.marques.da.mata@example.com,Feira de Santana,BA,2024-10-07,Marketplace
+5,Bianca Novais Vargas,bianca_novais_vargas@example.com,Belo Horizonte,MG,2024-10-07,TikTok
+6,Ísis Melo Sá,isis_melo_sa@example.com,Caxias do Sul,RS,2024-10-08,TikTok
+7,Léo Câmara Pimenta,leo_camara_pimenta@example.com,Caruaru,PE,2024-10-08,Google
+8,Marina Vargas Vasconcelos,marina_vargas_vasconcelos@example.com,Joinville,SC,2024-10-09,Indicação
+9,Luan Araújo Cunha,luan.araujo.cunha@example.com,Rio Branco,AC,2024-10-09,Indicação
+10,Emilly Melo Novaes,emilly_melo_novaes@example.com,Santos,SP,2024-10-11,Instagram
+11,Isabel Cunha Marques,isabel.cunha.marques@example.com,Uberlândia,MG,2024-10-11,Indicação
+12,Ana Vitória Guerra da Mata,ana.vitoria.guerra.da.mata@example.com,Recife,PE,2024-10-12,Google
+13,Murilo Vieira Carvalho,murilo.vieira.carvalho@example.com,Salvador,BA,2024-10-12,Google
+14,Lívia Fonseca Teixeira,liviafonsecateixeira@example.com,Campinas,SP,2024-10-12,Instagram
+15,Hellena Moreira Leão,hellenamoreiraleao@example.com,Porto Alegre,RS,2024-10-12,TikTok
+16,Maria Alice Siqueira Moreira,maria.alice.siqueira.moreira@example.com,Belo Horizonte,MG,2024-10-12,Google
+17,Aylla Ribeiro Mendes,ayllaribeiromendes@example.com,Florianópolis,SC,2024-10-13,Indicação
+18,Luiz Gustavo Gonçalves Dias,luizgustavogoncalvesdias@example.com,Olinda,PE,2024-10-13,Instagram
+19,Maria Luiza Costa Brito,marialuizacostabrito@example.com,Recife,PE,2024-10-13,Indicação
+20,Bruno Novaes Monteiro,bruno_novaes_monteiro@example.com,Santos,SP,2024-10-13,Orgânico
+21,Vinícius Rezende Costela,viniciusrezendecostela@example.com,Brasília,DF,2024-10-14,Google
+22,Leandro Silva Lima,leandrosilvalima@example.com,São Paulo,SP,2024-10-14,Google
+23,João Mendes Barbosa,joao.mendes.barbosa@example.com,Belém,PA,2024-10-14,Google
+24,Nicolas Jesus Novaes,nicolas.jesus.novaes@example.com,Ji-Paraná,RO,2024-10-14,Indicação
+25,Gabrielly Rocha Souza,gabrielly_rocha_souza@example.com,Londrina,PR,2024-10-15,Google
+26,Davi Luiz Ferreira da Costa,davi.luiz.ferreira.da.costa@example.com,Petrópolis,RJ,2024-10-15,Google
+27,Larissa Pimenta Vargas,larissa.pimenta.vargas@example.com,Salvador,BA,2024-10-15,Google
+28,Gabrielly Nunes da Cruz,gabrielly_nunes_da_cruz@example.com,São Paulo,SP,2024-10-15,Instagram
+29,Heloísa Pastor Camargo,heloisapastorcamargo@example.com,Campinas,SP,2024-10-15,Indicação
+30,Mariane Araújo Casa Grande,marianearaujocasagrande@example.com,Maceió,AL,2024-10-15,Instagram
+31,Vinicius Macedo Martins,vinicius_macedo_martins@example.com,Uberlândia,MG,2024-10-15,Google
+32,Miguel da Mota Freitas,migueldamotafreitas@example.com,Manaus,AM,2024-10-15,Google
+33,Valentim Souza Sales,valentim.souza.sales@example.com,Fortaleza,CE,2024-10-15,Instagram
+34,Antony Caldeira Lopes,antony.caldeira.lopes@example.com,Salvador,BA,2024-10-16,Indicação
+35,Ísis Alves Siqueira,isisalvessiqueira@example.com,Belo Horizonte,MG,2024-10-16,Marketplace
+36,Marina Carvalho Silva,marina.carvalho.silva@example.com,Ananindeua,PA,2024-10-16,Google
+37,Isadora Pimenta Rezende,isadora.pimenta.rezende@example.com,Ananindeua,PA,2024-10-16,
+38,Rael Pereira Correia,rael_pereira_correia@example.com,Fortaleza,CE,2024-10-16,Marketplace
+39,Bruna Azevedo Farias,bruna.azevedo.farias@example.com,Campina Grande,PB,2024-10-17,Indicação
+40,Cecília Alves Leão,cecilia.alves.leao@example.com,Natal,RN,2024-10-17,TikTok
+41,Evelyn Leão Sampaio,evelyn_leao_sampaio@example.com,Florianópolis,SC,2024-10-17,
+42,Zoe Garcia Brito,zoegarciabrito@example.com,Recife,PE,2024-10-17,Instagram
+43,Ravi Azevedo Santos,ravi_azevedo_santos@example.com,Uberlândia,MG,2024-10-18,Instagram
+44,Enzo Nunes Alves,enzo.nunes.alves@example.com,Caxias do Sul,RS,2024-10-18,Instagram
+45,Ana Beatriz Cardoso Cavalcanti,anabeatrizcardosocavalcanti@example.com,São Paulo,SP,2024-10-18,TikTok
+46,Yasmin Nascimento Guerra,yasmin.nascimento.guerra@example.com,Mossoró,RN,2024-10-18,TikTok
+47,Ravi Lucca Vasconcelos Jesus,ravi.lucca.vasconcelos.jesus@example.com,Manaus,AM,2024-10-19,Google
+48,Luísa Ferreira Pastor,luisa.ferreira.pastor@example.com,Juazeiro do Norte,CE,2024-10-19,Orgânico
+49,Dante Pastor Novais, dantepastornovais@example.com ,Nossa Senhora do Socorro,SE,2024-10-19,Marketplace
+50,Théo Souza Mendes,theo_souza_mendes@example.com,Santos,SP,2024-10-19,Google
+51,Guilherme Carvalho Sá,guilherme.carvalho.sa@example.com,João Pessoa,PB,2024-10-19,Indicação
+52,Sara da Cruz Pires,sara_da_cruz_pires@example.com,Itacoatiara,AM,2024-10-19,TikTok
+53,Elisa Mendes Nogueira,elisamendesnogueira@example.com,Ribeirão Preto,SP,2024-10-19,Google
+54,João Cunha Siqueira,joao_cunha_siqueira@example.com,Recife,PE,2024-10-19,Instagram
+55,Stephany Nascimento Abreu,stephany_nascimento_abreu@example.com,Manaus,AM,2024-10-19,Instagram
+56,Lorena Fogaça Lima,lorena_fogaca_lima@example.com,Vitória da Conquista,BA,2024-10-20,Google
+57,Vitória Martins Jesus,vitoria.martins.jesus@example.com,Santarém,PA,2024-10-20,Orgânico
+58,João Ferreira Azevedo,joao.ferreira.azevedo@example.com,Belo Horizonte,MG,2024-10-21,TikTok
+59,Valentim Fernandes da Mota,valentim.fernandes.da.mota@example.com,Natal,RN,2024-10-21,Marketplace
+60,Vinícius Pimenta Mendes,viniciuspimentamendes@example.com,Maceió,AL,2024-10-21,Orgânico
+61,Caio Nunes Ramos,caio_nunes_ramos@example.com,São Paulo,SP,2024-10-21,Google
+62,Diego Moura Albuquerque,diegomouraalbuquerque@example.com,Teresina,PI,2024-10-21,Instagram
+63,Heloísa Pastor Porto,HELOISAPASTORPORTO@EXAMPLE.COM,Feira de Santana,BA,2024-10-21,Google
+64,Paulo Cirino da Mota,paulo.cirino.da.mota@example.com,Ilhéus,BA,2024-10-21,Instagram
+65,Catarina das Neves Cardoso,catarina.das.neves.cardoso@example.com,João Pessoa,PB,2024-10-21,Instagram
+66,Antonella Nogueira Barros,antonellanogueirabarros@example.com,Uberlândia,MG,2024-10-22,Instagram
+67,Evelyn da Cunha Souza,evelyn.da.cunha.souza@example.com,Olinda,PE,2024-10-22,Instagram
+68,Ana Sophia Silva Dias,ana.sophia.silva.dias@example.com,Vitória da Conquista,BA,2024-10-22,Google
+69,Ana Liz Vieira Silveira,ana_liz_vieira_silveira@example.com,Juazeiro do Norte,CE,2024-10-22,Instagram
+70,Luiz Fernando Campos Albuquerque,luizfernandocamposalbuquerque@example.com,Uberlândia,MG,2024-10-22,TikTok
+71,Esther Campos Montenegro,esther.campos.montenegro@example.com,Parintins,AM,2024-10-22,Indicação
+72,Maria Clara Barbosa Dias,mariaclarabarbosadias@example.com,Caucaia,CE,2024-10-24,Google
+73,Emanuelly Aparecida Guerra,EMANUELLY.APARECIDA.GUERRA@EXAMPLE.COM,Salvador,BA,2024-10-24,Instagram
+74,Isabella Montenegro da Paz,isabella_montenegro_da_paz@example.com,Campinas,SP,2024-10-24,Orgânico
+75,Lara Pereira Ramos,lara_pereira_ramos@example.com,Palmas,TO,2024-10-24,Marketplace
+76,Pedro Henrique Martins da Rosa,pedro_henrique_martins_da_rosa@example.com,Petrópolis,RJ,2024-10-24,Marketplace
+77,Ana Laura Silveira Sampaio,ANA_LAURA_SILVEIRA_SAMPAIO@EXAMPLE.COM,Teresina,PI,2024-10-25,Orgânico
+78,Milena Duarte Gomes,milena.duarte.gomes@example.com,Petrópolis,RJ,2024-10-25,Indicação
+79,Davi Miguel Borges Novaes,davi.miguel.borges.novaes@example.com,Lauro de Freitas,BA,2024-10-25,Indicação
+80,Olivia Casa Grande Lopes,olivia_casa_grande_lopes@example.com,Londrina,PR,2024-10-26,Orgânico
+81,Maria Julia Brito Rodrigues,maria_julia_brito_rodrigues@example.com,Campinas,SP,2024-10-26,Indicação
+82,Lucca Carvalho da Mata,lucca_carvalho_da_mata@example.com,Ribeirão Preto,SP,2024-10-26,Indicação
+83,Isabella Vasconcelos Duarte,isabellavasconcelosduarte@example.com,Santos,SP,2024-10-27,Indicação
+84,Alana Borges Aparecida,alana_borges_aparecida@example.com,Imperatriz,MA,2024-10-27,Marketplace
+85,Eduardo Silva da Paz,eduardo.silva.da.paz@example.com,Maceió,AL,2024-10-28,Google
+86,João Guilherme Oliveira Gomes,joaoguilhermeoliveiragomes@example.com,Uberlândia,MG,2024-10-28,Instagram
+87,João Rezende da Rosa,joao_rezende_da_rosa@example.com,Santos,SP,2024-10-28,Instagram
+88,João Felipe Ramos Rocha,joao.felipe.ramos.rocha@example.com,Joinville,SC,2024-10-28,Marketplace
+89,Oliver Machado das Neves,oliver.machado.das.neves@example.com,Parintins,AM,2024-10-28,Orgânico
+90,João Guilherme Silva Farias, joao_guilherme_silva_farias@example.com ,Recife,PE,2024-10-29,Instagram
+91,Juan Campos Sá,juan_campos_sa@example.com,São Luís,MA,2024-10-29,Orgânico
+92,Davi Lucca Cunha Nunes,davi_lucca_cunha_nunes@example.com,Fortaleza,CE,2024-10-30,Google
+93,Benjamim Sousa Cirino,BENJAMIM.SOUSA.CIRINO@EXAMPLE.COM,Feira de Santana,BA,2024-10-30,Google
+94,Raquel Machado Jesus,raquel.machado.jesus@example.com,Belém,PA,2024-10-30,Marketplace
+95,Raul Pastor Câmara,raul.pastor.camara@example.com,Manaus,AM,2024-10-31,Instagram
+96,Larissa Marques Fernandes,larissa_marques_fernandes@example.com,Feira de Santana,BA,2024-10-31,Instagram
+97,Eduardo Siqueira Barbosa,eduardosiqueirabarbosa@example.com,Natal,RN,2024-10-31,Marketplace
+98,Marina Oliveira da Mota,marinaoliveiradamota@example.com,Fortaleza,CE,2024-10-31,Marketplace
+99,Luana Cirino Rodrigues,luana.cirino.rodrigues@example.com,Brasília,DF,2024-11-01,TikTok
+100,Théo Cunha Cassiano,theocunhacassiano@example.com,Goiânia,GO,2024-11-02,Orgânico
+101,Eloah Sales da Costa,eloah.sales.da.costa@example.com,Curitiba,PR,2024-11-02,Instagram
+102,Davi Lucca das Neves Sampaio,davi.lucca.das.neves.sampaio@example.com,Londrina,PR,2024-11-02,Instagram
+103,Maria Eduarda Caldeira Vieira,maria.eduarda.caldeira.vieira@example.com,Ananindeua,PA,2024-11-02,Instagram
+104,Cauê Alves Vargas,caue.alves.vargas@example.com,Feira de Santana,BA,2024-11-02,Instagram
+105,Emanuella Castro Freitas,emanuellacastrofreitas@example.com,Imperatriz,MA,2024-11-03,Google
+106,Gael Henrique da Luz Câmara,gael_henrique_da_luz_camara@example.com,Sobral,CE,2024-11-03,Indicação
+107,Benjamim Barros Ramos,benjamim_barros_ramos@example.com,Feira de Santana,BA,2024-11-04,Instagram
+108,João Vitor da Cunha Costa,joao.vitor.da.cunha.costa@example.com,Porto Velho,RO,2024-11-04,Instagram
+109,Sara da Cunha Fogaça,SARA_DA_CUNHA_FOGACA@EXAMPLE.COM,Boa Vista,RR,2024-11-04,Marketplace
+110,Larissa Pereira Sales,LARISSAPEREIRASALES@EXAMPLE.COM,Santos,SP,2024-11-04,Instagram
+111,Benicio Moreira Vargas,benicio_moreira_vargas@example.com,Goiânia,GO,2024-11-04,Indicação
+112,Luigi Pinto Marques,luigi_pinto_marques@example.com,Fortaleza,CE,2024-11-05,Marketplace
+113,Beatriz Ribeiro da Rocha,beatriz.ribeiro.da.rocha@example.com,Parnaíba,PI,2024-11-05,Indicação
+114,Bruno Aparecida Andrade,BRUNOAPARECIDAANDRADE@EXAMPLE.COM,Salvador,BA,2024-11-05,Orgânico
+115,Caio Guerra Macedo,caio_guerra_macedo@example.com,São Paulo,SP,2024-11-05,Indicação
+116,Julia Cassiano da Rosa,julia.cassiano.da.rosa@example.com,Florianópolis,SC,2024-11-05,Instagram
+117,Enrico Rezende Rezende,enricorezenderezende@example.com,Fortaleza,CE,2024-11-05,Indicação
+118,José Souza Vasconcelos,josesouzavasconcelos@example.com,Petrolina,PE,2024-11-05,Marketplace
+119,Cecília Ferreira da Mota,ceciliaferreiradamota@example.com,Londrina,PR,2024-11-05,Marketplace
+120,Josué Marques Freitas,josue_marques_freitas@example.com,Belo Horizonte,MG,2024-11-06,TikTok
+121,Yan Araújo Novais,yan_araujo_novais@example.com,Londrina,PR,2024-11-06,Indicação
+122,Amanda Rodrigues Ferreira,amandarodriguesferreira@example.com,Manaus,AM,2024-11-06,Orgânico
+123,Vitor Farias da Rosa,vitor.farias.da.rosa@example.com,Petrópolis,RJ,2024-11-07,Indicação
+124,Bianca Ramos Barros,bianca_ramos_barros@example.com,Recife,PE,2024-11-07,Instagram
+125,Yan da Paz Campos,YAN.DA.PAZ.CAMPOS@EXAMPLE.COM,Sorocaba,SP,2024-11-08,Google
+126,Ana Carolina da Luz Leão,ana.carolina.da.luz.leao@example.com,Rio de Janeiro,RJ,2024-11-08,Orgânico
+127,Gustavo Henrique Costela Nascimento,gustavo_henrique_costela_nascimento@example.com,Palmas,TO,2024-11-08,Instagram
+128,Yan Cardoso Pires,yan_cardoso_pires@example.com,Parintins,AM,2024-11-09,Indicação
+129,Ana Clara da Cunha Novais,ana.clara.da.cunha.novais@example.com,Campinas,SP,2024-11-09,Instagram
+130,Dante Pimenta Sousa,dante.pimenta.sousa@example.com,Brasília,DF,2024-11-10,Instagram
+131,Theo Leão Silveira,theo_leao_silveira@example.com,Fortaleza,CE,2024-11-10,Google
+132,Diego Melo Correia,diego_melo_correia@example.com,Belém,PA,2024-11-10,TikTok
+133,Isaac Nascimento Abreu,isaac.nascimento.abreu@example.com,Petrópolis,RJ,2024-11-10,Marketplace
+134,Pietro Vargas Pastor,pietro.vargas.pastor@example.com,Juazeiro do Norte,CE,2024-11-10,Indicação
+135,Raquel Mendonça Pires,raquelmendoncapires@example.com,Olinda,PE,2024-11-11,Orgânico
+136,Mariana Cassiano Machado,mariana_cassiano_machado@example.com,Natal,RN,2024-11-11,Google
+137,Maria Aparecida Aparecida,maria.aparecida.aparecida@example.com,São Paulo,SP,2024-11-11,Orgânico
+138,Eduardo Moraes Ramos,eduardo_moraes_ramos@example.com,São Paulo,SP,2024-11-11,Instagram
+139,Vinicius da Costa da Mata,vinicius.da.costa.da.mata@example.com,Imperatriz,MA,2024-11-11,Orgânico
+140,Leandro Monteiro Silva,leandromonteirosilva@example.com,Ribeirão Preto,SP,2024-11-12,Instagram
+141,João Felipe Rocha Siqueira,JOAOFELIPEROCHASIQUEIRA@EXAMPLE.COM,Olinda,PE,2024-11-12,Google
+142,João Pedro Azevedo Moura,joaopedroazevedomoura@example.com,Uberlândia,MG,2024-11-13,TikTok
+143,Esther Fonseca Guerra,estherfonsecaguerra@example.com,Natal,RN,2024-11-13,Orgânico
+144,Alice Fogaça Duarte,alice.fogaca.duarte@example.com,Feira de Santana,BA,2024-11-13,Instagram
+145,Lorenzo Nogueira Vasconcelos,lorenzo_nogueira_vasconcelos@example.com,Parintins,AM,2024-11-14,Google
+146,Lucas Gabriel Porto Borges,lucas_gabriel_porto_borges@example.com,Florianópolis,SC,2024-11-14,Google
+147,Eloah Novais Novais,eloah_novais_novais@example.com,Natal,RN,2024-11-14,Orgânico
+148,Emanuel Freitas Guerra,emanuelfreitasguerra@example.com,Santana,AP,2024-11-15,Orgânico
+149,Ana Carolina da Cruz Silva, anacarolinadacruzsilva@example.com ,Salvador,BA,2024-11-15,Marketplace
+150,Ravi Azevedo da Luz,ravi_azevedo_da_luz@example.com,Uberlândia,MG,2024-11-15,Indicação
+151,Esther Cardoso Novais,esthercardosonovais@example.com,Maceió,AL,2024-11-16,Marketplace
+152,Ana Cecília Nunes Pereira,ana.cecilia.nunes.pereira@example.com,Florianópolis,SC,2024-11-16,Indicação
+153,Juliana Albuquerque Almeida,juliana.albuquerque.almeida@example.com,Belém,PA,2024-11-16,Indicação
+154,Anna Liz Fonseca Caldeira,anna_liz_fonseca_caldeira@example.com,Sobral,CE,2024-11-16,Indicação
+155,Ana da Rocha Oliveira,ana_da_rocha_oliveira@example.com,Niterói,RJ,2024-11-16,TikTok
+156,Sophie Gonçalves Cunha,sophie.goncalves.cunha@example.com,Lauro de Freitas,BA,2024-11-16,Instagram
+157,Bianca Mendes Martins,biancamendesmartins@example.com,Juazeiro do Norte,CE,2024-11-16,Instagram
+158,Evelyn Albuquerque Duarte,evelyn_albuquerque_duarte@example.com,São Paulo,SP,2024-11-17,Orgânico
+159,Maitê Fogaça Vasconcelos, maitefogacavasconcelos@example.com ,Salvador,BA,2024-11-17,Instagram
+160,Henry Gabriel Barbosa Sales,henry_gabriel_barbosa_sales@example.com,Rio de Janeiro,RJ,2024-11-18,Indicação
+161,Lavínia Nunes Fonseca,lavinia_nunes_fonseca@example.com,Rio Branco,AC,2024-11-18,Orgânico
+162,Alexandre da Rosa da Paz,alexandredarosadapaz@example.com,Recife,PE,2024-11-19,Instagram
+163,Vitor Gabriel Duarte da Paz,vitor_gabriel_duarte_da_paz@example.com,Parnamirim,RN,2024-11-19,Orgânico
+164,Fernando da Paz Alves,fernando.da.paz.alves@example.com,São Paulo,SP,2024-11-19,TikTok
+165,Maria Laura Machado da Luz,maria.laura.machado.da.luz@example.com,Itacoatiara,AM,2024-11-20,Orgânico
+166,Stephany Vasconcelos Mendes,stephanyvasconcelosmendes@example.com,Porto Velho,RO,2024-11-20,Instagram
+167,Valentina da Luz Ribeiro,valentinadaluzribeiro@example.com,Imperatriz,MA,2024-11-21,Google
+168,Catarina Guerra Cardoso,catarina_guerra_cardoso@example.com,Florianópolis,SC,2024-11-22,Google
+169,Rafael Câmara Siqueira,rafaelcamarasiqueira@example.com,São Paulo,SP,2024-11-22,Indicação
+170,Rael Azevedo Fernandes,rael.azevedo.fernandes@example.com,Belo Horizonte,MG,2024-11-23,TikTok
+171,Dom Novaes Borges,domnovaesborges@example.com,Feira de Santana,BA,2024-11-23,Instagram
+172,Yasmin Jesus da Cunha,yasminjesusdacunha@example.com,Petrópolis,RJ,2024-11-23,Orgânico
+173,Raquel Macedo Camargo,raquelmacedocamargo@example.com,Belo Horizonte,MG,2024-11-24,Instagram
+174,Kamilly Farias Silveira,kamilly.farias.silveira@example.com,São Paulo,SP,2024-11-24,Instagram
+175,Diogo Albuquerque Marques,diogo_albuquerque_marques@example.com,Feira de Santana,BA,2024-11-25,Orgânico
+176,Maitê Castro Souza,maite.castro.souza@example.com,Marabá,PA,2024-11-25,TikTok
+177,Alexandre Lima Costa,alexandrelimacosta@example.com,Feira de Santana,BA,2024-11-25,Indicação
+178,Rael Moreira Rodrigues,raelmoreirarodrigues@example.com,recife,PE,2024-11-25,Google
+179,Ana Sampaio Cardoso,ana_sampaio_cardoso@example.com,Salvador,BA,2024-11-26,Google
+180,Melina Pires Macedo,melina.pires.macedo@example.com,Florianópolis,SC,2024-11-26,Instagram
+181,Lucas Gabriel Cirino Almeida,lucas_gabriel_cirino_almeida@example.com,Porto Velho,RO,2024-11-26,Instagram
+182,Anthony Gabriel Barbosa Santos,anthonygabrielbarbosasantos@example.com,Parintins,AM,2024-11-27,Indicação
+183,Ana Sophia Ribeiro Campos,anasophiaribeirocampos@example.com,Sorocaba,SP,2024-11-27,Orgânico
+184,Isabella Novais Fonseca,isabella.novais.fonseca@example.com,São Luís,MA,2024-11-27,Instagram
+185,Rebeca Moreira Viana,rebeca.moreira.viana@example.com,Sobral,CE,2024-11-27,Marketplace
+186,Catarina Pereira da Luz,catarina.pereira.da.luz@example.com,Brasília,DF,2024-11-28,Instagram
+187,Levi Araújo Moraes,levi.araujo.moraes@example.com,Fortaleza,CE,2024-11-28,
+188,Fernando Ribeiro Cunha,fernando.ribeiro.cunha@example.com,Belém,PA,2024-11-28,Indicação
+189,Lara da Rocha Camargo,lara_da_rocha_camargo@example.com,João Pessoa,PB,2024-11-28,Marketplace
+190,Levi Montenegro Melo,levimontenegromelo@example.com,Olinda,PE,2024-11-28,Indicação
+191,Helena Cardoso Caldeira,helena_cardoso_caldeira@example.com,Teresina,PI,2024-11-28,TikTok
+192,Francisco Cunha da Conceição,franciscocunhadaconceicao@example.com,Londrina,PR,2024-11-29,Marketplace
+193,Mariane Oliveira Viana,marianeoliveiraviana@example.com,João Pessoa,PB,2024-11-29,TikTok
+194,Isabelly Sá Farias,isabellysafarias@example.com,Belo Horizonte,MG,2024-11-29,Google
+195,Mariana da Paz Carvalho,marianadapazcarvalho@example.com,Londrina,PR,2024-11-29,Indicação
+196,Rael Castro Machado,raelcastromachado@example.com,Belo Horizonte,MG,2024-11-29,Instagram
+197,Antonella Oliveira Peixoto,antonellaoliveirapeixoto@example.com,Santana,AP,2024-11-30,Marketplace
+198,Bianca Nunes Brito,bianca.nunes.brito@example.com,João Pessoa,PB,2024-11-30,Indicação
+199,Luiz Miguel Rodrigues Vargas,luiz_miguel_rodrigues_vargas@example.com,Belém,PA,2024-12-02,Indicação
+200,Larissa Nogueira Andrade,larissa.nogueira.andrade@example.com,Belo Horizonte,MG,2024-12-02,Instagram
+201,Mateus Jesus Sampaio,mateus_jesus_sampaio@example.com,Recife,PE,2024-12-02,Indicação
+202,Cauê Fonseca Abreu,caue.fonseca.abreu@example.com,Caxias do Sul,RS,2024-12-02,Indicação
+203,Mirella Carvalho Monteiro,mirellacarvalhomonteiro@example.com,Salvador,BA,2024-12-02,Instagram
+204,Pedro Lucas Rocha Sampaio,pedrolucasrochasampaio@example.com,Petrópolis,RJ,2024-12-02,Indicação
+205,Zoe Leão Câmara,zoe_leao_camara@example.com,Fortaleza,CE,2024-12-03,Instagram
+206,Heloisa Rocha Nogueira,heloisarochanogueira@example.com,Brasília,DF,2024-12-03,Instagram
+207,Nina Souza Moreira,nina_souza_moreira@example.com,Ananindeua,PA,2024-12-03,Orgânico
+208,Heitor Vasconcelos Lima,heitorvasconceloslima@example.com,Parintins,AM,2024-12-04,Instagram
+209,Maria Júlia Sampaio Cassiano,mariajuliasampaiocassiano@example.com,Niterói,RJ,2024-12-04,
+210,Theodoro Souza Sampaio,theodoro_souza_sampaio@example.com,Curitiba,PR,2024-12-04,Instagram
+211,Caio Siqueira Marques,caio_siqueira_marques@example.com,Olinda,PE,2024-12-05,Instagram
+212,Matheus Leão Rios,matheus_leao_rios@example.com,Juiz de Fora,MG,2024-12-05,Instagram
+213,Luara da Mota Porto,luara.da.mota.porto@example.com,Juiz de Fora,MG,2024-12-05,Orgânico
+214,Bárbara Novaes Oliveira,barbara.novaes.oliveira@example.com,Belo Horizonte,MG,2024-12-05,Instagram
+215,Ana Julia Guerra Novaes,anajuliaguerranovaes@example.com,Salvador,BA,2024-12-06,Indicação
+216,Rodrigo Silva Casa Grande,rodrigosilvacasagrande@example.com,Salvador,BA,2024-12-06,Google
+217,Pietra Teixeira da Costa,pietra.teixeira.da.costa@example.com,Sobral,CE,2024-12-06,Instagram
+218,Julia Nunes Marques,julianunesmarques@example.com,Goiânia,GO,2024-12-06,Google
+219,Caleb Albuquerque Carvalho,calebalbuquerquecarvalho@example.com,Rio de Janeiro,RJ,2024-12-06,Instagram
+220,Pedro Lucas da Rocha Andrade,pedro.lucas.da.rocha.andrade@example.com,Lauro de Freitas,BA,2024-12-07,Google
+221,Yago Moura Azevedo,yagomouraazevedo@example.com,Manaus,AM,2024-12-07,Orgânico
+222,Maria Júlia da Cruz Viana,maria_julia_da_cruz_viana@example.com,Aracaju,SE,2024-12-08,Instagram
+223,Bruna Borges Sá,bruna.borges.sa@example.com,Campinas,SP,2024-12-08,Marketplace
+224,Cauê Câmara Marques,caue_camara_marques@example.com,joao pessoa,PB,2024-12-08,Instagram
+225,Bianca Andrade Borges,bianca.andrade.borges@example.com,Campo Grande,MS,2024-12-08,Instagram
+226,Juliana Sales Monteiro,juliana.sales.monteiro@example.com,São Paulo,SP,2024-12-09,Orgânico
+227,Manuella Mendonça da Conceição,MANUELLA_MENDONCA_DA_CONCEICAO@EXAMPLE.COM,Campina Grande,PB,2024-12-09,Orgânico
+228,Guilherme Farias Costela,guilhermefariascostela@example.com,Fortaleza,CE,2024-12-09,Instagram
+229,Pedro Lucas Cavalcanti Sampaio,pedro.lucas.cavalcanti.sampaio@example.com,Belém,PA,2024-12-10,Instagram
+230,Dante Vargas Borges,dante.vargas.borges@example.com,Curitiba,PR,2024-12-10,Orgânico
+231,Maria Vitória Ferreira Nunes,maria_vitoria_ferreira_nunes@example.com,Petrópolis,RJ,2024-12-11,Indicação
+232,Heloísa Vargas Nunes,heloisa.vargas.nunes@example.com,Fortaleza,CE,2024-12-11,Marketplace
+233,Rebeca Viana Leão,rebeca.viana.leao@example.com,São Paulo,SP,2024-12-11,Indicação
+234,Maria Júlia Andrade Cavalcanti,maria_julia_andrade_cavalcanti@example.com,Rio Branco,AC,2024-12-11,Instagram
+235,Henrique Cavalcanti Ramos,henriquecavalcantiramos@example.com,Fortaleza,CE,2024-12-11,Google
+236,Eduardo Nunes Camargo,eduardo_nunes_camargo@example.com,sobral,CE,2024-12-12,Instagram
+237,Igor da Conceição Sousa,igordaconceicaosousa@example.com,Parintins,AM,2024-12-12,Indicação
+238,Brenda da Cruz Cardoso,brenda.da.cruz.cardoso@example.com,Imperatriz,MA,2024-12-13,TikTok
+239,Calebe Sales Camargo,calebesalescamargo@example.com,Santana,AP,2024-12-13,Google
+240,Jade Vargas Pastor,jade_vargas_pastor@example.com,Nossa Senhora do Socorro,SE,2024-12-13,Instagram
+241,Maria Cecília Andrade da Rocha,maria_cecilia_andrade_da_rocha@example.com,João Pessoa,PB,2024-12-14,Instagram
+242,Luiza da Mota Fonseca,luiza.da.mota.fonseca@example.com,Marabá,PA,2024-12-14,TikTok
+243,Nicolas Rodrigues Porto,nicolas_rodrigues_porto@example.com,Manaus,AM,2024-12-15,Google
+244,Ana Moraes Santos,ana.moraes.santos@example.com,Manaus,AM,2024-12-15,Orgânico
+245,Guilherme Macedo Cavalcante,guilherme.macedo.cavalcante@example.com,Parnaíba,PI,2024-12-15,TikTok
+246,Stella Silveira Correia,stella_silveira_correia@example.com,Santarém,PA,2024-12-15,Indicação
+247,João Lucas Campos Albuquerque,joao_lucas_campos_albuquerque@example.com,Porto Velho,RO,2024-12-15,Instagram
+248,Bianca Brito Macedo,biancabritomacedo@example.com,São Paulo,SP,2024-12-16,Instagram
+249,Lavínia Cirino Mendonça,laviniacirinomendonca@example.com,Rio de Janeiro,RJ,2024-12-16,Instagram
+250,Levi Abreu Jesus,levi_abreu_jesus@example.com,Brasília,DF,2024-12-17,Orgânico
+251,Luísa da Mota Cirino,luisa.da.mota.cirino@example.com,Nossa Senhora do Socorro,SE,2024-12-17,Marketplace
+252,Mariah Nogueira Andrade,mariah_nogueira_andrade@example.com,Campinas,SP,2024-12-17,Indicação
+253,Alícia Santos Costela,alicia.santos.costela@example.com,Rio de Janeiro,RJ,2024-12-17,Instagram
+254,Yago da Conceição Barbosa,yago.da.conceicao.barbosa@example.com,sao paulo,SP,2024-12-17,Instagram
+255,Jade Peixoto Nunes,jade.peixoto.nunes@example.com,Rio de Janeiro,RJ,2024-12-17,Orgânico
+256,Isabella Caldeira Brito,isabellacaldeirabrito@example.com,São Luís,MA,2024-12-17,Google
+257,Carlos Eduardo Rocha Barros,carlos_eduardo_rocha_barros@example.com,Parnamirim,RN,2024-12-18,Indicação
+258,Pedro Sá Moraes,pedro.sa.moraes@example.com,Sobral,CE,2024-12-18,Indicação
+259,Cecilia Aragão Brito,cecilia_aragao_brito@example.com,Florianópolis,SC,2024-12-18,Google
+260,Ana Julia da Mata Monteiro,ana_julia_da_mata_monteiro@example.com,São Paulo,SP,2024-12-18,Orgânico
+261,Lívia Mendonça Cavalcante,livia.mendonca.cavalcante@example.com,Manaus,AM,2024-12-18,
+262,João Guilherme Costa Fernandes,joao.guilherme.costa.fernandes@example.com,Fortaleza,CE,2024-12-18,Google
+263,Manuela Pereira Melo,manuela_pereira_melo@example.com,Aracaju,SE,2024-12-18,TikTok
+264,Luísa Pires Cardoso,luisa_pires_cardoso@example.com,Goiânia,GO,2024-12-18,Google
+265,Liz Ribeiro Freitas,liz_ribeiro_freitas@example.com,Teresina,PI,2024-12-19,Marketplace
+266,Lavínia Moraes Fonseca,lavinia.moraes.fonseca@example.com,Niterói,RJ,2024-12-19,Google
+267,Gustavo Oliveira Rocha,gustavo.oliveira.rocha@example.com,Belém,PA,2024-12-19,Orgânico
+268,Emilly Sá Pastor,emilly_sa_pastor@example.com,Castanhal,PA,2024-12-19,Instagram
+269,Mariah Cunha Fogaça,mariahcunhafogaca@example.com,Rio de Janeiro,RJ,2024-12-20,Instagram
+270,Luiz Fernando Camargo Ribeiro,luiz.fernando.camargo.ribeiro@example.com,João Pessoa,PB,2024-12-20,Orgânico
+271,Clarice da Costa Oliveira,clarice_da_costa_oliveira@example.com,Porto Velho,RO,2024-12-20,Google
+272,Théo Silva Cirino,theo.silva.cirino@example.com,Ananindeua,PA,2024-12-20,Orgânico
+273,Francisco Peixoto Peixoto,francisco.peixoto.peixoto@example.com,Campina Grande,PB,2024-12-20,TikTok
+274,Maria Vitória Cunha Nogueira,maria.vitoria.cunha.nogueira@example.com,Curitiba,PR,2024-12-21,Instagram
+275,Ana Laura Nunes Pinto,ana.laura.nunes.pinto@example.com,Porto Velho,RO,2024-12-21,Orgânico
+276,Jade da Rosa Marques,jade_da_rosa_marques@example.com,Brasília,DF,2024-12-21,Orgânico
+277,João Pedro Martins Araújo,joao_pedro_martins_araujo@example.com,Feira de Santana,BA,2024-12-21,TikTok
+278,Manuela Novais Novais,manuela_novais_novais@example.com,Salvador,BA,2024-12-21,Instagram
+279,Ana Lívia da Mota Mendonça,analiviadamotamendonca@example.com,Manaus,AM,2024-12-21,Orgânico
+280,Cauê Albuquerque Ramos,caue.albuquerque.ramos@example.com,João Pessoa,PB,2024-12-21,Orgânico
+281,Larissa Ribeiro Pacheco,larissa.ribeiro.pacheco@example.com,Goiânia,GO,2024-12-22,Instagram
+282,Ryan Caldeira Sampaio,ryan_caldeira_sampaio@example.com,Rio de Janeiro,RJ,2024-12-22,Indicação
+283,Luna Sampaio Mendonça,lunasampaiomendonca@example.com,Goiânia,GO,2024-12-22,Google
+284,Liam Monteiro Moraes,liam.monteiro.moraes@example.com,Porto Alegre,RS,2024-12-22,Instagram
+285,Olivia Aragão Rocha,olivia_aragao_rocha@example.com,João Pessoa,PB,2024-12-22,Indicação
+286,Vinícius Borges Ramos,vinicius.borges.ramos@example.com,Caxias,MA,2024-12-22,Orgânico
+287,Emanuel da Conceição Brito,emanueldaconceicaobrito@example.com,Belo Horizonte,MG,2024-12-23,Indicação
+288,Ian Ferreira Lopes,ianferreiralopes@example.com,Imperatriz,MA,2024-12-23,TikTok
+289,Manuela Carvalho Lima,manuela_carvalho_lima@example.com,Brasília,DF,2024-12-24,Indicação
+290,Asafe Teixeira Oliveira,asafeteixeiraoliveira@example.com,Parintins,AM,2024-12-24,Instagram
+291,Isaque Abreu Monteiro,isaqueabreumonteiro@example.com,Palmas,TO,2024-12-24,Indicação
+292,Cauê Gonçalves Montenegro,CAUE_GONCALVES_MONTENEGRO@EXAMPLE.COM,Manaus,AM,2024-12-24,TikTok
+293,Ana Carolina Nunes Rocha,ana_carolina_nunes_rocha@example.com,São Luís,MA,2024-12-24,Indicação
+294,Danilo da Cruz Borges,danilo.da.cruz.borges@example.com,Caxias do Sul,RS,2024-12-24,Instagram
+295,Liam Mendonça Viana,liammendoncaviana@example.com,Fortaleza,CE,2024-12-24,
+296,Davi Lucca Costela Rios,davi.lucca.costela.rios@example.com,Fortaleza,CE,2024-12-24,Google
+297,Aurora Caldeira Barros,aurora.caldeira.barros@example.com,Uberlândia,MG,2024-12-25,Instagram
+298,Antony Camargo Rios,antonycamargorios@example.com,Vitória da Conquista,BA,2024-12-25,Instagram
+299,Mariane Cirino Teixeira,mariane_cirino_teixeira@example.com,São Luís,MA,2024-12-25,Instagram
+300,André da Mota Casa Grande,andredamotacasagrande@example.com,sao paulo,SP,2024-12-26,Orgânico
+301,Ian Teixeira da Mota,ianteixeiradamota@example.com,Rio de Janeiro,RJ,2024-12-26,TikTok
+302,Ayla Santos Câmara,aylasantoscamara@example.com,Caxias do Sul,RS,2024-12-26,Google
+303,Ana Liz Caldeira Costela,ana.liz.caldeira.costela@example.com,Feira de Santana,BA,2024-12-26,Google
+304,Luiz Fernando Mendonça Andrade,luiz.fernando.mendonca.andrade@example.com,Belo Horizonte,MG,2024-12-26,Indicação
+305,Henry Gabriel Alves Sousa,henry_gabriel_alves_sousa@example.com,Cuiabá,MT,2024-12-27,Google
+306,Fernando Melo Ferreira,fernando.melo.ferreira@example.com,Salvador,BA,2024-12-27,TikTok
+307,João Gabriel Castro Siqueira,joao_gabriel_castro_siqueira@example.com,Sorocaba,SP,2024-12-27,Orgânico
+308,João Lucas da Cruz Souza,joao_lucas_da_cruz_souza@example.com,belo horizonte,MG,2024-12-28,Marketplace
+309,Gabriel Dias Lima,gabriel.dias.lima@example.com,Itacoatiara,AM,2024-12-28,TikTok
+310,Ana Laura Machado Pereira,ana_laura_machado_pereira@example.com,Imperatriz,MA,2024-12-28,Google
+311,Eloah da Cunha Barros,eloahdacunhabarros@example.com,São Paulo,SP,2024-12-28,Marketplace
+312,Lavínia Andrade Alves,lavinia.andrade.alves@example.com,Recife,PE,2024-12-29,Instagram
+313,Luiz Otávio Rodrigues Farias,luiz.otavio.rodrigues.farias@example.com,Caxias,MA,2024-12-29,Instagram
+314,Henrique Sá Leão,henrique.sa.leao@example.com,Campinas,SP,2024-12-29,Google
+315,Paulo Montenegro da Luz,paulomontenegrodaluz@example.com,Ananindeua,PA,2024-12-30,
+316,Cauã Costela da Mata,cauacosteladamata@example.com,Niterói,RJ,2024-12-30,Instagram
+317,Davi Luiz Brito Peixoto,davi_luiz_brito_peixoto@example.com,Belo Horizonte,MG,2024-12-30,Marketplace
+318,Sophie Montenegro Sales,sophie_montenegro_sales@example.com,Belo Horizonte,MG,2024-12-30,Indicação
+319,Ana Barros Melo,anabarrosmelo@example.com,Goiânia,GO,2024-12-30,Marketplace
+320,Enrico da Mota Carvalho,enricodamotacarvalho@example.com,Castanhal,PA,2024-12-31,Google
+321,Matheus Correia Nascimento,matheus.correia.nascimento@example.com,Niterói,RJ,2025-01-01,Instagram
+322,Apollo Rios Borges,apollo.rios.borges@example.com,Curitiba,PR,2025-01-01,Marketplace
+323,Carlos Eduardo Pereira Souza,carloseduardopereirasouza@example.com,Campinas,SP,2025-01-02,Orgânico
+324,Ester Moraes Novais,estermoraesnovais@example.com,Porto Alegre,RS,2025-01-02,Google
+325,Breno Cavalcanti Leão,breno_cavalcanti_leao@example.com,Niterói,RJ,2025-01-02,Instagram
+326,Maria Clara Nunes da Cruz,maria_clara_nunes_da_cruz@example.com,Mossoró,RN,2025-01-02,Marketplace
+327,Lívia Cardoso Borges,livia_cardoso_borges@example.com,Manaus,AM,2025-01-02,
+328,Bruna Machado Albuquerque,bruna_machado_albuquerque@example.com,João Pessoa,PB,2025-01-02,TikTok
+329,Ana Júlia Moraes Novais,ana_julia_moraes_novais@example.com,Rio de Janeiro,RJ,2025-01-02,Instagram
+330,Caroline Nogueira Fogaça,carolinenogueirafogaca@example.com,Petrópolis,RJ,2025-01-03,Google
+331,Stephany Cavalcante Duarte,stephanycavalcanteduarte@example.com,Itacoatiara,AM,2025-01-03,Orgânico
+332,Maria Eduarda Aragão Cavalcante,mariaeduardaaragaocavalcante@example.com,Porto Alegre,RS,2025-01-03,TikTok
+333,Henrique Silveira Abreu,henriquesilveiraabreu@example.com,Belém,PA,2025-01-03,Instagram
+334,Sabrina Fernandes Lopes,sabrina_fernandes_lopes@example.com,Teresina,PI,2025-01-03,Indicação
+335,Ana Julia Rezende Jesus,ana_julia_rezende_jesus@example.com,Jaboatão dos Guararapes,PE,2025-01-04,Google
+336,Camila Novais Fonseca,camila.novais.fonseca@example.com,Fortaleza,CE,2025-01-04,Marketplace
+337,Pietra Oliveira Rocha,pietraoliveirarocha@example.com,Aracaju,SE,2025-01-04,TikTok
+338,Ana Cecília Porto Montenegro,ana_cecilia_porto_montenegro@example.com,Ilhéus,BA,2025-01-05,Instagram
+339,Enrico Cirino Azevedo,enrico_cirino_azevedo@example.com,Belém,PA,2025-01-05,
+340,Vinícius Montenegro Mendonça,vinicius.montenegro.mendonca@example.com,Belo Horizonte,MG,2025-01-05,Google
+341,Maria Ramos Nogueira,mariaramosnogueira@example.com,Campinas,SP,2025-01-05,Marketplace
+342,Enrico Moura Machado, enrico.moura.machado@example.com ,Salvador,BA,2025-01-05,Orgânico
+343,João Felipe Carvalho Jesus,joaofelipecarvalhojesus@example.com,Joinville,SC,2025-01-05,TikTok
+344,Lavínia Silveira Aragão,laviniasilveiraaragao@example.com,Florianópolis,SC,2025-01-06,Marketplace
+345,Maria Alice Nunes Araújo,maria.alice.nunes.araujo@example.com,Rio de Janeiro,RJ,2025-01-06,Instagram
+346,Vinicius Câmara da Mata,vinicius_camara_da_mata@example.com,joao pessoa,PB,2025-01-06,Google
+347,Calebe Gonçalves Brito,calebe.goncalves.brito@example.com,Boa Vista,RR,2025-01-06,Orgânico
+348,Mirella Marques Freitas,mirellamarquesfreitas@example.com,São Paulo,SP,2025-01-07,Indicação
+349,Emanuelly Nogueira Sá,emanuelly.nogueira.sa@example.com,Itacoatiara,AM,2025-01-07,Orgânico
+350,Henry Gabriel Cardoso Sampaio,henrygabrielcardososampaio@example.com,São Paulo,SP,2025-01-07,Indicação
+351,Antony Sampaio da Luz,antony_sampaio_da_luz@example.com,São Paulo,SP,2025-01-07,Orgânico
+352,Jade Barbosa Barros,jade.barbosa.barros@example.com,Fortaleza,CE,2025-01-07,Indicação
+353,Maria Vitória Azevedo Teixeira,mariavitoriaazevedoteixeira@example.com,Campinas,SP,2025-01-08,Google
+354,Lara Pereira Peixoto,lara.pereira.peixoto@example.com,São Paulo,SP,2025-01-08,Indicação
+355,Joana Borges Câmara,joana.borges.camara@example.com,Campinas,SP,2025-01-08,Instagram
+356,Luara Castro Aragão,luara_castro_aragao@example.com,Sobral,CE,2025-01-08,Marketplace
+357,Olivia Almeida Vasconcelos,olivia_almeida_vasconcelos@example.com,Caruaru,PE,2025-01-08,Google
+358,Mariah Farias Pires,mariahfariaspires@example.com,Jaboatão dos Guararapes,PE,2025-01-08,Google
+359,Emanuel Barros Siqueira,emanuel.barros.siqueira@example.com,Goiânia,GO,2025-01-09,Google
+360,Maria Laura Mendes Rezende,maria.laura.mendes.rezende@example.com,São Paulo,SP,2025-01-09,Instagram
+361,Milena Sá Campos,milena.sa.campos@example.com,Parintins,AM,2025-01-09,Orgânico
+362,Agatha Azevedo Vargas,agathaazevedovargas@example.com,Manaus,AM,2025-01-10,Indicação
+363,Stephany Mendes Ferreira,stephany.mendes.ferreira@example.com,São Paulo,SP,2025-01-10,Instagram
+364,Dom Cavalcanti Vargas,dom.cavalcanti.vargas@example.com,São Luís,MA,2025-01-10,Google
+365,Luiz Gustavo Dias Porto,luiz_gustavo_dias_porto@example.com,Niterói,RJ,2025-01-10,TikTok
+366,Maria Cecília Ribeiro Pastor,maria_cecilia_ribeiro_pastor@example.com,Goiânia,GO,2025-01-10,Indicação
+367,Ana Laura Mendonça Novaes,ana_laura_mendonca_novaes@example.com,Belo Horizonte,MG,2025-01-10,Indicação
+368,Stephany da Luz Souza,stephanydaluzsouza@example.com,Cuiabá,MT,2025-01-11,Google
+369,Ana Lívia Caldeira Pacheco,ana_livia_caldeira_pacheco@example.com,Campinas,SP,2025-01-11,Instagram
+370,Ísis Fogaça Barbosa,isis.fogaca.barbosa@example.com,Fortaleza,CE,2025-01-11,Orgânico
+371,Otto Garcia Pacheco,otto.garcia.pacheco@example.com,Santos,SP,2025-01-11,Google
+372,Liz Carvalho Martins,lizcarvalhomartins@example.com,Recife,PE,2025-01-12,Indicação
+373,Eloá Moraes Pastor,eloamoraespastor@example.com,Feira de Santana,BA,2025-01-12,Instagram
+374,Clarice Aragão Aragão,clarice.aragao.aragao@example.com,Florianópolis,SC,2025-01-12,Instagram
+375,Daniela Cavalcante Ramos,danielacavalcanteramos@example.com,São Luís,MA,2025-01-12,Orgânico
+376,Cauã Cavalcanti Câmara,caua_cavalcanti_camara@example.com,São Paulo,SP,2025-01-12,Orgânico
+377,Ian da Luz Rios,ian_da_luz_rios@example.com,Olinda,PE,2025-01-13,Google
+378,Maria Helena Sales da Rosa,maria_helena_sales_da_rosa@example.com,Palmas,TO,2025-01-14,Orgânico
+379,Maya Jesus Rodrigues,mayajesusrodrigues@example.com,Natal,RN,2025-01-14,Instagram
+380,Ísis Farias Fogaça,isis.farias.fogaca@example.com,Palmas,TO,2025-01-15,Marketplace
+381,Ísis Andrade Marques,isis.andrade.marques@example.com,Teresina,PI,2025-01-15,Instagram
+382,Mirella Ramos Cavalcanti,mirella_ramos_cavalcanti@example.com,Arapiraca,AL,2025-01-15,TikTok
+383,Elisa das Neves da Luz,elisa_das_neves_da_luz@example.com,Salvador,BA,2025-01-15,Instagram
+384,Eduardo Cardoso Pastor,eduardo.cardoso.pastor@example.com,Brasília,DF,2025-01-15,
+385,Fernando Araújo da Conceição,fernando_araujo_da_conceicao@example.com,Porto Alegre,RS,2025-01-15,Instagram
+386,Yago Leão Mendes,YAGOLEAOMENDES@EXAMPLE.COM,São Paulo,SP,2025-01-16,Instagram
+387,Arthur Gabriel Pires Moraes,arthurgabrielpiresmoraes@example.com,Porto Alegre,RS,2025-01-16,Google
+388,Bryan Teixeira Silveira,bryanteixeirasilveira@example.com,Feira de Santana,BA,2025-01-16,Instagram
+389,Alexandre Castro Borges,alexandrecastroborges@example.com,Belo Horizonte,MG,2025-01-16,
+390,Ana Sophia Dias Rezende,anasophiadiasrezende@example.com,São Luís,MA,2025-01-16,Instagram
+391,João Felipe Fernandes Mendonça,joao.felipe.fernandes.mendonca@example.com,Santos,SP,2025-01-17,Marketplace
+392,Maria Luísa Cavalcante Câmara,maria.luisa.cavalcante.camara@example.com,Santarém,PA,2025-01-17,Instagram
+393,Mateus Campos Marques,MATEUS_CAMPOS_MARQUES@EXAMPLE.COM,Arapiraca,AL,2025-01-18,Instagram
+394,Hadassa Pimenta Leão,HADASSA_PIMENTA_LEAO@EXAMPLE.COM,Belém,PA,2025-01-18,Instagram
+395,Liam Farias Novais,liamfariasnovais@example.com,Olinda,PE,2025-01-18,Instagram
+396,Maria Helena Cardoso Pinto,maria_helena_cardoso_pinto@example.com,Castanhal,PA,2025-01-19,Google
+397,Mateus da Paz Fogaça,mateus_da_paz_fogaca@example.com,Curitiba,PR,2025-01-19,Google
+398,Ana Clara Castro Silva, ana_clara_castro_silva@example.com ,Campinas,SP,2025-01-19,
+399,Cauê Viana Vieira,cauevianavieira@example.com,Parintins,AM,2025-01-19,Instagram
+400,Ísis da Cruz Brito,isis_da_cruz_brito@example.com,Santos,SP,2025-01-19,Indicação
+401,Isabel Rodrigues Vasconcelos,isabelrodriguesvasconcelos@example.com,rio de janeiro,RJ,2025-01-19,Indicação
+402,Ana Clara Pastor Fernandes,ana_clara_pastor_fernandes@example.com,São Luís,MA,2025-01-20,Instagram
+403,Antônio da Luz Rezende,ANTONIO.DA.LUZ.REZENDE@EXAMPLE.COM,Londrina,PR,2025-01-20,
+404,Eloah Dias Cardoso,eloah_dias_cardoso@example.com,Caxias,MA,2025-01-20,Indicação
+405,Elisa Montenegro Caldeira,elisamontenegrocaldeira@example.com,Belo Horizonte,MG,2025-01-20,Instagram
+406,Miguel Barbosa Pastor,miguelbarbosapastor@example.com,Santos,SP,2025-01-21,Marketplace
+407,Enzo Gabriel Rocha Carvalho,enzogabrielrochacarvalho@example.com,Campinas,SP,2025-01-21,Indicação
+408,Apollo da Cruz Aparecida,apollodacruzaparecida@example.com,Campinas,SP,2025-01-21,TikTok
+409,Danilo Abreu Machado,daniloabreumachado@example.com,Mossoró,RN,2025-01-21,TikTok
+410,Maria Cecília Rodrigues Marques,mariaceciliarodriguesmarques@example.com,Caucaia,CE,2025-01-21,Google
+411,Aurora Correia Sampaio,aurora_correia_sampaio@example.com,Niterói,RJ,2025-01-22,Indicação
+412,Thomas Marques da Cunha,thomas.marques.da.cunha@example.com,Joinville,SC,2025-01-22,TikTok
+413,Sofia Cunha Garcia,sofia.cunha.garcia@example.com,Recife,PE,2025-01-22,Marketplace
+414,Vicente Dias Gonçalves,vicentediasgoncalves@example.com,Campinas,SP,2025-01-22,Orgânico
+415,Lunna Dias Leão,lunna.dias.leao@example.com,São Paulo,SP,2025-01-23,Google
+416,Josué Pastor Siqueira,josuepastorsiqueira@example.com,São Paulo,SP,2025-01-23,
+417,Sophie Costa Siqueira,sophiecostasiqueira@example.com,Belo Horizonte,MG,2025-01-23,Indicação
+418,Jade Pastor Costa,jadepastorcosta@example.com,Feira de Santana,BA,2025-01-23,Instagram
+419,Raquel da Rosa Marques,raquel_da_rosa_marques@example.com,São Luís,MA,2025-01-24,Google
+420,Lunna Gomes Fernandes,lunna_gomes_fernandes@example.com,Feira de Santana,BA,2025-01-24,Instagram
+421,Maria Laura Brito Macedo,maria_laura_brito_macedo@example.com,Goiânia,GO,2025-01-24,Indicação
+422,Evelyn Araújo Moraes,evelyn.araujo.moraes@example.com,Santarém,PA,2025-01-24,Google
+423,João Felipe Martins Rios,joao.felipe.martins.rios@example.com,parintins,AM,2025-01-25,TikTok
+424,Maria Eduarda Rocha das Neves,maria.eduarda.rocha.das.neves@example.com,fortaleza,CE,2025-01-25,Orgânico
+425,Benicio Garcia Casa Grande,benicio.garcia.casa.grande@example.com,Ribeirão Preto,SP,2025-01-25,TikTok
+426,Vitor Hugo da Costa Novais,vitorhugodacostanovais@example.com,Palmas,TO,2025-01-25,Instagram
+427,Pedro Lucas Rodrigues Duarte,pedrolucasrodriguesduarte@example.com,Belo Horizonte,MG,2025-01-26,Google
+428,Arthur Gabriel Abreu Nascimento,arthur.gabriel.abreu.nascimento@example.com,São Paulo,SP,2025-01-26,Marketplace
+429,Vinícius Gomes Rezende,vinicius.gomes.rezende@example.com,Salvador,BA,2025-01-26,Indicação
+430,Maria Isis Machado Pimenta,mariaisismachadopimenta@example.com,Juazeiro do Norte,CE,2025-01-27,Instagram
+431,Ryan da Cunha Costela,ryan_da_cunha_costela@example.com,Fortaleza,CE,2025-01-27,Instagram
+432,Henry Correia Almeida,henry_correia_almeida@example.com,Teresina,PI,2025-01-28,Google
+433,Yago Carvalho Caldeira,yago.carvalho.caldeira@example.com,Parintins,AM,2025-01-29,Google
+434,Raul Pereira Fogaça,raul.pereira.fogaca@example.com,São Paulo,SP,2025-01-30,TikTok
+435,Leandro Castro Cirino,leandrocastrocirino@example.com,Recife,PE,2025-01-30,Marketplace
+436,Alícia Cavalcante Vasconcelos, alicia.cavalcante.vasconcelos@example.com ,São Luís,MA,2025-01-30,Instagram
+437,Henrique Mendes Azevedo,henriquemendesazevedo@example.com,Juiz de Fora,MG,2025-01-30,Instagram
+438,Mathias da Rocha Machado,mathiasdarochamachado@example.com,Teresina,PI,2025-01-30,Orgânico
+439,Ian Gomes da Cunha,iangomesdacunha@example.com,Mossoró,RN,2025-01-30,Instagram
+440,Emanuelly Cirino Monteiro,emanuelly_cirino_monteiro@example.com,Parintins,AM,2025-01-30,Instagram
+441,Maria Freitas Rios,maria.freitas.rios@example.com,Rio Branco,AC,2025-02-01,Google
+442,Noah Moreira Vieira,noahmoreiravieira@example.com,Campinas,SP,2025-02-01,Google
+443,Natália da Mata Abreu,natalia_da_mata_abreu@example.com,Recife,PE,2025-02-02,Marketplace
+444,Vitória Aparecida Mendes,vitoria_aparecida_mendes@example.com,Nossa Senhora do Socorro,SE,2025-02-02,Orgânico
+445,Nicole Souza Carvalho,nicolesouzacarvalho@example.com,Campinas,SP,2025-02-03,Marketplace
+446,Rafael Silveira Aragão,rafaelsilveiraaragao@example.com,Campinas,SP,2025-02-03,Orgânico
+447,Vitor Hugo Cirino Alves,vitor.hugo.cirino.alves@example.com,itacoatiara,AM,2025-02-03,Instagram
+448,Alice Silveira Novais,alice.silveira.novais@example.com,Caruaru,PE,2025-02-03,TikTok
+449,Mariane Barbosa Oliveira,marianebarbosaoliveira@example.com,Campo Grande,MS,2025-02-04,Instagram
+450,Luiz Felipe Novaes Barbosa,luiz.felipe.novaes.barbosa@example.com,São Paulo,SP,2025-02-04,Instagram
+451,Camila Câmara Farias,camila.camara.farias@example.com,Maceió,AL,2025-02-04,TikTok
+452,Larissa Cavalcante Jesus,larissacavalcantejesus@example.com,Caucaia,CE,2025-02-04,Instagram
+453,Lara Rocha Souza,lara_rocha_souza@example.com,Belo Horizonte,MG,2025-02-04,Instagram
+454,Alice Moraes Ribeiro,alice.moraes.ribeiro@example.com,Belém,PA,2025-02-05,Instagram
+455,Maya Duarte Cirino,maya.duarte.cirino@example.com,Campinas,SP,2025-02-05,Instagram
+456,Gabrielly Martins Nascimento,gabrielly.martins.nascimento@example.com,Maceió,AL,2025-02-05,Orgânico
+457,Maria Isis Teixeira Dias,MARIAISISTEIXEIRADIAS@EXAMPLE.COM,Joinville,SC,2025-02-05,Google
+458,Yan Câmara Nascimento,yan_camara_nascimento@example.com,João Pessoa,PB,2025-02-05,Google
+459,Clarice Nunes Nunes,claricenunesnunes@example.com,Belo Horizonte,MG,2025-02-05,Instagram
+460,Isadora Andrade Gonçalves,isadora.andrade.goncalves@example.com,Juazeiro do Norte,CE,2025-02-05,Instagram
+461,Clara Ferreira Castro,clara_ferreira_castro@example.com,Belo Horizonte,MG,2025-02-05,Instagram
+462,Gustavo Henrique Barbosa Fernandes,gustavo_henrique_barbosa_fernandes@example.com,Juazeiro do Norte,CE,2025-02-06,Instagram
+463,Evelyn Albuquerque Novaes,evelyn.albuquerque.novaes@example.com,Manaus,AM,2025-02-06,TikTok
+464,Anthony Gabriel Oliveira Moreira,anthonygabrieloliveiramoreira@example.com,Uberlândia,MG,2025-02-06,Marketplace
+465,Ayla Mendonça Almeida,aylamendoncaalmeida@example.com,Recife,PE,2025-02-07,Google
+466,Enrico Castro da Costa,enricocastrodacosta@example.com,São Paulo,SP,2025-02-07,Google
+467,Rafael da Luz Jesus,rafaeldaluzjesus@example.com,João Pessoa,PB,2025-02-07,Indicação
+468,Bento Pacheco Pacheco,bentopachecopacheco@example.com,Sorocaba,SP,2025-02-07,Indicação
+469,José Miguel Ribeiro Melo,jose_miguel_ribeiro_melo@example.com,Porto Alegre,RS,2025-02-08,Indicação
+470,Isabela Farias Pinto,isabela_farias_pinto@example.com,Salvador,BA,2025-02-08,Instagram
+471,Rafaela Marques Dias,rafaela.marques.dias@example.com,Fortaleza,CE,2025-02-08,Orgânico
+472,Carolina Pereira Vargas,carolinapereiravargas@example.com,Belo Horizonte,MG,2025-02-09,Orgânico
+473,João Miguel Nunes Correia,joao_miguel_nunes_correia@example.com,Rio de Janeiro,RJ,2025-02-09,Instagram
+474,Bárbara da Mota Porto,barbara.da.mota.porto@example.com,Campinas,SP,2025-02-09,TikTok
+475,Anthony Oliveira Peixoto,anthony.oliveira.peixoto@example.com,Uberlândia,MG,2025-02-09,Orgânico
+476,Ravy Rocha das Neves,ravy_rocha_das_neves@example.com,Manaus,AM,2025-02-10,Google
+477,Davi Miguel Vieira Vieira,davi_miguel_vieira_vieira@example.com,Niterói,RJ,2025-02-10,TikTok
+478,Henrique Cassiano Caldeira,henriquecassianocaldeira@example.com,Natal,RN,2025-02-10,Instagram
+479,Ester Garcia Freitas,ester.garcia.freitas@example.com,Goiânia,GO,2025-02-10,Marketplace
+480,Bianca da Mota Aragão,bianca.da.mota.aragao@example.com,Sorocaba,SP,2025-02-10,Google
+481,Juan Viana Peixoto,juanvianapeixoto@example.com,Niterói,RJ,2025-02-11,Indicação
+482,Valentina Carvalho Rezende,valentina_carvalho_rezende@example.com,Rio de Janeiro,RJ,2025-02-12,Orgânico
+483,Asafe Dias da Luz,asafediasdaluz@example.com,Sobral,CE,2025-02-12,Orgânico
+484,Sofia Correia Almeida,sofia.correia.almeida@example.com,Santos,SP,2025-02-12,Orgânico
+485,Maria Luísa Câmara Caldeira,maria.luisa.camara.caldeira@example.com,São Paulo,SP,2025-02-13,Instagram
+486,Melina Novaes Rezende,melinanovaesrezende@example.com,Campinas,SP,2025-02-13,Instagram
+487,Ian Martins Campos,ian_martins_campos@example.com,Santana,AP,2025-02-14,TikTok
+488,José Sampaio Cardoso, josesampaiocardoso@example.com ,Maceió,AL,2025-02-14,Marketplace
+489,Diego Pereira Porto,diego.pereira.porto@example.com,Macapá,AP,2025-02-15,Marketplace
+490,Vicente Santos Machado,vicentesantosmachado@example.com,São Paulo,SP,2025-02-15,Google
+491,Isabel Freitas Vieira,ISABEL_FREITAS_VIEIRA@EXAMPLE.COM,Rio Branco,AC,2025-02-15,TikTok
+492,Gabrielly Vasconcelos Fogaça,gabriellyvasconcelosfogaca@example.com,Recife,PE,2025-02-15,Google
+493,Eduardo Moreira da Cunha,eduardo_moreira_da_cunha@example.com,Natal,RN,2025-02-15,TikTok
+494,Isaac Ribeiro da Conceição,isaac_ribeiro_da_conceicao@example.com,Ilhéus,BA,2025-02-15,TikTok
+495,Théo Ferreira Almeida, theo.ferreira.almeida@example.com ,Santos,SP,2025-02-15,Instagram
+496,Gabriel Brito Ribeiro, gabriel.brito.ribeiro@example.com ,Fortaleza,CE,2025-02-16,Orgânico
+497,Ana Lívia Sales Campos,analiviasalescampos@example.com,Manaus,AM,2025-02-16,Instagram
+498,Maya Cavalcante Barbosa,maya_cavalcante_barbosa@example.com,Salvador,BA,2025-02-16,Marketplace
+499,Maria Eduarda Ramos Novaes,maria.eduarda.ramos.novaes@example.com,Feira de Santana,BA,2025-02-16,Instagram
+500,Stephany Costa da Luz,stephanycostadaluz@example.com,Brasília,DF,2025-02-16,Marketplace
+501,Igor da Luz Cavalcanti,igordaluzcavalcanti@example.com,Palmas,TO,2025-02-17,Google
+502,Miguel Lima Camargo,miguel_lima_camargo@example.com,Santarém,PA,2025-02-17,Orgânico
+503,Letícia Cavalcante Sales,leticiacavalcantesales@example.com,Brasília,DF,2025-02-17,Google
+504,Natália Moraes Nascimento,nataliamoraesnascimento@example.com,Boa Vista,RR,2025-02-17,Orgânico
+505,Melissa Cassiano Ferreira,melissacassianoferreira@example.com,Aracaju,SE,2025-02-17,Google
+506,Pedro Miguel Rodrigues Nascimento,pedro_miguel_rodrigues_nascimento@example.com,São Luís,MA,2025-02-17,Marketplace
+507,Matteo Correia Campos,MATTEO.CORREIA.CAMPOS@EXAMPLE.COM,Manaus,AM,2025-02-17,Instagram
+508,Caroline Barbosa Novaes,caroline.barbosa.novaes@example.com,Parintins,AM,2025-02-17,TikTok
+509,Pietra Nascimento Silveira,pietra.nascimento.silveira@example.com,Curitiba,PR,2025-02-17,Google
+510,Anthony Gabriel Costela da Rosa,anthony_gabriel_costela_da_rosa@example.com,Macapá,AP,2025-02-18,Orgânico
+511,Ana Júlia Cavalcante Castro,anajuliacavalcantecastro@example.com,João Pessoa,PB,2025-02-18,Instagram
+512,Liam Azevedo das Neves, liam.azevedo.das.neves@example.com ,Boa Vista,RR,2025-02-18,Instagram
+513,Evelyn Macedo Moreira,evelyn.macedo.moreira@example.com,Brasília,DF,2025-02-19,Indicação
+514,Alícia da Costa da Rosa,alicia_da_costa_da_rosa@example.com,Recife,PE,2025-02-19,TikTok
+515,Luna Andrade Cardoso,luna.andrade.cardoso@example.com,Parintins,AM,2025-02-19,Marketplace
+516,Thales Rodrigues Sá,thales_rodrigues_sa@example.com,Rio de Janeiro,RJ,2025-02-19,Google
+517,Hellena Fogaça Cavalcanti,hellena.fogaca.cavalcanti@example.com,Rio de Janeiro,RJ,2025-02-19,Google
+518,Ágatha Dias Silva,agatha_dias_silva@example.com,Fortaleza,CE,2025-02-19,TikTok
+519,Fernanda Gonçalves Silva,fernandagoncalvessilva@example.com,Curitiba,PR,2025-02-20,Orgânico
+520,Isabela da Mota Albuquerque,isabeladamotaalbuquerque@example.com,Brasília,DF,2025-02-20,Marketplace
+521,Murilo Pastor Nogueira,murilo.pastor.nogueira@example.com,Imperatriz,MA,2025-02-20,Marketplace
+522,Ana Laura Camargo Cirino,ana.laura.camargo.cirino@example.com,Fortaleza,CE,2025-02-20,Instagram
+523,Gael Henrique Lima Carvalho,gaelhenriquelimacarvalho@example.com,Teresina,PI,2025-02-20,
+524,Alexia Vasconcelos Garcia,alexia_vasconcelos_garcia@example.com,Vitória da Conquista,BA,2025-02-21,Instagram
+525,Mirella Martins da Mata,mirella.martins.da.mata@example.com,São Paulo,SP,2025-02-21,Orgânico
+526,Letícia Cavalcanti Fogaça,leticiacavalcantifogaca@example.com,Curitiba,PR,2025-02-21,Google
+527,Nina Barbosa Silveira,ninabarbosasilveira@example.com,Petrolina,PE,2025-02-21,Google
+528,Antônio Ribeiro da Costa,antonio_ribeiro_da_costa@example.com,Juazeiro do Norte,CE,2025-02-21,Indicação
+529,Luiz Felipe Pereira Cassiano,luizfelipepereiracassiano@example.com,santos,SP,2025-02-22,Instagram
+530,Samuel Castro Martins,samuel_castro_martins@example.com,Manaus,AM,2025-02-23,Indicação
+531,Maria Sophia da Mota Silveira,maria_sophia_da_mota_silveira@example.com,Fortaleza,CE,2025-02-23,Google
+532,Enzo Monteiro Lopes,enzomonteirolopes@example.com,São Luís,MA,2025-02-23,TikTok
+533,Francisco Guerra Moraes,francisco.guerra.moraes@example.com,Campinas,SP,2025-02-23,Instagram
+534,Liam da Mota Borges,liam.da.mota.borges@example.com,Itacoatiara,AM,2025-02-23,Instagram
+535,Isabel Nascimento Novaes,isabelnascimentonovaes@example.com,Fortaleza,CE,2025-02-23,Google
+536,Felipe Azevedo da Luz,felipeazevedodaluz@example.com,Belém,PA,2025-02-23,Marketplace
+537,Felipe Dias da Cunha,felipe_dias_da_cunha@example.com,Ribeirão Preto,SP,2025-02-24,Instagram
+538,Igor das Neves Viana,igor.das.neves.viana@example.com,Santos,SP,2025-02-24,
+539,Lorenzo Fernandes da Conceição,lorenzo_fernandes_da_conceicao@example.com,Santarém,PA,2025-02-24,TikTok
+540,Heloísa Cardoso Peixoto,heloisa_cardoso_peixoto@example.com,Goiânia,GO,2025-02-25,Indicação
+541,Gabriel Carvalho Sá,gabrielcarvalhosa@example.com,Salvador,BA,2025-02-25,Indicação
+542,Vitor Gabriel Rezende Jesus,vitor.gabriel.rezende.jesus@example.com,Feira de Santana,BA,2025-02-25,Indicação
+543,Davi Gonçalves da Mota,davi_goncalves_da_mota@example.com,São Paulo,SP,2025-02-26,Instagram
+544,Benjamim Peixoto Melo,benjamim.peixoto.melo@example.com,Caxias do Sul,RS,2025-02-26,Orgânico
+545,Stella Cirino Fonseca,stellacirinofonseca@example.com,Cuiabá,MT,2025-02-26,Orgânico
+546,Juan Peixoto da Luz,juanpeixotodaluz@example.com,Niterói,RJ,2025-02-26,Orgânico
+547,Luara Castro Marques,luara.castro.marques@example.com,Salvador,BA,2025-02-27,Orgânico
+548,Arthur Gabriel Borges da Rocha,arthur.gabriel.borges.da.rocha@example.com,Fortaleza,CE,2025-02-27,Indicação
+549,Bernardo Machado Peixoto,bernardo.machado.peixoto@example.com,Sobral,CE,2025-02-27,Google
+550,Juliana Araújo da Mota,juliana_araujo_da_mota@example.com,Juiz de Fora,MG,2025-02-27,Instagram
+551,Vitor Gabriel Siqueira Campos,vitorgabrielsiqueiracampos@example.com,São Luís,MA,2025-02-27,Orgânico
+552,Paulo Ribeiro Farias,paulo_ribeiro_farias@example.com,Salvador,BA,2025-02-27,Google
+553,Gabrielly da Mata Porto,gabrielly.da.mata.porto@example.com,São Paulo,SP,2025-02-28,
+554,Carolina Albuquerque Leão,carolinaalbuquerqueleao@example.com,São Paulo,SP,2025-02-28,Orgânico
+555,Pedro Miguel Abreu Fernandes,pedromiguelabreufernandes@example.com,João Pessoa,PB,2025-02-28,Indicação
+556,Lucca Barbosa Moraes,luccabarbosamoraes@example.com,Caruaru,PE,2025-03-01,TikTok
+557,Davi Luiz Albuquerque da Luz,daviluizalbuquerquedaluz@example.com,São Luís,MA,2025-03-01,Marketplace
+558,Danilo da Cruz Andrade,danilo.da.cruz.andrade@example.com,Maceió,AL,2025-03-01,Marketplace
+559,Lorenzo da Paz Rodrigues,lorenzo_da_paz_rodrigues@example.com,Santos,SP,2025-03-01,Marketplace
+560,Maria Sophia da Cunha das Neves,maria.sophia.da.cunha.das.neves@example.com,Goiânia,GO,2025-03-01,Google
+561,Beatriz Pimenta Câmara,beatriz.pimenta.camara@example.com,Salvador,BA,2025-03-02,Indicação
+562,Yuri Vasconcelos Guerra,yuri_vasconcelos_guerra@example.com,Petrópolis,RJ,2025-03-02,Orgânico
+563,Emanuella Camargo Nunes,emanuellacamargonunes@example.com,Vitória da Conquista,BA,2025-03-03,Google
+564,Alana Cunha Cassiano,alana_cunha_cassiano@example.com,Teresina,PI,2025-03-03,
+565,Cauã Cardoso Sousa,caua_cardoso_sousa@example.com,campinas,SP,2025-03-04,Orgânico
+566,Maria Isis Correia Freitas,maria.isis.correia.freitas@example.com,Ananindeua,PA,2025-03-04,Instagram
+567,Antony Farias Abreu,antonyfariasabreu@example.com,Goiânia,GO,2025-03-04,Instagram
+568,Alice Melo Mendes,alice.melo.mendes@example.com,Olinda,PE,2025-03-05,TikTok
+569,Luiz Otávio Vargas Cardoso,luiz_otavio_vargas_cardoso@example.com,São Paulo,SP,2025-03-05,Marketplace
+570,Pedro Henrique Martins Sampaio,pedrohenriquemartinssampaio@example.com,Rio de Janeiro,RJ,2025-03-06,TikTok
+571,Eduarda Novaes Garcia,eduardanovaesgarcia@example.com,Feira de Santana,BA,2025-03-06,Orgânico
+572,Enzo Gabriel Pacheco Pastor,enzo_gabriel_pacheco_pastor@example.com,Santarém,PA,2025-03-06,Instagram
+573,Henrique Rezende Almeida,henrique_rezende_almeida@example.com,Boa Vista,RR,2025-03-06,Instagram
+574,Lucca Pastor Pacheco,lucca_pastor_pacheco@example.com,Olinda,PE,2025-03-07,Google
+575,Emilly Farias Rocha,emillyfariasrocha@example.com,São Paulo,SP,2025-03-07,Indicação
+576,Vitor Moraes Rocha,vitormoraesrocha@example.com,Santos,SP,2025-03-07,TikTok
+577,Lucca Abreu Dias,luccaabreudias@example.com,Fortaleza,CE,2025-03-07,Instagram
+578,Noah Azevedo Teixeira,noahazevedoteixeira@example.com,Petrópolis,RJ,2025-03-08,Marketplace
+579,Maria Laura da Mata Aparecida,maria.laura.da.mata.aparecida@example.com,São Paulo,SP,2025-03-08,Marketplace
+580,Gael Henrique da Conceição Carvalho,gael.henrique.da.conceicao.carvalho@example.com,São Paulo,SP,2025-03-08,TikTok
+581,Benício Farias Barbosa,beniciofariasbarbosa@example.com,Fortaleza,CE,2025-03-09,Instagram
+582,Maria da Paz Lima,mariadapazlima@example.com,Belém,PA,2025-03-09,Instagram
+583,Brenda Carvalho Aparecida,brenda.carvalho.aparecida@example.com,Curitiba,PR,2025-03-09,Google
+584,Kevin Albuquerque Cunha,kevin.albuquerque.cunha@example.com,Belo Horizonte,MG,2025-03-09,TikTok
+585,Lucca Campos Fonseca,lucca.campos.fonseca@example.com,Fortaleza,CE,2025-03-09,Indicação
+586,Theodoro Sales Macedo,theodoro_sales_macedo@example.com,Fortaleza,CE,2025-03-09,TikTok
+587,Benjamim Pereira Ribeiro,benjamim.pereira.ribeiro@example.com,Recife,PE,2025-03-10,Instagram
+588,Ana Julia Mendes da Cruz,ana.julia.mendes.da.cruz@example.com,Campina Grande,PB,2025-03-10,Orgânico
+589,Maria Vitória Machado Farias,mariavitoriamachadofarias@example.com,Ananindeua,PA,2025-03-10,Orgânico
+590,Daniela Costela Rios,danielacostelarios@example.com,vitoria da conquista,BA,2025-03-11,Indicação
+591,Mariana Caldeira Lopes,mariana.caldeira.lopes@example.com,Feira de Santana,BA,2025-03-11,Marketplace
+592,Maria Júlia Santos Garcia,mariajuliasantosgarcia@example.com,Natal,RN,2025-03-11,Google
+593,Luara Porto Lima,luara.porto.lima@example.com,Cuiabá,MT,2025-03-11,TikTok
+594,Ryan Casa Grande Rezende,ryan.casa.grande.rezende@example.com,Sobral,CE,2025-03-12,Google
+595,Bruno da Cruz Santos,brunodacruzsantos@example.com,Fortaleza,CE,2025-03-12,Google
+596,Maysa Souza Rezende,maysa_souza_rezende@example.com,Brasília,DF,2025-03-12,Marketplace
+597,Laura da Cunha Barros,laura_da_cunha_barros@example.com,Uberlândia,MG,2025-03-13,Marketplace
+598,João Pedro Sá Silva,joaopedrosasilva@example.com,Nossa Senhora do Socorro,SE,2025-03-13,Instagram
+599,Esther Caldeira Rocha,esthercaldeirarocha@example.com,Brasília,DF,2025-03-14,Google
+600,Hellena Nunes Leão,hellenanunesleao@example.com,Rio de Janeiro,RJ,2025-03-14,Instagram
+601,Evelyn Novais Ramos,evelyn_novais_ramos@example.com,Ji-Paraná,RO,2025-03-14,Instagram
+602,Noah Sales Rodrigues,noah.sales.rodrigues@example.com,Feira de Santana,BA,2025-03-14,Instagram
+603,Miguel Silveira Pacheco,miguel.silveira.pacheco@example.com,Teresina,PI,2025-03-14,Orgânico
+604,Luiza Porto Mendonça,luizaportomendonca@example.com,Goiânia,GO,2025-03-15,Google
+605,Emanuel Pimenta Garcia,emanuel.pimenta.garcia@example.com,Belém,PA,2025-03-15,Orgânico
+606,Ian Rezende Rezende,ian.rezende.rezende@example.com,Sobral,CE,2025-03-15,Google
+607,Levi Sá Pinto,levi.sa.pinto@example.com,Caxias do Sul,RS,2025-03-15,Indicação
+608,Benício Borges Guerra,benicioborgesguerra@example.com,Parnaíba,PI,2025-03-15,Google
+609,Letícia Martins da Conceição,leticia_martins_da_conceicao@example.com,campinas,SP,2025-03-15,Google
+610,Raquel da Paz Silva,raquel.da.paz.silva@example.com,Ilhéus,BA,2025-03-15,Google
+611,Nina da Mota Gonçalves,nina.da.mota.goncalves@example.com,Brasília,DF,2025-03-15,Instagram
+612,Ian Azevedo Guerra,ianazevedoguerra@example.com,São Paulo,SP,2025-03-16,Instagram
+613,Jade Fonseca Moraes,jade.fonseca.moraes@example.com,Manaus,AM,2025-03-16,Instagram
+614,Davi Lucas Oliveira Caldeira,davi_lucas_oliveira_caldeira@example.com,Olinda,PE,2025-03-16,Marketplace
+615,Beatriz Dias Machado,beatriz.dias.machado@example.com,Rio de Janeiro,RJ,2025-03-16,Instagram
+616,Felipe Correia Macedo,felipecorreiamacedo@example.com,Niterói,RJ,2025-03-16,Orgânico
+617,Rael Rocha Costela,rael_rocha_costela@example.com,Curitiba,PR,2025-03-16,TikTok
+618,Heloísa Vieira Nogueira,heloisa.vieira.nogueira@example.com,Curitiba,PR,2025-03-16,Google
+619,Ana Laura Silva Santos,ana.laura.silva.santos@example.com,Caxias do Sul,RS,2025-03-17,Indicação
+620,Clarice Caldeira Oliveira,clarice_caldeira_oliveira@example.com,Ananindeua,PA,2025-03-20,Indicação
+621,Fernanda Sousa Siqueira,fernanda.sousa.siqueira@example.com,Brasília,DF,2025-03-20,Marketplace
+622,Davi Lucas Melo Novaes,davi.lucas.melo.novaes@example.com,joao pessoa,PB,2025-03-20,Google
+623,Sarah Pereira Lima,sarah.pereira.lima@example.com,Campinas,SP,2025-03-21,Marketplace
+624,Nina Melo Vieira,nina.melo.vieira@example.com,Rio Branco,AC,2025-03-21,Orgânico
+625,José Pedro Mendes Mendonça,josepedromendesmendonca@example.com,Salvador,BA,2025-03-21,Indicação
+626,Ísis Cavalcante da Luz,isis_cavalcante_da_luz@example.com,Santos,SP,2025-03-22,Orgânico
+627,Sabrina Monteiro Carvalho,sabrina_monteiro_carvalho@example.com,São Paulo,SP,2025-03-22,Indicação
+628,Sofia da Costa Leão,sofia.da.costa.leao@example.com,Salvador,BA,2025-03-22,Marketplace
+629,Lorena Rezende Cavalcante,lorena.rezende.cavalcante@example.com,Recife,PE,2025-03-22,Instagram
+630,Antonella Rodrigues Carvalho,antonellarodriguescarvalho@example.com,Porto Velho,RO,2025-03-22,Indicação
+631,Marina Pimenta Abreu,marina.pimenta.abreu@example.com,Arapiraca,AL,2025-03-22,Google
+632,Lívia Barbosa Barros,livia_barbosa_barros@example.com,Santos,SP,2025-03-23,Indicação
+633,Rafael Jesus Fernandes,rafael.jesus.fernandes@example.com,Caucaia,CE,2025-03-23,Instagram
+634,Maria Julia Sousa Siqueira,mariajuliasousasiqueira@example.com,Araguaína,TO,2025-03-23,
+635,Ana Cecília Correia Cassiano,ana_cecilia_correia_cassiano@example.com,São Paulo,SP,2025-03-23,Google
+636,Marcos Vinicius Abreu Santos,marcos_vinicius_abreu_santos@example.com,Manaus,AM,2025-03-23,Marketplace
+637,Yuri Rodrigues Gonçalves,yuri_rodrigues_goncalves@example.com,Ananindeua,PA,2025-03-23,Instagram
+638,Diogo das Neves Martins,diogodasnevesmartins@example.com,Vitória da Conquista,BA,2025-03-24,Instagram
+639,Heitor Dias da Costa,heitor.dias.da.costa@example.com,Salvador,BA,2025-03-24,Indicação
+640,Francisco Freitas Fernandes,francisco.freitas.fernandes@example.com,Campinas,SP,2025-03-24,Indicação
+641,Valentina Albuquerque Borges,VALENTINAALBUQUERQUEBORGES@EXAMPLE.COM,João Pessoa,PB,2025-03-25,Instagram
+642,Mariana Silveira Ramos,marianasilveiraramos@example.com,Parnaíba,PI,2025-03-25,Indicação
+643,José Miguel Aragão Moura,josemiguelaragaomoura@example.com,São Luís,MA,2025-03-25,Marketplace
+644,Fernanda Ramos Vieira,fernanda.ramos.vieira@example.com,Boa Vista,RR,2025-03-26,Instagram
+645,Pedro Henrique Mendes Costela,pedro.henrique.mendes.costela@example.com,Sorocaba,SP,2025-03-27,Indicação
+646,Cauê Sá Novaes,caue.sa.novaes@example.com,Palmas,TO,2025-03-27,Orgânico
+647,Cauê Rocha Rezende,caue_rocha_rezende@example.com,Santos,SP,2025-03-28,Google
+648,Maria Isis Almeida Souza,mariaisisalmeidasouza@example.com,Itacoatiara,AM,2025-03-28,Instagram
+649,Miguel Gomes Mendes,miguelgomesmendes@example.com,Santarém,PA,2025-03-28,Instagram
+650,Natália Gomes Martins,natalia_gomes_martins@example.com,Uberlândia,MG,2025-03-28,Marketplace
+651,Luigi Garcia Castro,luigi_garcia_castro@example.com,Belém,PA,2025-03-28,Marketplace
+652,Mateus Monteiro Sousa,mateus.monteiro.sousa@example.com,Goiânia,GO,2025-03-28,Indicação
+653,Calebe Rezende Farias,calebe_rezende_farias@example.com,Parnamirim,RN,2025-03-29,TikTok
+654,Augusto Gonçalves da Cunha,augustogoncalvesdacunha@example.com,Porto Velho,RO,2025-03-29,Instagram
+655,Miguel Machado Pastor,miguel_machado_pastor@example.com,Campinas,SP,2025-03-29,Instagram
+656,Marcelo Machado Aparecida,marcelomachadoaparecida@example.com,Campinas,SP,2025-03-29,Indicação
+657,Ravy Melo da Rosa,ravymelodarosa@example.com,Campinas,SP,2025-03-29,Instagram
+658,Heloisa da Costa Moraes,heloisadacostamoraes@example.com,Nossa Senhora do Socorro,SE,2025-03-29,Indicação
+659,Bruno Lima da Mota,brunolimadamota@example.com,Fortaleza,CE,2025-03-29,Google
+660,Caroline Marques Peixoto,caroline_marques_peixoto@example.com,Juazeiro do Norte,CE,2025-03-29,Google
+661,Thales Pacheco Peixoto,thales_pacheco_peixoto@example.com,Rio Branco,AC,2025-03-30,TikTok
+662,Nina Camargo Gomes,nina_camargo_gomes@example.com,Araguaína,TO,2025-03-30,Instagram
+663,Anthony Gabriel Cirino Casa Grande,anthony_gabriel_cirino_casa_grande@example.com,Salvador,BA,2025-03-30,Google
+664,Enrico Freitas Câmara,enricofreitascamara@example.com,Rio de Janeiro,RJ,2025-03-30,Instagram
+665,Sofia Câmara Porto,sofia.camara.porto@example.com,Brasília,DF,2025-03-30,Google
+666,Otávio Andrade Novaes,otavio_andrade_novaes@example.com,São Paulo,SP,2025-03-30,Indicação
+667,Enzo Gabriel Caldeira Vargas,enzo_gabriel_caldeira_vargas@example.com,Parnaíba,PI,2025-03-31,Orgânico
+668,Lucas Macedo Ferreira,lucas_macedo_ferreira@example.com,Belém,PA,2025-03-31,Instagram
+669,Rafaela Moreira Sales,rafaela_moreira_sales@example.com,Arapiraca,AL,2025-03-31,Indicação
+670,Ian Brito Teixeira,ianbritoteixeira@example.com,João Pessoa,PB,2025-03-31,Orgânico
+671,Alice Barros Cunha,alice_barros_cunha@example.com,Rio de Janeiro,RJ,2025-03-31,Google
+672,Calebe Garcia Gomes,calebe_garcia_gomes@example.com,Feira de Santana,BA,2025-04-01,Google
+673,Ravi Pimenta Cavalcante,ravi_pimenta_cavalcante@example.com,Parintins,AM,2025-04-01,Instagram
+674,Theodoro Marques da Rosa,theodoro_marques_da_rosa@example.com,Castanhal,PA,2025-04-02,TikTok
+675,Maria Guerra Oliveira,maria.guerra.oliveira@example.com,Parnaíba,PI,2025-04-02,TikTok
+676,Luiza Abreu Moreira,luiza_abreu_moreira@example.com,Brasília,DF,2025-04-03,Google
+677,Valentina Monteiro Macedo,valentina_monteiro_macedo@example.com,Florianópolis,SC,2025-04-03,Indicação
+678,Otávio Vargas Carvalho,otavio.vargas.carvalho@example.com,Olinda,PE,2025-04-03,Indicação
+679,Davi Lucas Melo Machado,davilucasmelomachado@example.com,Petrópolis,RJ,2025-04-04,TikTok
+680,Vinícius Rezende Viana,vinicius_rezende_viana@example.com,Belo Horizonte,MG,2025-04-04,Instagram
+681,José Miguel Siqueira Câmara,jose_miguel_siqueira_camara@example.com,Belo Horizonte,MG,2025-04-04,Marketplace
+682,Clarice Cavalcante Carvalho,clarice_cavalcante_carvalho@example.com,Santarém,PA,2025-04-04,Google
+683,Calebe Aparecida Brito,calebe_aparecida_brito@example.com,Rio de Janeiro,RJ,2025-04-04,Indicação
+684,Camila Novaes Pimenta,camila.novaes.pimenta@example.com,Uberlândia,MG,2025-04-04,Google
+685,Mirella Pereira Alves,mirellapereiraalves@example.com,Brasília,DF,2025-04-05,Indicação
+686,Mariah Câmara da Mata,mariah_camara_da_mata@example.com,Manaus,AM,2025-04-05,Instagram
+687,Maria Sophia Ribeiro Mendonça,maria_sophia_ribeiro_mendonca@example.com,Natal,RN,2025-04-05,Instagram
+688,Theo Casa Grande Silva,theo_casa_grande_silva@example.com,São Paulo,SP,2025-04-05,TikTok
+689,Heitor Campos Barros,heitor.campos.barros@example.com,Parnamirim,RN,2025-04-05,TikTok
+690,Matheus Guerra Farias,matheus_guerra_farias@example.com,Lauro de Freitas,BA,2025-04-06,Marketplace
+691,Larissa Porto Vieira, larissaportovieira@example.com ,Itacoatiara,AM,2025-04-06,Orgânico
+692,João Gabriel da Rosa Abreu,joao.gabriel.da.rosa.abreu@example.com,Itacoatiara,AM,2025-04-06,Marketplace
+693,João Lucas Viana Costela,joao.lucas.viana.costela@example.com,Curitiba,PR,2025-04-06,Instagram
+694,Leonardo Cunha Teixeira,leonardo.cunha.teixeira@example.com,Belém,PA,2025-04-07,Marketplace
+695,Laura Moura Camargo,lauramouracamargo@example.com,Uberlândia,MG,2025-04-07,Instagram
+696,Ravi Lucca Melo Alves,ravi.lucca.melo.alves@example.com,Ilhéus,BA,2025-04-08,Google
+697,Sara Borges Ramos,sara.borges.ramos@example.com,Parnaíba,PI,2025-04-08,Instagram
+698,Manuella da Cruz Casa Grande,manuelladacruzcasagrande@example.com,Imperatriz,MA,2025-04-08,Orgânico
+699,Mateus Silva Fernandes,mateus.silva.fernandes@example.com,Rio de Janeiro,RJ,2025-04-08,TikTok
+700,Nathan Pinto Vasconcelos,nathan_pinto_vasconcelos@example.com,Rio de Janeiro,RJ,2025-04-08,Instagram
+701,Manuela Rodrigues Nunes,manuelarodriguesnunes@example.com,Goiânia,GO,2025-04-09,Google
+702,Ryan Andrade Oliveira,ryan.andrade.oliveira@example.com,Parnaíba,PI,2025-04-09,TikTok
+703,Julia Rocha Monteiro,julia_rocha_monteiro@example.com,Manaus,AM,2025-04-09,Indicação
+704,Allana Correia Andrade,allanacorreiaandrade@example.com,sao paulo,SP,2025-04-09,Google
+705,Laura Freitas Garcia,laura.freitas.garcia@example.com,Niterói,RJ,2025-04-10,
+706,Hadassa Novais Montenegro,hadassa_novais_montenegro@example.com,Ananindeua,PA,2025-04-10,Google
+707,Francisco Siqueira Marques,franciscosiqueiramarques@example.com,Recife,PE,2025-04-10,Indicação
+708,Josué Vargas Machado,josue.vargas.machado@example.com,Fortaleza,CE,2025-04-10,Indicação
+709,Antonella da Mata Barbosa,antonella_da_mata_barbosa@example.com,Salvador,BA,2025-04-11,Marketplace
+710,Ana Sophia Jesus Campos,ana.sophia.jesus.campos@example.com,Mossoró,RN,2025-04-11,Instagram
+711,Bruno Cunha Duarte,brunocunhaduarte@example.com,Manaus,AM,2025-04-11,Instagram
+712,Ravi Lucca Castro Brito,ravi.lucca.castro.brito@example.com,cuiaba,MT,2025-04-12,Indicação
+713,Nina da Luz Cavalcante,nina.da.luz.cavalcante@example.com,Petrolina,PE,2025-04-12,Google
+714,Isabela da Mata Macedo,isabeladamatamacedo@example.com,Niterói,RJ,2025-04-12,TikTok
+715,Laís Mendonça Pereira,lais.mendonca.pereira@example.com,Juazeiro do Norte,CE,2025-04-14,Instagram
+716,Ryan Oliveira Moreira,ryanoliveiramoreira@example.com,Curitiba,PR,2025-04-14,Instagram
+717,Caroline Rodrigues Teixeira,caroline_rodrigues_teixeira@example.com,Campinas,SP,2025-04-14,TikTok
+718,Felipe Cardoso Pimenta,felipe.cardoso.pimenta@example.com,São Paulo,SP,2025-04-14,Google
+719,Bento Araújo Mendes,bento.araujo.mendes@example.com,Rio Branco,AC,2025-04-15,Indicação
+720,Cauã da Mata Garcia,caua.da.mata.garcia@example.com,Manaus,AM,2025-04-15,Google
+721,Anthony Gabriel da Luz Gomes,anthony.gabriel.da.luz.gomes@example.com,Rio de Janeiro,RJ,2025-04-16,Instagram
+722,Fernando Pimenta Peixoto,fernandopimentapeixoto@example.com,Uberlândia,MG,2025-04-17,Marketplace
+723,Gabriela Barbosa Machado,gabriela_barbosa_machado@example.com,Manaus,AM,2025-04-17,Instagram
+724,Julia Rezende Cassiano,julia_rezende_cassiano@example.com,João Pessoa,PB,2025-04-18,Instagram
+725,Lorena Casa Grande da Cruz,lorena.casa.grande.da.cruz@example.com,Campinas,SP,2025-04-18,Indicação
+726,Arthur Gabriel Costela Pastor,arthur_gabriel_costela_pastor@example.com,Parintins,AM,2025-04-18,Instagram
+727,Ana Vitória Vieira Carvalho,ANA.VITORIA.VIEIRA.CARVALHO@EXAMPLE.COM,Teresina,PI,2025-04-18,Google
+728,Maria Luiza Mendes Costela,maria_luiza_mendes_costela@example.com,Caxias,MA,2025-04-18,Orgânico
+729,Vitor Vieira Gonçalves,vitorvieiragoncalves@example.com,Sobral,CE,2025-04-19,TikTok
+730,Bento Farias Lima,bento.farias.lima@example.com,Petrópolis,RJ,2025-04-19,Instagram
+731,Augusto Pastor Montenegro,augustopastormontenegro@example.com,São Paulo,SP,2025-04-19,Google
+732,Mirella Lima Novaes,mirellalimanovaes@example.com,Maceió,AL,2025-04-20,Marketplace
+733,Thomas Mendes Vargas,thomasmendesvargas@example.com,Rio de Janeiro,RJ,2025-04-20,Instagram
+734,Cauã da Cunha Mendes,cauadacunhamendes@example.com,Sorocaba,SP,2025-04-21,Instagram
+735,Benício Cirino Pereira,benicio.cirino.pereira@example.com,uberlandia,MG,2025-04-21,Google
+736,Clarice Rios Gonçalves,clarice_rios_goncalves@example.com,Campinas,SP,2025-04-21,Google
+737,Heloisa das Neves da Conceição,heloisa_das_neves_da_conceicao@example.com,Olinda,PE,2025-04-21,Marketplace
+738,Maria Julia da Cruz Marques,maria_julia_da_cruz_marques@example.com,Recife,PE,2025-04-22,Orgânico
+739,Kaique Pereira Moraes,kaique.pereira.moraes@example.com,São Paulo,SP,2025-04-22,TikTok
+740,André Sá Almeida,andre.sa.almeida@example.com,Maceió,AL,2025-04-22,Instagram
+741,Rafael Novaes Araújo,rafaelnovaesaraujo@example.com,Uberlândia,MG,2025-04-22,Google
+742,Vitória Andrade Fogaça,vitoriaandradefogaca@example.com,Belém,PA,2025-04-22,Orgânico
+743,Isabella Fonseca Montenegro,isabellafonsecamontenegro@example.com,Brasília,DF,2025-04-22,Indicação
+744,Ana Vitória Cunha Rezende,anavitoriacunharezende@example.com,Santos,SP,2025-04-23,Marketplace
+745,Ana Sophia Correia Teixeira,ana_sophia_correia_teixeira@example.com,São Paulo,SP,2025-04-23,Indicação
+746,Alícia Barbosa Gomes,alicia_barbosa_gomes@example.com,São Luís,MA,2025-04-23,Instagram
+747,Maria Luiza da Cruz Sampaio,maria_luiza_da_cruz_sampaio@example.com,Brasília,DF,2025-04-23,Instagram
+748,Pedro Miguel Sá Oliveira,pedro_miguel_sa_oliveira@example.com,Recife,PE,2025-04-23,Google
+749,Luiza Mendonça Alves,luiza.mendonca.alves@example.com,Aracaju,SE,2025-04-24,Google
+750,Ravi Nascimento Sousa,ravinascimentosousa@example.com,Londrina,PR,2025-04-24,Google
+751,Antony da Rosa Leão,antony_da_rosa_leao@example.com,Olinda,PE,2025-04-24,Google
+752,Fernanda Câmara Moreira,fernanda.camara.moreira@example.com,Florianópolis,SC,2025-04-24,TikTok
+753,João Moura Cavalcante,joaomouracavalcante@example.com,São Paulo,SP,2025-04-24,Google
+754,Stella Farias Alves,stella.farias.alves@example.com,Feira de Santana,BA,2025-04-25,TikTok
+755,Maria Flor Lopes Siqueira,maria.flor.lopes.siqueira@example.com,Itacoatiara,AM,2025-04-25,TikTok
+756,Helena Ribeiro Vieira,helenaribeirovieira@example.com,Natal,RN,2025-04-25,Instagram
+757,Dom Melo Viana,dom.melo.viana@example.com,Salvador,BA,2025-04-25,Marketplace
+758,Bryan Lopes Almeida,bryan_lopes_almeida@example.com,Olinda,PE,2025-04-25,Marketplace
+759,Nicolas Gonçalves da Costa,nicolas_goncalves_da_costa@example.com,Curitiba,PR,2025-04-25,Orgânico
+760,Ana Sophia Campos da Costa,ana.sophia.campos.da.costa@example.com,Juazeiro do Norte,CE,2025-04-25,Indicação
+761,Murilo Aparecida Dias,muriloaparecidadias@example.com,São Paulo,SP,2025-04-26,Google
+762,Elisa Vieira Viana,elisa_vieira_viana@example.com,Rio de Janeiro,RJ,2025-04-27,Instagram
+763,Clara Nascimento da Mota,clara.nascimento.da.mota@example.com,Rio de Janeiro,RJ,2025-04-27,Orgânico
+764,Hadassa Abreu Andrade,hadassa_abreu_andrade@example.com,Santarém,PA,2025-04-27,Google
+765,João Pedro Ribeiro Moreira,joao.pedro.ribeiro.moreira@example.com,Brasília,DF,2025-04-28,TikTok
+766,Henry Gabriel Leão Cassiano,henry_gabriel_leao_cassiano@example.com,Santarém,PA,2025-04-28,Google
+767,Maria Liz Montenegro Moura,maria_liz_montenegro_moura@example.com,Ribeirão Preto,SP,2025-04-29,Google
+768,Isaac da Luz Vasconcelos, isaac.da.luz.vasconcelos@example.com ,Londrina,PR,2025-04-29,Instagram
+769,Aurora Vasconcelos da Paz,aurora_vasconcelos_da_paz@example.com,Recife,PE,2025-04-29,Instagram
+770,Marcela Dias Azevedo,marcela.dias.azevedo@example.com,Goiânia,GO,2025-04-29,Orgânico
+771,Caleb da Rosa da Rocha,caleb_da_rosa_da_rocha@example.com,Niterói,RJ,2025-04-29,Google
+772,Liam Vieira Rodrigues,liam.vieira.rodrigues@example.com,Belo Horizonte,MG,2025-04-30,Instagram
+773,Marcelo Monteiro Sales,marcelo_monteiro_sales@example.com,São Luís,MA,2025-04-30,Instagram
+774,Davi Cassiano Sá,davicassianosa@example.com,Belém,PA,2025-04-30,Google
+775,Raul Costa da Cruz,raul_costa_da_cruz@example.com,Parintins,AM,2025-04-30,TikTok
+776,Lavínia Fernandes da Mota,lavinia.fernandes.da.mota@example.com,Brasília,DF,2025-05-01,Instagram
+777,Vitor Sampaio Rodrigues,vitor.sampaio.rodrigues@example.com,Petrópolis,RJ,2025-05-01,TikTok
+778,Ester Pacheco Novaes,ESTER.PACHECO.NOVAES@EXAMPLE.COM,Manaus,AM,2025-05-01,Marketplace
+779,Clara Siqueira Ramos,clara.siqueira.ramos@example.com,Ananindeua,PA,2025-05-01,Marketplace
+780,Jade Rodrigues Montenegro,jade_rodrigues_montenegro@example.com,São Paulo,SP,2025-05-01,TikTok
+781,Carlos Eduardo Souza Melo,carlos.eduardo.souza.melo@example.com,Maceió,AL,2025-05-01,Instagram
+782,Murilo Vasconcelos da Luz,murilovasconcelosdaluz@example.com,Porto Alegre,RS,2025-05-01,Orgânico
+783,Maitê Mendonça Aparecida,maite.mendonca.aparecida@example.com,Olinda,PE,2025-05-01,Marketplace
+784,João Oliveira Rodrigues,joao.oliveira.rodrigues@example.com,Parintins,AM,2025-05-01,Instagram
+785,Gustavo Abreu Moraes,gustavo_abreu_moraes@example.com,São Paulo,SP,2025-05-02,Orgânico
+786,Henry Gabriel Jesus Macedo,henrygabrieljesusmacedo@example.com,Vitória da Conquista,BA,2025-05-02,Marketplace
+787,Mirella Castro Leão,mirella_castro_leao@example.com,Ribeirão Preto,SP,2025-05-02,Orgânico
+788,Daniela Cunha Oliveira,danielacunhaoliveira@example.com,Rio Branco,AC,2025-05-02,Orgânico
+789,Bruno Sá Alves,brunosaalves@example.com,Manaus,AM,2025-05-03,Google
+790,Davi Luiz da Costa Vasconcelos,daviluizdacostavasconcelos@example.com,Manaus,AM,2025-05-03,Indicação
+791,Yasmin Nunes Ribeiro,yasminnunesribeiro@example.com,Rio de Janeiro,RJ,2025-05-03,Instagram
+792,José Miguel Oliveira Pastor,jose_miguel_oliveira_pastor@example.com,Santarém,PA,2025-05-03,Instagram
+793,Maria da Mata das Neves,mariadamatadasneves@example.com,Belém,PA,2025-05-04,Indicação
+794,Yan Lima Garcia,yanlimagarcia@example.com,Goiânia,GO,2025-05-04,Orgânico
+795,Maria Sophia Cavalcanti Freitas,mariasophiacavalcantifreitas@example.com,Petrópolis,RJ,2025-05-04,Orgânico
+796,Rodrigo Monteiro Pacheco,rodrigo_monteiro_pacheco@example.com,Santarém,PA,2025-05-05,Indicação
+797,Carolina Pereira Casa Grande,carolina.pereira.casa.grande@example.com,Parnamirim,RN,2025-05-05,Instagram
+798,Enzo Gabriel da Cruz Novaes,enzogabrieldacruznovaes@example.com,Ribeirão Preto,SP,2025-05-05,Orgânico
+799,Antonella Siqueira Azevedo,antonella_siqueira_azevedo@example.com,Niterói,RJ,2025-05-05,Orgânico
+800,Brayan Pacheco Santos,brayan.pacheco.santos@example.com,Recife,PE,2025-05-05,TikTok
+801,Gabrielly Abreu Gomes,gabrielly_abreu_gomes@example.com,Rio de Janeiro,RJ,2025-05-06,Instagram
+802,Giovanna Moura da Rosa,giovanna_moura_da_rosa@example.com,Uberlândia,MG,2025-05-06,TikTok
+803,Agatha Ferreira Ramos,agathaferreiraramos@example.com,Ilhéus,BA,2025-05-07,Orgânico
+804,Maria Liz Duarte da Cruz,MARIALIZDUARTEDACRUZ@EXAMPLE.COM,Aracaju,SE,2025-05-07,Indicação
+805,Ana Sousa Sales,ana.sousa.sales@example.com,Florianópolis,SC,2025-05-07,Indicação
+806,Amanda Carvalho Martins,amandacarvalhomartins@example.com,Belém,PA,2025-05-07,TikTok
+807,Heitor Cassiano Lima,heitor_cassiano_lima@example.com,São Paulo,SP,2025-05-07,Indicação
+808,Gabriel Cirino Carvalho,gabriel.cirino.carvalho@example.com,Santos,SP,2025-05-08,Google
+809,Heloísa Martins Vargas,heloisa.martins.vargas@example.com,Campinas,SP,2025-05-08,Instagram
+810,Raquel Mendes Ferreira,raquel.mendes.ferreira@example.com,Santos,SP,2025-05-08,Instagram
+811,Samuel Cassiano Abreu,samuel.cassiano.abreu@example.com,Belo Horizonte,MG,2025-05-08,Instagram
+812,Natália Guerra Carvalho,natalia_guerra_carvalho@example.com,Fortaleza,CE,2025-05-08,Instagram
+813,Paulo Câmara Ramos,paulocamararamos@example.com,Niterói,RJ,2025-05-08,Orgânico
+814,João Lucas Machado Castro,joao_lucas_machado_castro@example.com,Campinas,SP,2025-05-08,Instagram
+815,Davi Miguel da Costa Pires,davi_miguel_da_costa_pires@example.com,São Paulo,SP,2025-05-09,Indicação
+816,Ana Jesus Gomes,ana.jesus.gomes@example.com,Rio de Janeiro,RJ,2025-05-09,Marketplace
+817,Maria Vitória Carvalho Correia,mariavitoriacarvalhocorreia@example.com,Rio de Janeiro,RJ,2025-05-09,Instagram
+818,Helena Sales Mendes,helena_sales_mendes@example.com,São Paulo,SP,2025-05-09,Google
+819,Isaac Moreira Abreu,isaacmoreiraabreu@example.com,Parnamirim,RN,2025-05-09,Instagram
+820,Ana Clara Montenegro das Neves,anaclaramontenegrodasneves@example.com,Belém,PA,2025-05-10,Google
+821,Oliver Sales Mendes,oliver_sales_mendes@example.com,Niterói,RJ,2025-05-10,TikTok
+822,Luiz Fernando Vieira Fonseca,luizfernandovieirafonseca@example.com,Goiânia,GO,2025-05-11,Instagram
+823,Marina Garcia Ferreira,marina.garcia.ferreira@example.com,Recife,PE,2025-05-11,Marketplace
+824,Mariane Duarte da Costa,mariane.duarte.da.costa@example.com,Campinas,SP,2025-05-11,Instagram
+825,Theo da Mota Gonçalves,theo_da_mota_goncalves@example.com,Brasília,DF,2025-05-11,Instagram
+826,Theo Ribeiro Rios,theo.ribeiro.rios@example.com,Florianópolis,SC,2025-05-12,Marketplace
+827,Eduarda Câmara Rios,eduardacamararios@example.com,Brasília,DF,2025-05-12,
+828,Vicente Nogueira Nogueira,vicente_nogueira_nogueira@example.com,Campo Grande,MS,2025-05-12,Google
+829,Pedro Miguel Pimenta Aparecida,pedro.miguel.pimenta.aparecida@example.com,Macapá,AP,2025-05-13,Orgânico
+830,Enrico Rodrigues Ribeiro,enrico.rodrigues.ribeiro@example.com,Macapá,AP,2025-05-13,Instagram
+831,Maria Luiza Pacheco Guerra,maria.luiza.pacheco.guerra@example.com,Niterói,RJ,2025-05-13,
+832,Yan Costela Teixeira,yancostelateixeira@example.com,Belém,PA,2025-05-13,Google
+833,Gael Machado Souza,gaelmachadosouza@example.com,Belém,PA,2025-05-13,Google
+834,Sophia Vargas Cardoso,sophia.vargas.cardoso@example.com,Curitiba,PR,2025-05-14,TikTok
+835,Isabela Peixoto Araújo,isabela_peixoto_araujo@example.com,Porto Velho,RO,2025-05-14,Marketplace
+836,Julia Oliveira Barbosa,julia.oliveira.barbosa@example.com,Sobral,CE,2025-05-14,Orgânico
+837,Theo Câmara Sales,theo_camara_sales@example.com,salvador,BA,2025-05-14,Marketplace
+838,Paulo Rodrigues Lima,paulorodrigueslima@example.com,Belém,PA,2025-05-14,TikTok
+839,André Silveira Silveira,andre.silveira.silveira@example.com,Caxias do Sul,RS,2025-05-15,Instagram
+840,Otto Silva Fernandes,ottosilvafernandes@example.com,Joinville,SC,2025-05-15,Indicação
+841,Maria Vitória Correia Câmara,mariavitoriacorreiacamara@example.com,Recife,PE,2025-05-15,Google
+842,Manuela Borges Monteiro,manuela_borges_monteiro@example.com,Olinda,PE,2025-05-15,TikTok
+843,Rafael Câmara Alves,rafael.camara.alves@example.com,Macapá,AP,2025-05-16,Marketplace
+844,Bella Rocha Nascimento,BELLAROCHANASCIMENTO@EXAMPLE.COM,rio de janeiro,RJ,2025-05-16,Instagram
+845,Lucca Oliveira Teixeira,luccaoliveirateixeira@example.com,Porto Alegre,RS,2025-05-16,Indicação
+846,Guilherme da Cunha Ramos,guilhermedacunharamos@example.com,Rio Branco,AC,2025-05-16,Indicação
+847,João Guilherme Cassiano da Conceição,joao_guilherme_cassiano_da_conceicao@example.com,Olinda,PE,2025-05-17,Instagram
+848,Alícia da Conceição Souza,aliciadaconceicaosouza@example.com,Manaus,AM,2025-05-17,Marketplace
+849,Kamilly Cavalcanti Costa,kamilly.cavalcanti.costa@example.com,Boa Vista,RR,2025-05-17,Indicação
+850,Rael Lima Novais,raellimanovais@example.com,Manaus,AM,2025-05-17,Orgânico
+851,Rebeca Pimenta Castro,rebecapimentacastro@example.com,Belo Horizonte,MG,2025-05-17,TikTok
+852,Bruna Lopes Rezende,bruna_lopes_rezende@example.com,Feira de Santana,BA,2025-05-17,Orgânico
+853,Pietra Aparecida Guerra,pietra.aparecida.guerra@example.com,Sobral,CE,2025-05-17,Google
+854,Luiz Felipe Correia Costa,luiz.felipe.correia.costa@example.com,Rio de Janeiro,RJ,2025-05-17,Instagram
+855,Luna Cirino Pimenta,luna.cirino.pimenta@example.com,Goiânia,GO,2025-05-17,Instagram
+856,Raul Rocha Oliveira,raul_rocha_oliveira@example.com,Rio de Janeiro,RJ,2025-05-18,Marketplace
+857,Lunna Andrade Pacheco,lunna_andrade_pacheco@example.com,nossa senhora do socorro,SE,2025-05-18,Instagram
+858,Manuella Freitas Freitas,manuella.freitas.freitas@example.com,Imperatriz,MA,2025-05-18,Orgânico
+859,Lívia da Costa Fonseca,livia_da_costa_fonseca@example.com,Juazeiro do Norte,CE,2025-05-19,Indicação
+860,Ana Beatriz Marques Montenegro,ana_beatriz_marques_montenegro@example.com,Sorocaba,SP,2025-05-19,Orgânico
+861,Paulo Pimenta da Paz,paulo_pimenta_da_paz@example.com,Brasília,DF,2025-05-19,
+862,Ana Cecília Martins Rocha,ana.cecilia.martins.rocha@example.com,Belo Horizonte,MG,2025-05-19,Indicação
+863,Stephany Pimenta Cassiano,stephany.pimenta.cassiano@example.com,Belém,PA,2025-05-19,Orgânico
+864,José Pedro da Costa da Rocha,josepedrodacostadarocha@example.com,Belo Horizonte,MG,2025-05-19,Instagram
+865,Luiz Felipe Marques Nascimento,luizfelipemarquesnascimento@example.com,Brasília,DF,2025-05-21,Marketplace
+866,Laís Caldeira Sousa,lais_caldeira_sousa@example.com,niteroi,RJ,2025-05-21,Google
+867,Ravy da Mata Farias,ravy.da.mata.farias@example.com,Campinas,SP,2025-05-22,Indicação
+868,Bryan Ferreira Nascimento,bryanferreiranascimento@example.com,São Paulo,SP,2025-05-22,Google
+869,Melissa Vargas Leão,melissavargasleao@example.com,Fortaleza,CE,2025-05-22,Google
+870,Theo Fogaça Gonçalves,theo_fogaca_goncalves@example.com,Ribeirão Preto,SP,2025-05-22,Marketplace
+871,Jade Gomes Sousa,JADEGOMESSOUSA@EXAMPLE.COM,salvador,BA,2025-05-22,Google
+872,Léo Moreira Azevedo,leo_moreira_azevedo@example.com,Porto Alegre,RS,2025-05-22,Orgânico
+873,João Gabriel Vargas Ramos,joao_gabriel_vargas_ramos@example.com,Aracaju,SE,2025-05-23,Indicação
+874,Vinicius Silva Oliveira,viniciussilvaoliveira@example.com,santarem,PA,2025-05-23,Marketplace
+875,Pedro Lucas Almeida Moura,PEDROLUCASALMEIDAMOURA@EXAMPLE.COM,Salvador,BA,2025-05-23,Instagram
+876,Maria Vitória Teixeira Moreira,mariavitoriateixeiramoreira@example.com,Santarém,PA,2025-05-23,Instagram
+877,Cecilia Santos Azevedo,cecilia_santos_azevedo@example.com,São Paulo,SP,2025-05-24,Indicação
+878,Nicolas Freitas Dias,nicolasfreitasdias@example.com,Recife,PE,2025-05-25,Instagram
+879,Vitor Gabriel Cirino Souza,vitor_gabriel_cirino_souza@example.com,Nossa Senhora do Socorro,SE,2025-05-25,Marketplace
+880,Rael Vasconcelos Moreira,raelvasconcelosmoreira@example.com,Sobral,CE,2025-05-26,Indicação
+881,Enzo Gabriel Moura Fonseca,enzogabrielmourafonseca@example.com,Recife,PE,2025-05-26,Instagram
+882,João Pedro Costa Pereira,joaopedrocostapereira@example.com,Olinda,PE,2025-05-26,Orgânico
+883,Giovanna Viana Silva,giovannavianasilva@example.com,Nossa Senhora do Socorro,SE,2025-05-26,TikTok
+884,Aurora Garcia Vieira,auroragarciavieira@example.com,Campinas,SP,2025-05-26,Marketplace
+885,Ana Júlia Sousa Pinto,ana_julia_sousa_pinto@example.com,Vitória da Conquista,BA,2025-05-27,Google
+886,Melina Jesus Novaes, melinajesusnovaes@example.com ,Olinda,PE,2025-05-27,TikTok
+887,Jade Lopes Dias,jade_lopes_dias@example.com,Goiânia,GO,2025-05-27,Orgânico
+888,Isaac Novais Teixeira,isaac.novais.teixeira@example.com,Ananindeua,PA,2025-05-28,Instagram
+889,Daniel Carvalho Montenegro,danielcarvalhomontenegro@example.com,Santos,SP,2025-05-28,Indicação
+890,Arthur Miguel Montenegro Pires,arthurmiguelmontenegropires@example.com,Fortaleza,CE,2025-05-28,Indicação
+891,Maria Clara Ferreira das Neves,mariaclaraferreiradasneves@example.com,Olinda,PE,2025-05-29,Marketplace
+892,Isaque Vieira Nunes,isaque_vieira_nunes@example.com,Feira de Santana,BA,2025-05-29,Instagram
+893,Sofia Ferreira Lima,sofia_ferreira_lima@example.com,São Paulo,SP,2025-05-29,Orgânico
+894,Diego Araújo Cavalcante,diegoaraujocavalcante@example.com,São Paulo,SP,2025-05-29,Marketplace
+895,Ravi Moreira Jesus,ravi.moreira.jesus@example.com,Fortaleza,CE,2025-05-29,Google
+896,Caleb Sampaio Barbosa,caleb_sampaio_barbosa@example.com,Salvador,BA,2025-05-29,Google
+897,Mateus da Cunha Aparecida,mateusdacunhaaparecida@example.com,Ananindeua,PA,2025-05-30,Instagram
+898,Natália Vargas Nogueira, natalia_vargas_nogueira@example.com ,Ananindeua,PA,2025-05-30,Indicação
+899,Levi Macedo Leão,levi.macedo.leao@example.com,Aracaju,SE,2025-05-30,Instagram
+900,Clara Santos Pimenta,clara_santos_pimenta@example.com,Feira de Santana,BA,2025-05-30,TikTok
+901,Ravi Lucca Lima Rezende,ravi.lucca.lima.rezende@example.com,Manaus,AM,2025-05-30,Google
+902,Bianca Fonseca da Rocha,bianca_fonseca_da_rocha@example.com,Itacoatiara,AM,2025-05-30,Indicação
+903,João Guilherme Cassiano Barbosa,joaoguilhermecassianobarbosa@example.com,Curitiba,PR,2025-05-31,Orgânico
+904,Josué da Paz Barros,josue_da_paz_barros@example.com,Manaus,AM,2025-05-31,Google
+905,Gabrielly da Conceição da Cruz,gabrielly.da.conceicao.da.cruz@example.com,Recife,PE,2025-05-31,Orgânico
+906,Emanuel Moraes Costela,emanuel_moraes_costela@example.com,Goiânia,GO,2025-05-31,Instagram
+907,Lorenzo Sousa Macedo,lorenzosousamacedo@example.com,Recife,PE,2025-06-01,Orgânico
+908,Luan Nunes da Costa,luannunesdacosta@example.com,São Paulo,SP,2025-06-01,Google
+909,Emanuel Montenegro Souza,emanuel.montenegro.souza@example.com,Teresina,PI,2025-06-01,Instagram
+910,Levi Macedo Marques,levi.macedo.marques@example.com,Florianópolis,SC,2025-06-01,Instagram
+911,Vitor Vargas Ramos,vitorvargasramos@example.com,Sorocaba,SP,2025-06-02,TikTok
+912,Maria Duarte Fernandes,mariaduartefernandes@example.com,João Pessoa,PB,2025-06-02,Instagram
+913,Isis Moraes Abreu,isismoraesabreu@example.com,Rio de Janeiro,RJ,2025-06-02,TikTok
+914,Aylla Vieira Araújo,aylla_vieira_araujo@example.com,São Luís,MA,2025-06-02,TikTok
+915,Vinicius Pacheco Garcia, vinicius.pacheco.garcia@example.com ,Manaus,AM,2025-06-02,Marketplace
+916,Pedro Miguel Câmara Carvalho,pedro_miguel_camara_carvalho@example.com,Porto Alegre,RS,2025-06-02,Orgânico
+917,Yasmin Lima Nascimento,yasmin_lima_nascimento@example.com,Recife,PE,2025-06-02,Indicação
+918,Maria Flor Brito Silveira,maria.flor.brito.silveira@example.com,Campinas,SP,2025-06-02,Google
+919,Noah Araújo Nunes,noah_araujo_nunes@example.com,São Luís,MA,2025-06-02,Instagram
+920,Ana Lívia Duarte Borges,ana_livia_duarte_borges@example.com,Rio de Janeiro,RJ,2025-06-02,Instagram
+921,Davi Miguel Aparecida Ribeiro,davi.miguel.aparecida.ribeiro@example.com,Feira de Santana,BA,2025-06-03,Google
+922,Leandro Cavalcante Ribeiro,leandro_cavalcante_ribeiro@example.com,Campina Grande,PB,2025-06-03,Instagram
+923,Nicole Guerra Viana,nicoleguerraviana@example.com,Uberlândia,MG,2025-06-03,Google
+924,Heloisa Leão Nascimento,heloisaleaonascimento@example.com,Belo Horizonte,MG,2025-06-04,TikTok
+925,Mariane Costa Campos,marianecostacampos@example.com,Florianópolis,SC,2025-06-04,Instagram
+926,Cecilia Moreira da Paz,cecilia.moreira.da.paz@example.com,Fortaleza,CE,2025-06-04,Marketplace
+927,Aurora da Costa da Rosa,aurora_da_costa_da_rosa@example.com,Olinda,PE,2025-06-04,Google
+928,Lavínia Sampaio Guerra,lavinia_sampaio_guerra@example.com,porto velho,RO,2025-06-04,Orgânico
+929,Ana Clara Aparecida Santos,anaclaraaparecidasantos@example.com,Olinda,PE,2025-06-05,Google
+930,Bárbara Vieira da Rosa,barbaravieiradarosa@example.com,Teresina,PI,2025-06-05,TikTok
+931,Vinicius Pacheco Nogueira,vinicius_pacheco_nogueira@example.com,Ananindeua,PA,2025-06-05,Google
+932,Diogo Montenegro da Rocha,diogomontenegrodarocha@example.com,Juiz de Fora,MG,2025-06-05,Indicação
+933,Murilo da Costa Sousa,murilodacostasousa@example.com,Petrolina,PE,2025-06-05,Orgânico
+934,Bella Rios Campos,bella_rios_campos@example.com,Fortaleza,CE,2025-06-06,Indicação
+935,Ana Liz Aparecida Câmara,ana.liz.aparecida.camara@example.com,Florianópolis,SC,2025-06-06,Google
+936,Sofia Silveira da Mota,sofia.silveira.da.mota@example.com,Belém,PA,2025-06-06,Indicação
+937,Maria Isis Macedo Pires,maria.isis.macedo.pires@example.com,Rio de Janeiro,RJ,2025-06-07,TikTok
+938,Otávio Jesus Sousa,otavio_jesus_sousa@example.com,Curitiba,PR,2025-06-07,Instagram
+939,Luiz Gustavo Rodrigues Barbosa,luiz.gustavo.rodrigues.barbosa@example.com,Petrópolis,RJ,2025-06-07,Google
+940,Maria Júlia Jesus Correia,maria_julia_jesus_correia@example.com,Campinas,SP,2025-06-08,Google
+941,Davi Luiz Moura Nogueira,daviluizmouranogueira@example.com,Manaus,AM,2025-06-08,Instagram
+942,Ester Aparecida Sampaio,esteraparecidasampaio@example.com,Aracaju,SE,2025-06-08,Orgânico
+943,Heitor da Cruz Lopes,heitor_da_cruz_lopes@example.com,Teresina,PI,2025-06-10,Instagram
+944,Renan Costela Sousa,renan_costela_sousa@example.com,Arapiraca,AL,2025-06-10,Orgânico
+945,Fernanda Machado Barbosa,fernanda.machado.barbosa@example.com,Mossoró,RN,2025-06-10,Marketplace
+946,Gael Cavalcante Vargas,gaelcavalcantevargas@example.com,Recife,PE,2025-06-10,Google
+947,Camila Caldeira da Cruz,camilacaldeiradacruz@example.com,Rio Branco,AC,2025-06-11,Google
+948,Luiz Fernando Pimenta Nunes,luiz.fernando.pimenta.nunes@example.com,São Paulo,SP,2025-06-11,TikTok
+949,Ian Vasconcelos Castro,ian_vasconcelos_castro@example.com,Recife,PE,2025-06-11,Marketplace
+950,Theodoro da Conceição Campos,theodoro.da.conceicao.campos@example.com,Caxias,MA,2025-06-11,Instagram
+951,Sofia Jesus Nunes,sofiajesusnunes@example.com,caxias do sul,RS,2025-06-11,Instagram
+952,Murilo Sá da Paz,murilo_sa_da_paz@example.com,Ji-Paraná,RO,2025-06-11,Instagram
+953,Amanda Andrade Albuquerque,amandaandradealbuquerque@example.com,Campinas,SP,2025-06-11,Marketplace
+954,Alana Machado Cassiano,alanamachadocassiano@example.com,Santarém,PA,2025-06-11,Marketplace
+955,Isabella Moura Teixeira,isabellamourateixeira@example.com,Caxias,MA,2025-06-11,Instagram
+956,Caio Dias Souza,caio_dias_souza@example.com,Manaus,AM,2025-06-12,Indicação
+957,Emanuella Siqueira Cardoso,emanuellasiqueiracardoso@example.com,Sobral,CE,2025-06-12,Instagram
+958,Renan Macedo Pimenta,renanmacedopimenta@example.com,Campinas,SP,2025-06-12,Indicação
+959,Liam Alves Casa Grande,liam_alves_casa_grande@example.com,São Luís,MA,2025-06-12,Indicação
+960,Bárbara Nunes Aparecida,barbara_nunes_aparecida@example.com,Sobral,CE,2025-06-12,Google
+961,Ana Sophia Peixoto Gomes,ana.sophia.peixoto.gomes@example.com,Jaboatão dos Guararapes,PE,2025-06-12,
+962,Anna Liz Sousa Sampaio,anna_liz_sousa_sampaio@example.com,Ilhéus,BA,2025-06-12,Orgânico
+963,Luiz Gustavo Melo Pimenta,luizgustavomelopimenta@example.com,Belo Horizonte,MG,2025-06-12,TikTok
+964,Juan Lopes Cardoso,juan.lopes.cardoso@example.com,brasilia,DF,2025-06-13,TikTok
+965,Rhavi da Mota Macedo,rhavi_da_mota_macedo@example.com,Imperatriz,MA,2025-06-13,Instagram
+966,Yasmin Gomes Cirino,yasmin_gomes_cirino@example.com,Parintins,AM,2025-06-13,Instagram
+967,João Guilherme Sampaio Albuquerque,joao.guilherme.sampaio.albuquerque@example.com,São Paulo,SP,2025-06-14,Marketplace
+968,Nathan Carvalho Vasconcelos,nathan_carvalho_vasconcelos@example.com,feira de santana,BA,2025-06-14,Indicação
+969,Olivia Aparecida Oliveira,olivia.aparecida.oliveira@example.com,Ribeirão Preto,SP,2025-06-14,Instagram
+970,Samuel Freitas da Paz,samuel_freitas_da_paz@example.com,São Paulo,SP,2025-06-16,Instagram
+971,Elisa Oliveira da Rocha,elisa_oliveira_da_rocha@example.com,Jaboatão dos Guararapes,PE,2025-06-16,Marketplace
+972,Benício Pereira Cassiano,beniciopereiracassiano@example.com,Niterói,RJ,2025-06-16,Instagram
+973,Igor Brito Teixeira,igor_brito_teixeira@example.com,São Paulo,SP,2025-06-16,Google
+974,Emanuelly Moura Montenegro,emanuelly_moura_montenegro@example.com,Salvador,BA,2025-06-17,TikTok
+975,Lorena Brito Vieira,lorenabritovieira@example.com,Salvador,BA,2025-06-17,Google
+976,Mariane Leão Santos,mariane_leao_santos@example.com,Ribeirão Preto,SP,2025-06-17,Instagram
+977,Ana Clara Souza Macedo,ana.clara.souza.macedo@example.com,Florianópolis,SC,2025-06-17,Orgânico
+978,Diogo da Rocha Rios,diogo_da_rocha_rios@example.com,Belém,PA,2025-06-17,Google
+979,Valentim Cirino Novaes,valentim_cirino_novaes@example.com,Imperatriz,MA,2025-06-17,Google
+980,Matteo Fonseca Lopes,matteo.fonseca.lopes@example.com,Salvador,BA,2025-06-18,Indicação
+981,Davi Lucca Cardoso da Mota,davi.lucca.cardoso.da.mota@example.com,Brasília,DF,2025-06-18,Google
+982,Emanuel Ferreira Macedo,emanuelferreiramacedo@example.com,Belém,PA,2025-06-18,Instagram
+983,Isabella Barbosa da Rosa,isabella.barbosa.da.rosa@example.com,João Pessoa,PB,2025-06-18,Instagram
+984,Olivia Jesus Caldeira,olivia.jesus.caldeira@example.com,João Pessoa,PB,2025-06-18,Orgânico
+985,Vitor Gabriel Freitas Almeida,vitorgabrielfreitasalmeida@example.com,Recife,PE,2025-06-18,Instagram
+986,Ayla Santos Camargo,ayla.santos.camargo@example.com,Recife,PE,2025-06-18,TikTok
+987,Rael Costa Casa Grande,raelcostacasagrande@example.com,São Paulo,SP,2025-06-19,Orgânico
+988,Manuela Cavalcanti Cavalcante,manuelacavalcanticavalcante@example.com,Rio de Janeiro,RJ,2025-06-19,Instagram
+989,Jade Fogaça Ferreira,jade_fogaca_ferreira@example.com,Campinas,SP,2025-06-19,Instagram
+990,Lorenzo Carvalho Pires,lorenzocarvalhopires@example.com,Caucaia,CE,2025-06-19,Indicação
+991,Fernando Câmara Machado,FERNANDOCAMARAMACHADO@EXAMPLE.COM,Feira de Santana,BA,2025-06-20,Indicação
+992,Maria Clara Ferreira Cassiano,mariaclaraferreiracassiano@example.com,Curitiba,PR,2025-06-20,Orgânico
+993,Kaique Pereira Brito,kaique.pereira.brito@example.com,Marabá,PA,2025-06-20,Marketplace
+994,Diogo Machado Martins,diogomachadomartins@example.com,São Paulo,SP,2025-06-21,Instagram
+995,Luiz Gustavo Andrade Gonçalves,luiz_gustavo_andrade_goncalves@example.com,Mossoró,RN,2025-06-21,Indicação
+996,Esther Rios Rezende,esther.rios.rezende@example.com,Parintins,AM,2025-06-21,Instagram
+997,Gabrielly Duarte Cunha,gabrielly.duarte.cunha@example.com,Teresina,PI,2025-06-22,Orgânico
+998,Benjamim Rezende Monteiro,benjamimrezendemonteiro@example.com,Ananindeua,PA,2025-06-22,Indicação
+999,Liz Pacheco Guerra,liz.pacheco.guerra@example.com,Feira de Santana,BA,2025-06-23,Indicação
+1000,Nathan Aparecida Vieira,nathan_aparecida_vieira@example.com,São Paulo,SP,2025-06-23,Google
+1001,Gael Aragão Gonçalves,gael_aragao_goncalves@example.com,Goiânia,GO,2025-06-23,Indicação
+1002,Luísa Câmara Porto,luisacamaraporto@example.com,Imperatriz,MA,2025-06-24,Indicação
+1003,Lucas Gabriel Pereira Pereira,lucasgabrielpereirapereira@example.com,Brasília,DF,2025-06-25,Google
+1004,Ayla Pires Dias,ayla.pires.dias@example.com,Macapá,AP,2025-06-25,Instagram
+1005,Isabel Barbosa Pastor,isabel_barbosa_pastor@example.com,Goiânia,GO,2025-06-25,Google
+1006,Bernardo Montenegro Oliveira,bernardo_montenegro_oliveira@example.com,Goiânia,GO,2025-06-25,Instagram
+1007,Isis Lima Mendes,isis_lima_mendes@example.com,Uberlândia,MG,2025-06-25,TikTok
+1008,Bianca da Costa Abreu,bianca_da_costa_abreu@example.com,Fortaleza,CE,2025-06-25,Orgânico
+1009,Luna Pinto da Mata,luna_pinto_da_mata@example.com,Ananindeua,PA,2025-06-25,Google
+1010,Theo Mendes Ferreira,theo.mendes.ferreira@example.com,Santos,SP,2025-06-25,Indicação
+1011,Alice Sá Souza,alice.sa.souza@example.com,Santarém,PA,2025-06-26,Google
+1012,Enzo Gabriel Silveira Novais,enzo.gabriel.silveira.novais@example.com,Belém,PA,2025-06-26,Instagram
+1013,Bárbara da Rosa Duarte,barbaradarosaduarte@example.com,São Paulo,SP,2025-06-26,Google
+1014,Erick Gomes Novais,erickgomesnovais@example.com,Caruaru,PE,2025-06-26,Marketplace
+1015,Lara Macedo Garcia,lara_macedo_garcia@example.com,Rio de Janeiro,RJ,2025-06-26,Google
+1016,Rodrigo Sales Melo,rodrigosalesmelo@example.com,Santarém,PA,2025-06-27,Google
+1017,Otávio da Luz Ribeiro,otavio.da.luz.ribeiro@example.com,Ilhéus,BA,2025-06-27,Instagram
+1018,Leandro Sousa Gomes,leandro_sousa_gomes@example.com,Santana,AP,2025-06-27,Google
+1019,Emanuel Marques Macedo,emanuel.marques.macedo@example.com,Manaus,AM,2025-06-27,Orgânico
+1020,João Lucas Sousa Caldeira,joaolucassousacaldeira@example.com,Santarém,PA,2025-06-28,TikTok
+1021,Ryan das Neves Ribeiro,ryan.das.neves.ribeiro@example.com,Cuiabá,MT,2025-06-28,Google
+1022,Davi Lucas Porto Martins,davi.lucas.porto.martins@example.com,Porto Alegre,RS,2025-06-28,Instagram
+1023,Gabrielly Casa Grande Rodrigues,gabriellycasagranderodrigues@example.com,Palmas,TO,2025-06-29,Instagram
+1024,Juan Araújo Cavalcante,juanaraujocavalcante@example.com,Parnamirim,RN,2025-06-29,Indicação
+1025,Emanuelly Nogueira Rodrigues,emanuelly.nogueira.rodrigues@example.com,Macapá,AP,2025-07-01,Orgânico
+1026,Murilo Silva das Neves,murilo.silva.das.neves@example.com,Vitória da Conquista,BA,2025-07-02,Instagram
+1027,Gael Souza Sousa,gael.souza.sousa@example.com,Manaus,AM,2025-07-02,Orgânico
+1028,Bento Borges Souza,bento_borges_souza@example.com,Recife,PE,2025-07-02,Google
+1029,Nicole Monteiro Borges,nicole.monteiro.borges@example.com,juazeiro do norte,CE,2025-07-03,Instagram
+1030,Caio Porto Gomes,caioportogomes@example.com,Curitiba,PR,2025-07-03,Instagram
+1031,Henry Gabriel Andrade Ribeiro,henrygabrielandraderibeiro@example.com,Curitiba,PR,2025-07-03,Google
+1032,Pedro Miguel Sousa Casa Grande,pedro_miguel_sousa_casa_grande@example.com,Ribeirão Preto,SP,2025-07-03,Google
+1033,Julia Alves da Conceição,julia.alves.da.conceicao@example.com,Sobral,CE,2025-07-03,Instagram
+1034,Ana Sophia Lima Sousa,anasophialimasousa@example.com,Sobral,CE,2025-07-03,Instagram
+1035,Lívia Ferreira Machado,LIVIA.FERREIRA.MACHADO@EXAMPLE.COM,Maceió,AL,2025-07-04,Orgânico
+1036,Bento Guerra Machado,bentoguerramachado@example.com,Brasília,DF,2025-07-04,Marketplace
+1037,Isabella Novaes Duarte,isabella.novaes.duarte@example.com,Salvador,BA,2025-07-04,Google
+1038,Anthony Moura Sousa,anthony.moura.sousa@example.com,Campinas,SP,2025-07-04,TikTok
+1039,Maria Cecília Casa Grande da Luz,maria.cecilia.casa.grande.da.luz@example.com,Teresina,PI,2025-07-05,Indicação
+1040,Ian Rodrigues Nascimento,ian_rodrigues_nascimento@example.com,Salvador,BA,2025-07-05,Indicação
+1041,Kaique Nogueira Andrade,KAIQUENOGUEIRAANDRADE@EXAMPLE.COM,Ilhéus,BA,2025-07-05,Google
+1042,Theodoro Rocha Sá,theodoro_rocha_sa@example.com,Campinas,SP,2025-07-05,Marketplace
+1043,Maya Cirino Souza,MAYACIRINOSOUZA@EXAMPLE.COM,Ananindeua,PA,2025-07-05,Google
+1044,Ravi Lucca Barros da Paz,ravi.lucca.barros.da.paz@example.com,Rio Branco,AC,2025-07-05,Instagram
+1045,Ravi Lucca Aragão Brito,raviluccaaragaobrito@example.com,Juazeiro do Norte,CE,2025-07-06,Indicação
+1046,Amanda da Conceição Siqueira,amanda.da.conceicao.siqueira@example.com,Campo Grande,MS,2025-07-06,Google
+1047,Apollo Viana Sampaio,apollovianasampaio@example.com,Caucaia,CE,2025-07-06,Instagram
+1048,Eloá Câmara Carvalho,eloa_camara_carvalho@example.com,Recife,PE,2025-07-07,TikTok
+1049,Kevin Jesus Pimenta,kevin.jesus.pimenta@example.com,Petrópolis,RJ,2025-07-07,Google
+1050,Rhavi Monteiro Gomes,rhavi_monteiro_gomes@example.com,Caxias do Sul,RS,2025-07-07,Instagram
+1051,Maria Fernanda da Luz Campos,maria_fernanda_da_luz_campos@example.com,Goiânia,GO,2025-07-07,Google
+1052,Maitê Cavalcanti Melo,maitecavalcantimelo@example.com,Niterói,RJ,2025-07-07,Orgânico
+1053,Ísis Abreu Borges,isis_abreu_borges@example.com,Feira de Santana,BA,2025-07-07,Instagram
+1054,Benjamin Mendes Camargo,benjaminmendescamargo@example.com,Parnaíba,PI,2025-07-07,Marketplace
+1055,Lucas Aragão Gonçalves,LUCASARAGAOGONCALVES@EXAMPLE.COM,Porto Alegre,RS,2025-07-08,Marketplace
+1056,Ryan Aparecida Rodrigues,ryan.aparecida.rodrigues@example.com,São Paulo,SP,2025-07-08,Instagram
+1057,Henrique Machado Montenegro,henriquemachadomontenegro@example.com,Sobral,CE,2025-07-09,Instagram
+1058,Daniel Fogaça Montenegro,danielfogacamontenegro@example.com,Campina Grande,PB,2025-07-09,Instagram
+1059,Murilo da Mata Sá,murilo.da.mata.sa@example.com,Campinas,SP,2025-07-09,Indicação
+1060,Ana Carolina Rezende Correia,anacarolinarezendecorreia@example.com,Manaus,AM,2025-07-09,TikTok
+1061,Vinícius Viana Vieira,vinicius_viana_vieira@example.com,Rio de Janeiro,RJ,2025-07-10,Instagram
+1062,Mariah Moura Rios,mariahmourarios@example.com,São Paulo,SP,2025-07-10,Orgânico
+1063,Ísis da Mota Pinto,isis.da.mota.pinto@example.com,Florianópolis,SC,2025-07-10,Marketplace
+1064,Maria Júlia Silva Ribeiro,maria_julia_silva_ribeiro@example.com,Parnamirim,RN,2025-07-10,Instagram
+1065,Enrico Peixoto Aparecida,enrico.peixoto.aparecida@example.com,Uberlândia,MG,2025-07-11,Instagram
+1066,Maria Fernanda Sampaio Mendes,maria.fernanda.sampaio.mendes@example.com,Porto Velho,RO,2025-07-11,Indicação
+1067,Bento Vasconcelos da Mota,bento.vasconcelos.da.mota@example.com,Goiânia,GO,2025-07-11,Instagram
+1068,Henrique Garcia Andrade,henrique.garcia.andrade@example.com,São Luís,MA,2025-07-12,Google
+1069,Luísa Leão da Mata,luisaleaodamata@example.com,Florianópolis,SC,2025-07-12,Instagram
+1070,Anthony Barros Almeida,anthonybarrosalmeida@example.com,Natal,RN,2025-07-12,Marketplace
+1071,Stella Campos Garcia,stella_campos_garcia@example.com,Rio de Janeiro,RJ,2025-07-13,Instagram
+1072,Zoe Mendonça Cirino,zoemendoncacirino@example.com,São Paulo,SP,2025-07-13,Orgânico
+1073,Benjamim Borges Fogaça,benjamimborgesfogaca@example.com,Belém,PA,2025-07-13,Indicação
+1074,Benicio Mendes Caldeira,benicio_mendes_caldeira@example.com,Juazeiro do Norte,CE,2025-07-13,TikTok
+1075,Luiz Fernando Garcia Rezende,luiz.fernando.garcia.rezende@example.com,Feira de Santana,BA,2025-07-13,Orgânico
+1076,Natália da Rosa Cavalcante,natalia_da_rosa_cavalcante@example.com,Londrina,PR,2025-07-14,Instagram
+1077,Nicolas Rios Silva,nicolas_rios_silva@example.com,Santana,AP,2025-07-15,Marketplace
+1078,Sabrina Nunes Alves,sabrina.nunes.alves@example.com,Belém,PA,2025-07-15,Orgânico
+1079,Evelyn da Costa Gomes,evelyn.da.costa.gomes@example.com,Natal,RN,2025-07-16,Instagram
+1080,Luara da Mota Leão,luara_da_mota_leao@example.com,Rio Branco,AC,2025-07-16,TikTok
+1081,Erick Macedo Campos,erick_macedo_campos@example.com,Recife,PE,2025-07-16,Marketplace
+1082,Melina Nunes Cavalcante,melinanunescavalcante@example.com,Campinas,SP,2025-07-16,Google
+1083,Gabrielly Brito Fogaça,gabrielly_brito_fogaca@example.com,Brasília,DF,2025-07-17,Google
+1084,Leandro Lopes Cavalcanti,leandrolopescavalcanti@example.com,Juazeiro do Norte,CE,2025-07-17,Google
+1085,Igor Carvalho Aparecida,igor.carvalho.aparecida@example.com,Uberlândia,MG,2025-07-17,Orgânico
+1086,Yasmin Garcia Gonçalves,yasmin.garcia.goncalves@example.com,Juazeiro do Norte,CE,2025-07-17,Instagram
+1087,Daniela Porto da Rocha,daniela.porto.da.rocha@example.com,Manaus,AM,2025-07-17,Indicação
+1088,Melissa Moraes Borges,melissa_moraes_borges@example.com,Olinda,PE,2025-07-17,Instagram
+1089,Brayan Fonseca da Costa,brayan_fonseca_da_costa@example.com,belo horizonte,MG,2025-07-17,Instagram
+1090,Nina Mendonça Vasconcelos,ninamendoncavasconcelos@example.com,Feira de Santana,BA,2025-07-17,Google
+1091,Ana Carolina Cunha Araújo, ana.carolina.cunha.araujo@example.com ,macapa,AP,2025-07-18,Instagram
+1092,Bárbara da Cunha Teixeira,barbara.da.cunha.teixeira@example.com,Natal,RN,2025-07-18,Instagram
+1093,Valentina Silveira da Paz,valentinasilveiradapaz@example.com,São Luís,MA,2025-07-18,Instagram
+1094,Maitê Barros Garcia,maite.barros.garcia@example.com,Natal,RN,2025-07-18,Indicação
+1095,Rhavi Oliveira Gomes,rhavi_oliveira_gomes@example.com,Recife,PE,2025-07-19,Instagram
+1096,Milena Sampaio Rocha,milena.sampaio.rocha@example.com,Itacoatiara,AM,2025-07-19,TikTok
+1097,Antony Melo Cardoso,antonymelocardoso@example.com,Niterói,RJ,2025-07-19,Indicação
+1098,Davi Luiz da Cunha Brito,davi_luiz_da_cunha_brito@example.com,Salvador,BA,2025-07-19,Google
+1099,Gustavo Henrique Castro Farias,gustavo.henrique.castro.farias@example.com,Araguaína,TO,2025-07-20,Orgânico
+1100,Renan Pastor Duarte,renan.pastor.duarte@example.com,Florianópolis,SC,2025-07-20,Instagram
+1101,Vitor Gabriel Pires Leão,vitor.gabriel.pires.leao@example.com,Boa Vista,RR,2025-07-20,Indicação
+1102,Julia da Rocha Castro,julia_da_rocha_castro@example.com,Salvador,BA,2025-07-20,Google
+1103,Ana Vitória Jesus Fonseca,ana_vitoria_jesus_fonseca@example.com,Londrina,PR,2025-07-20,Instagram
+1104,Maria Julia Peixoto Lopes,maria_julia_peixoto_lopes@example.com,Lauro de Freitas,BA,2025-07-20,Instagram
+1105,Alícia Macedo Campos,alicia.macedo.campos@example.com,Lauro de Freitas,BA,2025-07-21,Instagram
+1106,Ryan Duarte Garcia,ryan_duarte_garcia@example.com,Belo Horizonte,MG,2025-07-21,Instagram
+1107,Daniel das Neves Rios,danieldasnevesrios@example.com,Belém,PA,2025-07-21,Instagram
+1108,Mariane Machado Vieira,MARIANE_MACHADO_VIEIRA@EXAMPLE.COM,Salvador,BA,2025-07-22,Indicação
+1109,Maria Luiza Araújo Borges,maria.luiza.araujo.borges@example.com,São Luís,MA,2025-07-22,Orgânico
+1110,Maria Flor Santos Cassiano,maria_flor_santos_cassiano@example.com,Florianópolis,SC,2025-07-22,TikTok
+1111,Alana Viana Gonçalves,alanavianagoncalves@example.com,Curitiba,PR,2025-07-23,Google
+1112,Josué Novaes da Cunha,josue.novaes.da.cunha@example.com,Goiânia,GO,2025-07-23,Indicação
+1113,Lívia Teixeira Barbosa,livia.teixeira.barbosa@example.com,Campinas,SP,2025-07-24,Orgânico
+1114,Alexandre Sampaio Oliveira,alexandresampaiooliveira@example.com,Caucaia,CE,2025-07-24,Instagram
+1115,Henry Oliveira Rios,henry_oliveira_rios@example.com,Caxias do Sul,RS,2025-07-24,TikTok
+1116,Lara Cirino Rios,lara.cirino.rios@example.com,Belém,PA,2025-07-25,Instagram
+1117,Maria Flor Campos da Mata,maria.flor.campos.da.mata@example.com,Teresina,PI,2025-07-25,Instagram
+1118,Thales da Mota Ramos,thales.da.mota.ramos@example.com,Mossoró,RN,2025-07-25,Instagram
+1119,Júlia Andrade Novais,julia.andrade.novais@example.com,Goiânia,GO,2025-07-25,Indicação
+1120,Isabela Cardoso Rios,isabelacardosorios@example.com,Fortaleza,CE,2025-07-26,TikTok
+1121,Elisa Sá Correia,elisasacorreia@example.com,Juazeiro do Norte,CE,2025-07-26,Indicação
+1122,Eloá Souza Pastor,eloasouzapastor@example.com,Uberlândia,MG,2025-07-26,Marketplace
+1123,João Viana Nogueira, joao.viana.nogueira@example.com ,Macapá,AP,2025-07-27,Marketplace
+1124,Eduardo Monteiro Marques,eduardomonteiromarques@example.com,São Paulo,SP,2025-07-27,TikTok
+1125,Ian Mendes Rocha,ian.mendes.rocha@example.com,Cuiabá,MT,2025-07-27,TikTok
+1126,João Gabriel da Rosa Duarte,joao.gabriel.da.rosa.duarte@example.com,Santos,SP,2025-07-28,Orgânico
+1127,Benjamim Ribeiro da Rosa,benjamim.ribeiro.da.rosa@example.com,Ilhéus,BA,2025-07-28,Orgânico
+1128,Luiz Fernando Santos Novais,LUIZFERNANDOSANTOSNOVAIS@EXAMPLE.COM,Florianópolis,SC,2025-07-28,Instagram
+1129,Ana Sophia Novaes Aragão,ana.sophia.novaes.aragao@example.com,Belém,PA,2025-07-28,Instagram
+1130,João Vitor Sousa Siqueira,joaovitorsousasiqueira@example.com,Parnamirim,RN,2025-07-28,Instagram
+1131,Davi Rios Campos,davi.rios.campos@example.com,Rio de Janeiro,RJ,2025-07-29,Orgânico
+1132,José Pedro Costa Guerra,jose_pedro_costa_guerra@example.com,João Pessoa,PB,2025-07-29,Google
+1133,Marcelo Castro Fonseca,marcelo_castro_fonseca@example.com,Belo Horizonte,MG,2025-07-29,Google
+1134,Luiz Henrique Sousa Farias,luiz_henrique_sousa_farias@example.com,Belo Horizonte,MG,2025-07-30,TikTok
+1135,Henry da Paz Rocha,henry.da.paz.rocha@example.com,Juazeiro do Norte,CE,2025-07-30,Instagram
+1136,Elisa Vargas Pacheco,elisavargaspacheco@example.com,Teresina,PI,2025-07-30,Instagram
+1137,Ravy Brito da Paz,ravy_brito_da_paz@example.com,Salvador,BA,2025-07-30,Instagram
+1138,Ana Clara Porto Lima,anaclaraportolima@example.com,Caruaru,PE,2025-07-31,Instagram
+1139,Pedro Lucas Teixeira Mendonça,pedro_lucas_teixeira_mendonca@example.com,João Pessoa,PB,2025-07-31,Instagram
+1140,Pedro Miguel Guerra Sales,pedromiguelguerrasales@example.com,Brasília,DF,2025-08-01,Orgânico
+1141,Maria Isis da Rocha Andrade,maria.isis.da.rocha.andrade@example.com,São Paulo,SP,2025-08-01,Indicação
+1142,Breno Viana Nascimento,breno_viana_nascimento@example.com,Brasília,DF,2025-08-01,Orgânico
+1143,Brenda Novaes Teixeira,brendanovaesteixeira@example.com,Teresina,PI,2025-08-03,Orgânico
+1144,Isabela das Neves Souza,isabela.das.neves.souza@example.com,Sobral,CE,2025-08-03,Google
+1145,Fernanda Rezende Costela,FERNANDA_REZENDE_COSTELA@EXAMPLE.COM,Vitória da Conquista,BA,2025-08-03,Indicação
+1146,Theo Rios Caldeira,theo.rios.caldeira@example.com,Manaus,AM,2025-08-04,Instagram
+1147,Leonardo Leão Rezende,leonardo.leao.rezende@example.com,Salvador,BA,2025-08-04,Google
+1148,José Pedro Pimenta Borges,jose.pedro.pimenta.borges@example.com,Macapá,AP,2025-08-04,Instagram
+1149,Clarice Novais Mendes,claricenovaismendes@example.com,Uberlândia,MG,2025-08-04,Marketplace
+1150,Anna Liz Moura Câmara,annalizmouracamara@example.com,Marabá,PA,2025-08-04,Instagram
+1151,Giovanna Gonçalves Ribeiro,giovanna.goncalves.ribeiro@example.com,Santos,SP,2025-08-04,TikTok
+1152,Daniel da Conceição Andrade,daniel.da.conceicao.andrade@example.com,Rio Branco,AC,2025-08-05,Orgânico
+1153,Camila Camargo Martins,camila_camargo_martins@example.com,Campinas,SP,2025-08-05,TikTok
+1154,Lucca Rodrigues Garcia,lucca_rodrigues_garcia@example.com,Brasília,DF,2025-08-05,Google
+1155,Maria Fernanda Montenegro Gonçalves,maria_fernanda_montenegro_goncalves@example.com,Mossoró,RN,2025-08-05,Google
+1156,Rodrigo Silveira Jesus,rodrigosilveirajesus@example.com,Recife,PE,2025-08-06,Orgânico
+1157,Manuella Sales Peixoto,manuella_sales_peixoto@example.com,Petrópolis,RJ,2025-08-06,Instagram
+1158,Alícia Sales Rios,alicia.sales.rios@example.com,Santos,SP,2025-08-06,Orgânico
+1159,Letícia Novais Albuquerque,leticia.novais.albuquerque@example.com,Araguaína,TO,2025-08-07,Google
+1160,Joaquim Alves Pires,joaquimalvespires@example.com,Ananindeua,PA,2025-08-07,Google
+1161,Ana Lívia Novaes Albuquerque,analivianovaesalbuquerque@example.com,Manaus,AM,2025-08-07,Marketplace
+1162,Ryan Moreira Cavalcanti,ryan.moreira.cavalcanti@example.com,Salvador,BA,2025-08-07,Instagram
+1163,Rebeca Rezende da Mata,rebeca_rezende_da_mata@example.com,Uberlândia,MG,2025-08-08,Instagram
+1164,Maya Peixoto Pimenta,maya.peixoto.pimenta@example.com,Santana,AP,2025-08-08,Instagram
+1165,Fernando Santos Brito,fernando.santos.brito@example.com,sao paulo,SP,2025-08-08,TikTok
+1166,Maria Julia Cardoso Sousa,mariajuliacardososousa@example.com,Fortaleza,CE,2025-08-08,Instagram
+1167,Bruno Pinto Barros,bruno.pinto.barros@example.com,maraba,PA,2025-08-09,Orgânico
+1168,Emilly da Paz Barbosa,emilly.da.paz.barbosa@example.com,Brasília,DF,2025-08-09,Instagram
+1169,Davi Vasconcelos Câmara,davi.vasconcelos.camara@example.com,Feira de Santana,BA,2025-08-09,Orgânico
+1170,Josué Rodrigues Alves,josue_rodrigues_alves@example.com,Uberlândia,MG,2025-08-09,Instagram
+1171,Vinícius Martins Aragão,viniciusmartinsaragao@example.com,Manaus,AM,2025-08-09,TikTok
+1172,Bento Melo Castro,bento.melo.castro@example.com,Manaus,AM,2025-08-09,TikTok
+1173,Lavínia da Mota Aparecida,lavinia.da.mota.aparecida@example.com,Manaus,AM,2025-08-10,TikTok
+1174,Alexia Silveira da Rosa,alexia_silveira_da_rosa@example.com,porto alegre,RS,2025-08-10,Instagram
+1175,José Pedro Nunes Mendonça,josepedronunesmendonca@example.com,Uberlândia,MG,2025-08-10,Marketplace
+1176,Sophie Cardoso da Mota,sophie_cardoso_da_mota@example.com,Manaus,AM,2025-08-11,Indicação
+1177,Yasmin Câmara Ramos,yasmincamararamos@example.com,São Paulo,SP,2025-08-11,
+1178,Luan Siqueira Marques,luan.siqueira.marques@example.com,Belém,PA,2025-08-11,Orgânico
+1179,Julia Cirino Vargas,juliacirinovargas@example.com,Salvador,BA,2025-08-11,Indicação
+1180,Emilly Castro da Cunha,emilly.castro.da.cunha@example.com,Olinda,PE,2025-08-11,Indicação
+1181,Samuel Ramos da Rocha,samuelramosdarocha@example.com,Fortaleza,CE,2025-08-11,Orgânico
+1182,Catarina Nogueira Jesus,catarina.nogueira.jesus@example.com,Nossa Senhora do Socorro,SE,2025-08-11,Instagram
+1183,Thales Silveira Pires,thales.silveira.pires@example.com,Manaus,AM,2025-08-12,Google
+1184,Igor Siqueira Casa Grande,igor.siqueira.casa.grande@example.com,Manaus,AM,2025-08-12,Instagram
+1185,Gabrielly Machado Macedo,gabrielly.machado.macedo@example.com,Caxias do Sul,RS,2025-08-13,Instagram
+1186,João Gabriel Barbosa Machado,joao.gabriel.barbosa.machado@example.com,Porto Alegre,RS,2025-08-13,Google
+1187,Giovanna Viana Moura,giovanna.viana.moura@example.com,Petrópolis,RJ,2025-08-13,Instagram
+1188,Bento Porto da Mata,bento.porto.da.mata@example.com,Olinda,PE,2025-08-13,Orgânico
+1189,Cauã Castro Gomes,caua.castro.gomes@example.com,São Paulo,SP,2025-08-13,Google
+1190,Clarice Moreira Nascimento,clarice.moreira.nascimento@example.com,Campinas,SP,2025-08-13,TikTok
+1191,Luiz Otávio Carvalho Azevedo,luiz.otavio.carvalho.azevedo@example.com,Porto Alegre,RS,2025-08-14,Indicação
+1192,Benjamin Barros Aparecida,benjamin_barros_aparecida@example.com,Marabá,PA,2025-08-14,Google
+1193,Vitor Hugo Novais Sampaio,vitor_hugo_novais_sampaio@example.com,Recife,PE,2025-08-14,Instagram
+1194,Luiz Felipe Rocha Santos,luiz_felipe_rocha_santos@example.com,São Paulo,SP,2025-08-14,Orgânico
+1195,Ravi Lucca Farias Vasconcelos,ravi_lucca_farias_vasconcelos@example.com,Imperatriz,MA,2025-08-15,Google
+1196,João Moraes Leão,joaomoraesleao@example.com,Santarém,PA,2025-08-15,Orgânico
+1197,Fernando Vieira Gonçalves,fernandovieiragoncalves@example.com,Rio de Janeiro,RJ,2025-08-16,Indicação
+1198,Ana Clara Mendes Viana,ana.clara.mendes.viana@example.com,Curitiba,PR,2025-08-16,Google
+1199,Rodrigo da Cunha Ribeiro,rodrigodacunharibeiro@example.com,Campinas,SP,2025-08-16,TikTok
+1200,Larissa Câmara Duarte,larissacamaraduarte@example.com,Curitiba,PR,2025-08-16,
+1201,Maria Isis Aragão Porto,maria_isis_aragao_porto@example.com,Florianópolis,SC,2025-08-16,Marketplace
+1202,Melissa Campos Rodrigues,melissa.campos.rodrigues@example.com,Niterói,RJ,2025-08-16,Indicação
+1203,Ana Cecília Rocha Vieira,anaceciliarochavieira@example.com,São Luís,MA,2025-08-16,Instagram
+1204,Ester da Conceição Aparecida,ester_da_conceicao_aparecida@example.com,Manaus,AM,2025-08-16,Indicação
+1205,Anthony Borges Casa Grande,anthonyborgescasagrande@example.com,Rio de Janeiro,RJ,2025-08-16,Instagram
+1206,Bárbara Leão Pires,barbara.leao.pires@example.com,Salvador,BA,2025-08-16,Instagram
+1207,Clarice da Rosa Sá,clarice_da_rosa_sa@example.com,Belo Horizonte,MG,2025-08-17,TikTok
+1208,Arthur Gabriel da Costa Costela,arthur.gabriel.da.costa.costela@example.com,Santos,SP,2025-08-17,Instagram
+1209,Luara Costa Pires,luara.costa.pires@example.com,Goiânia,GO,2025-08-17,Indicação
+1210,Dom Casa Grande Sá,dom_casa_grande_sa@example.com,Araguaína,TO,2025-08-18,Google
+1211,Giovanna Peixoto Moura,giovannapeixotomoura@example.com,Belo Horizonte,MG,2025-08-18,Indicação
+1212,Brayan Sá Ramos,brayan.sa.ramos@example.com,Recife,PE,2025-08-18,Indicação
+1213,Pedro Miguel Machado Freitas,pedro_miguel_machado_freitas@example.com,Petrópolis,RJ,2025-08-18,Orgânico
+1214,Maria Sophia Moraes Vasconcelos,maria.sophia.moraes.vasconcelos@example.com,Brasília,DF,2025-08-18,Instagram
+1215,Alexia Teixeira Macedo,alexiateixeiramacedo@example.com,Boa Vista,RR,2025-08-18,Instagram
+1216,Pedro Miguel Freitas Barros,pedromiguelfreitasbarros@example.com,Goiânia,GO,2025-08-18,Google
+1217,Ísis Brito Aragão,isis.brito.aragao@example.com,Salvador,BA,2025-08-19,TikTok
+1218,Sofia Novais Peixoto,sofianovaispeixoto@example.com,Caxias do Sul,RS,2025-08-19,Instagram
+1219,Luiz Felipe Silva Macedo,luiz.felipe.silva.macedo@example.com,Rio de Janeiro,RJ,2025-08-19,Orgânico
+1220,Luana Montenegro Araújo,luanamontenegroaraujo@example.com,Campinas,SP,2025-08-19,Google
+1221,Antonella Peixoto Câmara,antonella_peixoto_camara@example.com,Caxias,MA,2025-08-19,Instagram
+1222,Benjamim Costela Cavalcante,benjamimcostelacavalcante@example.com,Goiânia,GO,2025-08-19,Instagram
+1223,Caleb Porto Rocha,caleb.porto.rocha@example.com,Niterói,RJ,2025-08-19,Orgânico
+1224,Breno da Rosa Monteiro,brenodarosamonteiro@example.com,São Paulo,SP,2025-08-20,Indicação
+1225,Eloah Moraes Monteiro,eloahmoraesmonteiro@example.com,Palmas,TO,2025-08-20,Instagram
+1226,Aylla da Mota da Luz,aylladamotadaluz@example.com,Salvador,BA,2025-08-20,Marketplace
+1227,Maria Luísa Freitas Novaes,maria_luisa_freitas_novaes@example.com,Teresina,PI,2025-08-21,Instagram
+1228,João Lucas Duarte Pimenta,joao.lucas.duarte.pimenta@example.com,fortaleza,CE,2025-08-21,Marketplace
+1229,Noah Moreira Pereira,noahmoreirapereira@example.com,Macapá,AP,2025-08-21,Google
+1230,Ayla Caldeira Santos,aylacaldeirasantos@example.com,São Paulo,SP,2025-08-21,Instagram
+1231,Sarah Albuquerque Rios,sarah.albuquerque.rios@example.com,São Paulo,SP,2025-08-22,Instagram
+1232,Stephany Melo da Costa,stephanymelodacosta@example.com,Salvador,BA,2025-08-22,Orgânico
+1233,Maria Júlia Albuquerque Cavalcanti,mariajuliaalbuquerquecavalcanti@example.com,Brasília,DF,2025-08-22,Orgânico
+1234,Yan da Cruz Câmara,yandacruzcamara@example.com,Porto Alegre,RS,2025-08-23,Instagram
+1235,Melina Gonçalves Ramos,melina_goncalves_ramos@example.com,Caxias do Sul,RS,2025-08-23,Instagram
+1236,Diego Rodrigues da Conceição,diego_rodrigues_da_conceicao@example.com,Goiânia,GO,2025-08-23,Instagram
+1237,Nicole Abreu Aparecida,nicoleabreuaparecida@example.com,Brasília,DF,2025-08-23,Google
+1238,Vitor Nascimento Vieira,vitor.nascimento.vieira@example.com,Niterói,RJ,2025-08-23,Marketplace
+1239,Miguel Silva Rezende,miguel_silva_rezende@example.com,Caxias do Sul,RS,2025-08-24,Google
+1240,Maitê Araújo Marques,maite_araujo_marques@example.com,Campinas,SP,2025-08-24,Orgânico
+1241,João Peixoto Garcia,joaopeixotogarcia@example.com,Sobral,CE,2025-08-25,Instagram
+1242,Luiza Guerra Souza,luiza_guerra_souza@example.com,João Pessoa,PB,2025-08-25,
+1243,Enzo Porto Nascimento,enzoportonascimento@example.com,Fortaleza,CE,2025-08-25,Google
+1244,Theo Barbosa Macedo,theobarbosamacedo@example.com,Petrópolis,RJ,2025-08-26,Instagram
+1245,Lunna Fernandes Cirino,lunna.fernandes.cirino@example.com,Manaus,AM,2025-08-26,Indicação
+1246,Ana Carolina Almeida Ribeiro,ana_carolina_almeida_ribeiro@example.com,Sobral,CE,2025-08-26,TikTok
+1247,Mariana Dias Mendes,marianadiasmendes@example.com,João Pessoa,PB,2025-08-26,TikTok
+1248,Leonardo da Mata da Paz,leonardodamatadapaz@example.com,Santos,SP,2025-08-27,
+1249,Diogo Marques Leão,diogomarquesleao@example.com,Aracaju,SE,2025-08-27,Indicação
+1250,Levi Macedo Nogueira,levi_macedo_nogueira@example.com,Santana,AP,2025-08-28,
+1251,Maria Laura Pimenta Vargas,marialaurapimentavargas@example.com,Manaus,AM,2025-08-29,Instagram
+1252,Isadora Azevedo Casa Grande,isadora.azevedo.casa.grande@example.com,Cuiabá,MT,2025-08-29,Instagram
+1253,Mathias Vasconcelos Ferreira,mathias.vasconcelos.ferreira@example.com,Parnamirim,RN,2025-08-29,Instagram
+1254,Sara Andrade Ribeiro,SARA.ANDRADE.RIBEIRO@EXAMPLE.COM,Feira de Santana,BA,2025-08-29,Instagram
+1255,Lorenzo da Mata Machado,lorenzo_da_mata_machado@example.com,Rio de Janeiro,RJ,2025-08-29,Orgânico
+1256,Laís Barros Lopes,lais.barros.lopes@example.com,Parintins,AM,2025-08-29,Instagram
+1257,João Guilherme Leão Caldeira,joao_guilherme_leao_caldeira@example.com,Manaus,AM,2025-08-29,TikTok
+1258,Luiz Miguel Cunha Fernandes,luiz.miguel.cunha.fernandes@example.com,Santana,AP,2025-08-30,Instagram
+1259,Amanda Fonseca Rocha,amanda_fonseca_rocha@example.com,São Paulo,SP,2025-08-30,TikTok
+1260,Maria Helena Moura da Cunha,maria.helena.moura.da.cunha@example.com,Cuiabá,MT,2025-08-31,Orgânico
+1261,Liz Oliveira Guerra,liz_oliveira_guerra@example.com,Juiz de Fora,MG,2025-08-31,Google
+1262,Bento Monteiro Pires,bentomonteiropires@example.com,Juiz de Fora,MG,2025-08-31,Instagram
+1263,Paulo Costela da Mota,paulocosteladamota@example.com,Ribeirão Preto,SP,2025-08-31,Orgânico
+1264,Rebeca Costa Fogaça,rebeca_costa_fogaca@example.com,Juiz de Fora,MG,2025-08-31,Instagram
+1265,Carolina Camargo Moraes,carolina_camargo_moraes@example.com,Ribeirão Preto,SP,2025-08-31,Indicação
+1266,Vitória Araújo Souza,vitoria_araujo_souza@example.com,Juiz de Fora,MG,2025-09-01,TikTok
+1267,Asafe Teixeira Rocha,asafeteixeirarocha@example.com,Petrópolis,RJ,2025-09-01,Marketplace
+1268,Antony Albuquerque Rocha,antony.albuquerque.rocha@example.com,Macapá,AP,2025-09-01,Orgânico
+1269,Catarina Cunha Jesus,catarina.cunha.jesus@example.com,Imperatriz,MA,2025-09-02,Instagram
+1270,Gabriela Fonseca Pastor,gabriela.fonseca.pastor@example.com,Imperatriz,MA,2025-09-02,Instagram
+1271,Benjamim das Neves Oliveira,benjamim_das_neves_oliveira@example.com,Belo Horizonte,MG,2025-09-03,Indicação
+1272,Gustavo Caldeira Dias,gustavo.caldeira.dias@example.com,Campinas,SP,2025-09-03,Instagram
+1273,Raquel Pinto Gonçalves,raquelpintogoncalves@example.com,Rio Branco,AC,2025-09-03,Instagram
+1274,Anna Liz Sá Macedo,anna_liz_sa_macedo@example.com,Petrolina,PE,2025-09-04,Google
+1275,Théo Vargas Freitas,theo.vargas.freitas@example.com,Juiz de Fora,MG,2025-09-04,Instagram
+1276,Maitê Viana Sampaio,maite.viana.sampaio@example.com,Rio Branco,AC,2025-09-04,Google
+1277,José Pedro Porto da Luz,jose_pedro_porto_da_luz@example.com,Curitiba,PR,2025-09-05,Instagram
+1278,Isabelly Rios Rezende,isabellyriosrezende@example.com,Arapiraca,AL,2025-09-06,Instagram
+1279,Bernardo Pimenta Pinto,bernardo_pimenta_pinto@example.com,Uberlândia,MG,2025-09-06,Orgânico
+1280,Lara Viana Rodrigues,lara.viana.rodrigues@example.com,Ilhéus,BA,2025-09-06,Instagram
+1281,Noah Leão Gomes,noah.leao.gomes@example.com,Caruaru,PE,2025-09-07,Marketplace
+1282,Guilherme Barbosa Nascimento,guilherme.barbosa.nascimento@example.com,cuiaba,MT,2025-09-08,Google
+1283,Bryan Siqueira Fogaça,bryan.siqueira.fogaca@example.com,São Paulo,SP,2025-09-08,Google
+1284,Aurora da Cruz Teixeira,aurora.da.cruz.teixeira@example.com,Florianópolis,SC,2025-09-08,Orgânico
+1285,Rafael Vargas da Rocha,rafaelvargasdarocha@example.com,Porto Alegre,RS,2025-09-09,Indicação
+1286,Maria Júlia Rios Camargo,maria_julia_rios_camargo@example.com,São Paulo,SP,2025-09-09,Google
+1287,Eloá Porto Marques,eloa_porto_marques@example.com,Cuiabá,MT,2025-09-09,Instagram
+1288,João Guilherme da Cunha Aragão,joao_guilherme_da_cunha_aragao@example.com,Londrina,PR,2025-09-09,Marketplace
+1289,Maria Alice Fernandes Fonseca,mariaalicefernandesfonseca@example.com,Recife,PE,2025-09-10,Instagram
+1290,Raul Brito Silveira,raul.brito.silveira@example.com,Rio de Janeiro,RJ,2025-09-10,Marketplace
+1291,Ravi da Paz Santos,ravi.da.paz.santos@example.com,Macapá,AP,2025-09-11,Google
+1292,Natália Cunha Cassiano,natalia_cunha_cassiano@example.com,Natal,RN,2025-09-11,Instagram
+1293,Maria Julia Andrade da Paz,mariajuliaandradedapaz@example.com,Parintins,AM,2025-09-11,Instagram
+1294,Davi Lucca Costa Ramos,davi.lucca.costa.ramos@example.com,Rio de Janeiro,RJ,2025-09-11,TikTok
+1295,Oliver Pastor Cunha,oliverpastorcunha@example.com,Brasília,DF,2025-09-12,Marketplace
+1296,Maria Sophia Martins Costela,maria_sophia_martins_costela@example.com,Joinville,SC,2025-09-12,Google
+1297,Maria Luiza Cavalcante Moura,maria.luiza.cavalcante.moura@example.com,Vitória da Conquista,BA,2025-09-12,Orgânico
+1298,Renan Ferreira Dias,renan.ferreira.dias@example.com,Rio de Janeiro,RJ,2025-09-12,Orgânico
+1299,Pietro Souza Ramos,pietro.souza.ramos@example.com,São Paulo,SP,2025-09-12,Orgânico
+1300,Igor Brito da Costa, igorbritodacosta@example.com ,Imperatriz,MA,2025-09-13,Instagram
+1301,Leonardo Nascimento Duarte,leonardo_nascimento_duarte@example.com,Manaus,AM,2025-09-13,Instagram
+1302,Caio Jesus Fonseca,caio_jesus_fonseca@example.com,Aracaju,SE,2025-09-14,Indicação
+1303,Maria Isis da Paz Nascimento,maria_isis_da_paz_nascimento@example.com,Manaus,AM,2025-09-14,Instagram
+1304,Diogo Almeida Pastor,diogo.almeida.pastor@example.com,São Paulo,SP,2025-09-14,Instagram
+1305,Maria Luiza Viana Oliveira,maria_luiza_viana_oliveira@example.com,Brasília,DF,2025-09-14,Indicação
+1306,Otávio Correia Cardoso,otavio.correia.cardoso@example.com,Brasília,DF,2025-09-14,TikTok
+1307,Yuri Guerra Casa Grande,yuri_guerra_casa_grande@example.com,São Paulo,SP,2025-09-14,TikTok
+1308,Zoe Sousa Pereira,zoe.sousa.pereira@example.com,Juazeiro do Norte,CE,2025-09-14,Indicação
+1309,Miguel Oliveira Oliveira,miguel_oliveira_oliveira@example.com,Rio de Janeiro,RJ,2025-09-14,Google
+1310,Ayla Camargo Vargas,aylacamargovargas@example.com,Ananindeua,PA,2025-09-15,Instagram
+1311,Maysa Alves Garcia,maysaalvesgarcia@example.com,Santos,SP,2025-09-15,Instagram
+1312,Eloah Gomes Melo,eloah.gomes.melo@example.com,Caxias do Sul,RS,2025-09-15,Indicação
+1313,Anthony Gabriel Teixeira Castro,anthony_gabriel_teixeira_castro@example.com,Macapá,AP,2025-09-16,Google
+1314,Vitor Alves Cirino,vitor_alves_cirino@example.com,São Luís,MA,2025-09-16,Indicação
+1315,Isadora Araújo Cavalcante,isadora.araujo.cavalcante@example.com,Aracaju,SE,2025-09-17,Google
+1316,Isis Campos Nunes,isis_campos_nunes@example.com,Salvador,BA,2025-09-17,Google
+1317,Benjamin Dias Brito,benjamindiasbrito@example.com,São Paulo,SP,2025-09-17,Orgânico
+1318,Enzo Gabriel Pacheco Brito,enzogabrielpachecobrito@example.com,Brasília,DF,2025-09-17,Orgânico
+1319,Thiago da Luz Nascimento,thiagodaluznascimento@example.com,Campinas,SP,2025-09-17,Google
+1320,Bárbara Caldeira Borges,barbaracaldeiraborges@example.com,São Paulo,SP,2025-09-18,Marketplace
+1321,Ana Júlia Barros da Cruz,ana.julia.barros.da.cruz@example.com,sao paulo,SP,2025-09-18,Marketplace
+1322,Kamilly Fernandes Viana,kamillyfernandesviana@example.com,Fortaleza,CE,2025-09-18,Orgânico
+1323,Anthony Pires Siqueira,anthonypiressiqueira@example.com,belem,PA,2025-09-18,Instagram
+1324,Bryan das Neves Fonseca,bryandasnevesfonseca@example.com,Recife,PE,2025-09-19,Instagram
+1325,Evelyn Cassiano Rodrigues,evelyncassianorodrigues@example.com,Parnaíba,PI,2025-09-19,Marketplace
+1326,Maysa Almeida Borges,maysa_almeida_borges@example.com,Niterói,RJ,2025-09-19,Instagram
+1327,Léo Correia Cunha,leo_correia_cunha@example.com,Uberlândia,MG,2025-09-20,Instagram
+1328,Julia Farias Duarte,julia.farias.duarte@example.com,Niterói,RJ,2025-09-20,Indicação
+1329,Rodrigo Cunha Pacheco,rodrigo.cunha.pacheco@example.com,Belém,PA,2025-09-20,TikTok
+1330,Luiz Felipe Peixoto Albuquerque,luiz_felipe_peixoto_albuquerque@example.com,Manaus,AM,2025-09-20,Instagram
+1331,Benjamin Rodrigues Siqueira,benjamin_rodrigues_siqueira@example.com,Florianópolis,SC,2025-09-20,Marketplace
+1332,Maria Cecília Azevedo Camargo,maria.cecilia.azevedo.camargo@example.com,Teresina,PI,2025-09-21,Indicação
+1333,Lorena Caldeira Albuquerque,lorena_caldeira_albuquerque@example.com,Goiânia,GO,2025-09-21,Indicação
+1334,Lucas Machado Martins,lucas.machado.martins@example.com,Uberlândia,MG,2025-09-21,Instagram
+1335,Liz Gomes Abreu,liz.gomes.abreu@example.com,Salvador,BA,2025-09-22,Instagram
+1336,Juan Nunes Pastor,juan.nunes.pastor@example.com,mossoro,RN,2025-09-22,Marketplace
+1337,Emanuella Silva Machado,emanuellasilvamachado@example.com,São Paulo,SP,2025-09-22,Google
+1338,Thomas Abreu Farias,thomas_abreu_farias@example.com,João Pessoa,PB,2025-09-22,Instagram
+1339,Maria Vitória Mendes Cunha,maria_vitoria_mendes_cunha@example.com,Cuiabá,MT,2025-09-23,Google
+1340,Stephany Rodrigues Silveira,STEPHANY.RODRIGUES.SILVEIRA@EXAMPLE.COM,Sobral,CE,2025-09-23,Google
+1341,Alexandre Vasconcelos Rocha,alexandre.vasconcelos.rocha@example.com,Curitiba,PR,2025-09-23,TikTok
+1342,Heloisa Fernandes Rios,heloisa_fernandes_rios@example.com,Ribeirão Preto,SP,2025-09-24,TikTok
+1343,Thales Costa Almeida,thales.costa.almeida@example.com,Brasília,DF,2025-09-24,Google
+1344,Gabrielly Nascimento Santos,gabrielly_nascimento_santos@example.com,Petrolina,PE,2025-09-24,Orgânico
+1345,Laura Monteiro Carvalho,laura_monteiro_carvalho@example.com,Florianópolis,SC,2025-09-25,Indicação
+1346,Maria Júlia Azevedo Borges,mariajuliaazevedoborges@example.com,Florianópolis,SC,2025-09-26,Google
+1347,Lorena Cavalcanti Cardoso,lorena_cavalcanti_cardoso@example.com,Ribeirão Preto,SP,2025-09-26,Indicação
+1348,Marcela Andrade Araújo,marcela.andrade.araujo@example.com,Arapiraca,AL,2025-09-26,Google
+1349,Guilherme Ribeiro Moreira,guilhermeribeiromoreira@example.com,Fortaleza,CE,2025-09-26,Google
+1350,Sabrina Peixoto da Paz,sabrina_peixoto_da_paz@example.com,Salvador,BA,2025-09-27,Instagram
+1351,Guilherme Moura Marques,guilhermemouramarques@example.com,Manaus,AM,2025-09-27,Orgânico
+1352,Manuela da Conceição Nascimento,manuela_da_conceicao_nascimento@example.com,Goiânia,GO,2025-09-28,Indicação
+1353,Maria Flor das Neves Castro,mariaflordasnevescastro@example.com,Ananindeua,PA,2025-09-28,TikTok
+1354,Luiz Otávio Camargo Guerra,luiz_otavio_camargo_guerra@example.com,São Paulo,SP,2025-09-28,Marketplace
+1355,Matteo Vasconcelos Silveira,matteovasconcelossilveira@example.com,São Luís,MA,2025-09-28,Google
+1356,Stephany Carvalho Gomes,stephanycarvalhogomes@example.com,Belo Horizonte,MG,2025-09-29,TikTok
+1357,Yasmin Ramos Fogaça,yasmin.ramos.fogaca@example.com,Natal,RN,2025-09-29,TikTok
+1358,Danilo Peixoto Guerra,danilopeixotoguerra@example.com,Rio de Janeiro,RJ,2025-09-29,Orgânico
+1359,João Santos Rezende,joao.santos.rezende@example.com,Ananindeua,PA,2025-09-29,Google
+1360,Théo Nascimento Vieira,theo_nascimento_vieira@example.com,Belo Horizonte,MG,2025-09-29,Orgânico
+1361,Daniela Vasconcelos Novais,daniela.vasconcelos.novais@example.com,Salvador,BA,2025-09-30,Google
+1362,Ana Luiza Fernandes Ferreira,ana.luiza.fernandes.ferreira@example.com,Mossoró,RN,2025-09-30,Indicação
+1363,Enzo Gabriel Aragão Cassiano,enzo.gabriel.aragao.cassiano@example.com,Parintins,AM,2025-09-30,Google
+1364,Guilherme Caldeira Nunes,guilherme.caldeira.nunes@example.com,Teresina,PI,2025-10-01,Indicação
+1365,Mariah Farias Fogaça,mariah.farias.fogaca@example.com,Santos,SP,2025-10-01,Google
+1366,Pietra Ferreira Cardoso,pietra_ferreira_cardoso@example.com,Rio de Janeiro,RJ,2025-10-02,Google
+1367,Olívia Campos Garcia,olivia.campos.garcia@example.com,São Paulo,SP,2025-10-02,Google
+1368,Allana Martins Pires,allanamartinspires@example.com,Recife,PE,2025-10-02,Orgânico
+1369,Zoe da Rocha Ramos,zoe.da.rocha.ramos@example.com,Santos,SP,2025-10-03,Instagram
+1370,Gabrielly Mendes Abreu,gabrielly_mendes_abreu@example.com,Joinville,SC,2025-10-04,Google
+1371,Stella Teixeira Sales,stella_teixeira_sales@example.com,Uberlândia,MG,2025-10-04,Google
+1372,João Guilherme Pires Brito,joao_guilherme_pires_brito@example.com,São Paulo,SP,2025-10-04,TikTok
+1373,Gabrielly Farias Macedo,gabrielly.farias.macedo@example.com,São Luís,MA,2025-10-04,Indicação
+1374,Julia Caldeira da Cunha,julia_caldeira_da_cunha@example.com,Rio de Janeiro,RJ,2025-10-04,Orgânico
+1375,Sofia Lima da Conceição,sofialimadaconceicao@example.com,Goiânia,GO,2025-10-04,Marketplace
+1376,Benício Montenegro Ferreira,benicio.montenegro.ferreira@example.com,vitoria da conquista,BA,2025-10-04,Instagram
+1377,Bruno Fogaça Costela,bruno_fogaca_costela@example.com,São Paulo,SP,2025-10-05,Instagram
+1378,Arthur da Luz Nascimento,arthurdaluznascimento@example.com,Petrópolis,RJ,2025-10-05,Indicação
+1379,Ana Júlia Pimenta Nascimento,ana_julia_pimenta_nascimento@example.com,São Paulo,SP,2025-10-05,Google
+1380,Matheus Camargo Farias,matheuscamargofarias@example.com,Belém,PA,2025-10-05,Indicação
+1381,Luna da Rocha Sales,luna.da.rocha.sales@example.com,Belo Horizonte,MG,2025-10-05,Instagram
+1382,Davi Luiz Ferreira da Cunha,daviluizferreiradacunha@example.com,Ananindeua,PA,2025-10-05,Instagram
+1383,Davi Luiz Rocha da Costa,davi_luiz_rocha_da_costa@example.com,Uberlândia,MG,2025-10-06,Indicação
+1384,Diogo Barros da Mata,diogo_barros_da_mata@example.com,Petrópolis,RJ,2025-10-06,Indicação
+1385,Milena Moura Leão,milenamouraleao@example.com,Olinda,PE,2025-10-07,TikTok
+1386,Gustavo Henrique Vargas Pacheco,gustavo.henrique.vargas.pacheco@example.com,Londrina,PR,2025-10-07,Marketplace
+1387,Davi Santos Carvalho,davi.santos.carvalho@example.com,Manaus,AM,2025-10-07,Orgânico
+1388,André Vasconcelos Siqueira,andrevasconcelossiqueira@example.com,Santos,SP,2025-10-07,Orgânico
+1389,Ágatha Siqueira Pereira,agatha_siqueira_pereira@example.com,Ribeirão Preto,SP,2025-10-08,Orgânico
+1390,Levi Jesus Rezende,levi.jesus.rezende@example.com,Rio Branco,AC,2025-10-08,Google
+1391,Vitória Ramos Araújo,VITORIA_RAMOS_ARAUJO@EXAMPLE.COM,Salvador,BA,2025-10-08,Indicação
+1392,Gustavo Henrique Monteiro Casa Grande,gustavo.henrique.monteiro.casa.grande@example.com,Brasília,DF,2025-10-08,Instagram
+1393,Fernando Lopes Brito,fernando.lopes.brito@example.com,Boa Vista,RR,2025-10-09,TikTok
+1394,Maria Luiza Moura Jesus,marialuizamourajesus@example.com,Sobral,CE,2025-10-09,Google
+1395,Amanda Aparecida da Paz,AMANDA_APARECIDA_DA_PAZ@EXAMPLE.COM,Caruaru,PE,2025-10-09,Google
+1396,Agatha Sales Freitas,agatha_sales_freitas@example.com,Goiânia,GO,2025-10-09,Instagram
+1397,Theodoro Casa Grande Araújo,theodoro_casa_grande_araujo@example.com,belo horizonte,MG,2025-10-09,Google
+1398,Davi Miguel da Conceição Garcia,davimigueldaconceicaogarcia@example.com,Salvador,BA,2025-10-09,Google
+1399,Thales Sousa da Paz,thales.sousa.da.paz@example.com,Santos,SP,2025-10-09,Instagram
+1400,Alícia Ribeiro Guerra,alicia.ribeiro.guerra@example.com,Salvador,BA,2025-10-10,
+1401,Maria Alice Aragão Fonseca,maria_alice_aragao_fonseca@example.com,Rio de Janeiro,RJ,2025-10-10,Google
+1402,Kevin Monteiro Andrade,kevin.monteiro.andrade@example.com,Campo Grande,MS,2025-10-11,Instagram
+1403,Jade Silveira Cavalcante,jadesilveiracavalcante@example.com,Uberlândia,MG,2025-10-12,Orgânico
+1404,Rafaela Costela Novais,rafaela_costela_novais@example.com,Marabá,PA,2025-10-12,Marketplace
+1405,Luiz Fernando Pires Rocha,luiz.fernando.pires.rocha@example.com,Macapá,AP,2025-10-12,Marketplace
+1406,Antony Pimenta Rezende,antony.pimenta.rezende@example.com,São Luís,MA,2025-10-12,TikTok
+1407,Vinícius Fernandes Pinto,vinicius_fernandes_pinto@example.com,Olinda,PE,2025-10-13,Instagram
+1408,Raul Montenegro Novais,raulmontenegronovais@example.com,Florianópolis,SC,2025-10-13,Orgânico
+1409,Maya Novaes Moraes,maya.novaes.moraes@example.com,Belém,PA,2025-10-13,TikTok
+1410,Juan da Costa Caldeira,juandacostacaldeira@example.com,Belo Horizonte,MG,2025-10-14,Marketplace
+1411,Danilo Barbosa Rios,DANILO.BARBOSA.RIOS@EXAMPLE.COM,Rio de Janeiro,RJ,2025-10-14,Instagram
+1412,Thomas da Rocha Duarte,thomas_da_rocha_duarte@example.com,Belém,PA,2025-10-15,TikTok
+1413,Bianca Gomes Sá,bianca_gomes_sa@example.com,Londrina,PR,2025-10-15,Orgânico
+1414,Emanuella Dias Lima,emanuelladiaslima@example.com,Caruaru,PE,2025-10-15,Instagram
+1415,Caleb Aragão Novaes, caleb_aragao_novaes@example.com ,Brasília,DF,2025-10-16,Instagram
+1416,Thales Porto da Mota,thales.porto.da.mota@example.com,Santos,SP,2025-10-17,Indicação
+1417,Emanuel da Cunha Costa,emanuel.da.cunha.costa@example.com,Santana,AP,2025-10-17,Indicação
+1418,Júlia Leão Novais,julia_leao_novais@example.com,Salvador,BA,2025-10-17,Indicação
+1419,Sarah Aparecida da Conceição,sarah_aparecida_da_conceicao@example.com,Itacoatiara,AM,2025-10-17,Instagram
+1420,Calebe Peixoto Aragão,calebepeixotoaragao@example.com,Campinas,SP,2025-10-17,Instagram
+1421,Catarina Sampaio Azevedo,catarinasampaioazevedo@example.com,Teresina,PI,2025-10-18,Instagram
+1422,Ana Beatriz Martins Campos,ana_beatriz_martins_campos@example.com,Aracaju,SE,2025-10-18,Google
+1423,Calebe Novaes Lopes,calebenovaeslopes@example.com,Niterói,RJ,2025-10-18,Google
+1424,Henry Leão Pacheco,henryleaopacheco@example.com,Ribeirão Preto,SP,2025-10-19,Google
+1425,Nina Moreira Sampaio,nina.moreira.sampaio@example.com,sao paulo,SP,2025-10-21,Orgânico
+1426,João Felipe da Luz Camargo,joaofelipedaluzcamargo@example.com,Maceió,AL,2025-10-22,Google
+1427,Melina Moreira Gomes,melina.moreira.gomes@example.com,caxias do sul,RS,2025-10-22,Instagram
+1428,Gabrielly Barros Vargas,gabrielly_barros_vargas@example.com,São Paulo,SP,2025-10-22,Google
+1429,Ana Carolina Leão Barros,ana_carolina_leao_barros@example.com,Imperatriz,MA,2025-10-22,Google
+1430,Isaac da Paz Camargo, isaac.da.paz.camargo@example.com ,São Paulo,SP,2025-10-22,Orgânico
+1431,Vinícius Andrade Caldeira,viniciusandradecaldeira@example.com,macapa,AP,2025-10-24,TikTok
+1432,Pietro Rezende Azevedo,pietro_rezende_azevedo@example.com,São Luís,MA,2025-10-24,Indicação
+1433,Yago Sampaio Teixeira,yago.sampaio.teixeira@example.com,Salvador,BA,2025-10-24,Instagram
+1434,Maria Liz Cassiano Marques,marializcassianomarques@example.com,Porto Alegre,RS,2025-10-24,Orgânico
+1435,Diogo Aparecida Lima,diogo.aparecida.lima@example.com,Campinas,SP,2025-10-24,Google
+1436,Vitor Hugo Caldeira Cardoso,vitor.hugo.caldeira.cardoso@example.com,Rio de Janeiro,RJ,2025-10-24,Indicação
+1437,Caleb Azevedo da Luz,caleb_azevedo_da_luz@example.com,Uberlândia,MG,2025-10-24,Indicação
+1438,Isadora Moura Barros,isadoramourabarros@example.com,São Luís,MA,2025-10-25,Marketplace
+1439,Giovanna Vasconcelos Sá,giovannavasconcelossa@example.com,Belo Horizonte,MG,2025-10-25,Orgânico
+1440,Nicole Correia Souza,nicole_correia_souza@example.com,Teresina,PI,2025-10-25,Google
+1441,Theodoro Alves Borges,theodoro_alves_borges@example.com,Porto Alegre,RS,2025-10-26,Instagram
+1442,Luiz Miguel Rios Nunes,luizmiguelriosnunes@example.com,Porto Alegre,RS,2025-10-26,
+1443,Juliana Campos Ferreira,julianacamposferreira@example.com,Uberlândia,MG,2025-10-26,Orgânico
+1444,Augusto Casa Grande Pastor,augusto_casa_grande_pastor@example.com,Maceió,AL,2025-10-27,Google
+1445,Heitor Monteiro Costa,heitormonteirocosta@example.com,Belo Horizonte,MG,2025-10-27,
+1446,Cauê Rios Araújo,caue_rios_araujo@example.com,Rio Branco,AC,2025-10-28,Instagram
+1447,Danilo Vasconcelos Cavalcanti,danilo_vasconcelos_cavalcanti@example.com,São Paulo,SP,2025-10-28,Orgânico
+1448,Ana Clara Alves Aparecida,anaclaraalvesaparecida@example.com,Aracaju,SE,2025-10-29,TikTok
+1449,Maria Eduarda Santos Costela,mariaeduardasantoscostela@example.com,Campinas,SP,2025-10-29,TikTok
+1450,Stella Ferreira Jesus, stella.ferreira.jesus@example.com ,Cuiabá,MT,2025-10-29,Orgânico
+1451,Yago Cavalcante da Cunha,yago_cavalcante_da_cunha@example.com,Itacoatiara,AM,2025-10-30,Google
+1452,Larissa Costa Ramos,larissa_costa_ramos@example.com,Recife,PE,2025-10-30,Orgânico
+1453,Bella Cardoso Rios,bellacardosorios@example.com,Porto Alegre,RS,2025-10-31,Instagram
+1454,Melina Peixoto Nascimento,melina.peixoto.nascimento@example.com,São Luís,MA,2025-10-31,Indicação
+1455,Ana Carolina Porto Casa Grande,ana.carolina.porto.casa.grande@example.com,Curitiba,PR,2025-10-31,Indicação
+1456,Agatha Barros das Neves,agatha_barros_das_neves@example.com,Manaus,AM,2025-11-01,Indicação
+1457,Bianca Sales da Costa,bianca_sales_da_costa@example.com,São Paulo,SP,2025-11-01,Google
+1458,Vinicius Montenegro Teixeira,vinicius.montenegro.teixeira@example.com,Itacoatiara,AM,2025-11-02,Marketplace
+1459,Rhavi da Cruz Aragão,rhavi.da.cruz.aragao@example.com,São Paulo,SP,2025-11-02,Instagram
+1460,Daniel Teixeira Câmara,daniel.teixeira.camara@example.com,Campinas,SP,2025-11-02,TikTok
+1461,Maitê Dias Campos,maite_dias_campos@example.com,Santos,SP,2025-11-02,Google
+1462,Leonardo Barros Rezende,leonardo_barros_rezende@example.com,salvador,BA,2025-11-02,Marketplace
+1463,Arthur Silveira Casa Grande,arthur_silveira_casa_grande@example.com,Uberlândia,MG,2025-11-03,Marketplace
+1464,José Dias Ramos,jose_dias_ramos@example.com,Porto Velho,RO,2025-11-03,Indicação
+1465,Maria Mendonça Duarte,maria_mendonca_duarte@example.com,Porto Velho,RO,2025-11-03,Indicação
+1466,Esther da Luz Pacheco, estherdaluzpacheco@example.com ,Ananindeua,PA,2025-11-03,Orgânico
+1467,Clarice Nogueira Fernandes,clarice_nogueira_fernandes@example.com,Campina Grande,PB,2025-11-04,Google
+1468,Cauã Nunes Novais,caua_nunes_novais@example.com,Parintins,AM,2025-11-04,Instagram
+1469,Leandro Garcia Silva,leandro.garcia.silva@example.com,Castanhal,PA,2025-11-04,Marketplace
+1470,Stephany Cavalcanti Vasconcelos,stephany.cavalcanti.vasconcelos@example.com,Santos,SP,2025-11-04,Google
+1471,Emanuel Novaes da Rocha,emanuel.novaes.da.rocha@example.com,Natal,RN,2025-11-05,TikTok
+1472,Ana Clara Marques Dias,ana_clara_marques_dias@example.com,Rio de Janeiro,RJ,2025-11-05,Marketplace
+1473,Yago Macedo Ribeiro,yago_macedo_ribeiro@example.com,Aracaju,SE,2025-11-05,Marketplace
+1474,Gabrielly da Mota Sá, gabrielly.da.mota.sa@example.com ,Sorocaba,SP,2025-11-06,Orgânico
+1475,Ísis Cardoso da Paz,isis.cardoso.da.paz@example.com,Ananindeua,PA,2025-11-06,Orgânico
+1476,Arthur Gabriel Fogaça Viana,arthur.gabriel.fogaca.viana@example.com,Santarém,PA,2025-11-06,Orgânico
+1477,Gabriela Guerra da Costa,gabriela.guerra.da.costa@example.com,Aracaju,SE,2025-11-06,Instagram
+1478,Gabriela Nunes Mendes,gabriela_nunes_mendes@example.com,Porto Alegre,RS,2025-11-06,Orgânico
+1479,Alícia Peixoto das Neves,alicia_peixoto_das_neves@example.com,Itacoatiara,AM,2025-11-07,Marketplace
+1480,Noah Silva Pacheco,noahsilvapacheco@example.com,Parintins,AM,2025-11-07,TikTok
+1481,Henry Gabriel da Costa Monteiro,henry.gabriel.da.costa.monteiro@example.com,Uberlândia,MG,2025-11-07,Google
+1482,Kaique Cavalcanti Andrade,kaique.cavalcanti.andrade@example.com,Joinville,SC,2025-11-07,Google
+1483,Vinícius Cardoso Castro,viniciuscardosocastro@example.com,Macapá,AP,2025-11-07,Indicação
+1484,Arthur Gabriel Gomes Rocha,arthur.gabriel.gomes.rocha@example.com,Caxias,MA,2025-11-07,Google
+1485,Asafe Aragão Viana,asafe.aragao.viana@example.com,sao paulo,SP,2025-11-08,Orgânico
+1486,Ana Santos da Mata,ana_santos_da_mata@example.com,Aracaju,SE,2025-11-08,Marketplace
+1487,Maria Júlia Moreira Marques,mariajuliamoreiramarques@example.com,Palmas,TO,2025-11-09,Google
+1488,Júlia Farias Silva,julia.farias.silva@example.com,Fortaleza,CE,2025-11-09,Indicação
+1489,Henrique Rocha Cavalcante,henrique_rocha_cavalcante@example.com,Fortaleza,CE,2025-11-09,Google
+1490,Rael Rocha Silveira,RAELROCHASILVEIRA@EXAMPLE.COM,Belo Horizonte,MG,2025-11-11,Google
+1491,Helena da Paz da Cunha,helenadapazdacunha@example.com,Campina Grande,PB,2025-11-11,Indicação
+1492,Paulo Costa Nascimento,paulo.costa.nascimento@example.com,Uberlândia,MG,2025-11-11,Google
+1493,Alexia da Rosa da Costa,alexia_da_rosa_da_costa@example.com,São Paulo,SP,2025-11-11,Orgânico
+1494,Calebe da Cruz Sousa,calebe_da_cruz_sousa@example.com,Belém,PA,2025-11-12,Instagram
+1495,Liz Cunha Monteiro,liz.cunha.monteiro@example.com,Sobral,CE,2025-11-13,Indicação
+1496,Evelyn Moraes Moraes,evelyn_moraes_moraes@example.com,Rio Branco,AC,2025-11-13,TikTok
+1497,José Montenegro Pastor,jose.montenegro.pastor@example.com,São Paulo,SP,2025-11-14,Marketplace
+1498,Maria Helena Monteiro das Neves,mariahelenamonteirodasneves@example.com,ribeirao preto,SP,2025-11-14,Google
+1499,Calebe Teixeira Abreu,calebe_teixeira_abreu@example.com,São Luís,MA,2025-11-14,Marketplace
+1500,Lorena Moreira Leão,lorena.moreira.leao@example.com,Campinas,SP,2025-11-14,Marketplace
+1501,Thales da Rosa Andrade,thales_da_rosa_andrade@example.com,Salvador,BA,2025-11-15,Marketplace
+1502,Helena Garcia Peixoto,helenagarciapeixoto@example.com,Juazeiro do Norte,CE,2025-11-17,Indicação
+1503,Kaique Cavalcante Duarte,kaiquecavalcanteduarte@example.com,Curitiba,PR,2025-11-17,TikTok
+1504,Gael Henrique Araújo Guerra,gael_henrique_araujo_guerra@example.com,Florianópolis,SC,2025-11-18,Google
+1505,João Pedro da Conceição Martins,joao_pedro_da_conceicao_martins@example.com,Fortaleza,CE,2025-11-18,Marketplace
+1506,Maria Laura Araújo Porto,marialauraaraujoporto@example.com,São Luís,MA,2025-11-18,Orgânico
+1507,Isabella Melo Mendonça,isabella_melo_mendonca@example.com,Brasília,DF,2025-11-19,Google
+1508,Yasmin Vieira Almeida,yasmin_vieira_almeida@example.com,Parnaíba,PI,2025-11-20,TikTok
+1509,Rodrigo da Luz Costela,rodrigodaluzcostela@example.com,Jaboatão dos Guararapes,PE,2025-11-20,Google
+1510,Ana Sophia Lopes Pereira,ana.sophia.lopes.pereira@example.com,Brasília,DF,2025-11-21,Google
+1511,Zoe Pereira Câmara,zoepereiracamara@example.com,Maceió,AL,2025-11-21,Instagram
+1512,Alexia da Rosa Rodrigues,alexia.da.rosa.rodrigues@example.com,Santos,SP,2025-11-21,Indicação
+1513,Ana Julia Albuquerque Santos,ana_julia_albuquerque_santos@example.com,Rio de Janeiro,RJ,2025-11-22,Google
+1514,Marcos Vinicius Duarte Pereira,marcos_vinicius_duarte_pereira@example.com,Olinda,PE,2025-11-22,Indicação
+1515,Lucas Silveira Macedo,lucas.silveira.macedo@example.com,Florianópolis,SC,2025-11-22,Google
+1516,Luiz Gustavo Duarte Araújo,luizgustavoduartearaujo@example.com,Maceió,AL,2025-11-22,Indicação
+1517,Lara Pastor Mendes,larapastormendes@example.com,Niterói,RJ,2025-11-23,Orgânico
+1518,Thales Viana Câmara,thales.viana.camara@example.com,Recife,PE,2025-11-23,Google
+1519,Ryan Sá Fernandes,ryansafernandes@example.com,João Pessoa,PB,2025-11-23,
+1520,Gael Henrique Teixeira Costela,gaelhenriqueteixeiracostela@example.com,Florianópolis,SC,2025-11-24,Instagram
+1521,Ana Júlia Vieira da Mota,ana_julia_vieira_da_mota@example.com,Arapiraca,AL,2025-11-24,Google
+1522,João Guilherme Andrade da Paz,joao.guilherme.andrade.da.paz@example.com,Belo Horizonte,MG,2025-11-24,Instagram
+1523,Mariah Vieira Mendes,mariahvieiramendes@example.com,Belém,PA,2025-11-24,Orgânico
+1524,Ana Julia Rodrigues Peixoto,ana_julia_rodrigues_peixoto@example.com,Manaus,AM,2025-11-25,Google
+1525,Valentim Cavalcante Freitas,valentimcavalcantefreitas@example.com,Ribeirão Preto,SP,2025-11-25,Instagram
+1526,Ana Laura Cavalcante Azevedo,ana_laura_cavalcante_azevedo@example.com,Nossa Senhora do Socorro,SE,2025-11-25,Google
+1527,Alana Gomes Carvalho,ALANA_GOMES_CARVALHO@EXAMPLE.COM,Goiânia,GO,2025-11-26,Indicação
+1528,Antony Martins da Paz,antony_martins_da_paz@example.com,Salvador,BA,2025-11-27,Google
+1529,Ana Julia Mendonça Vieira,anajuliamendoncavieira@example.com,Porto Velho,RO,2025-11-27,Indicação
+1530,Laís Costela Leão,lais.costela.leao@example.com,Goiânia,GO,2025-11-27,TikTok
+1531,Heitor Souza Novaes,heitor_souza_novaes@example.com,São Luís,MA,2025-11-28,Instagram
+1532,Gabriel Novais Rocha,gabriel.novais.rocha@example.com,feira de santana,BA,2025-11-28,Marketplace
+1533,Ian Almeida Fernandes,ian.almeida.fernandes@example.com,Ilhéus,BA,2025-11-28,Marketplace
+1534,Esther Rodrigues Pires,estherrodriguespires@example.com,Petrolina,PE,2025-11-28,Marketplace
+1535,Mariana Santos Nunes,marianasantosnunes@example.com,Belo Horizonte,MG,2025-11-29,Marketplace
+1536,Stella da Paz Almeida,stella.da.paz.almeida@example.com,Rio de Janeiro,RJ,2025-11-29,
+1537,Rodrigo Freitas Mendonça,rodrigo_freitas_mendonca@example.com,Niterói,RJ,2025-11-29,Marketplace
+1538,Davi Miguel Rios Farias,davi.miguel.rios.farias@example.com,Fortaleza,CE,2025-11-30,Google
+1539,Levi Freitas das Neves,levi_freitas_das_neves@example.com,Boa Vista,RR,2025-11-30,TikTok
+1540,Bruna Vieira Casa Grande,brunavieiracasagrande@example.com,Ananindeua,PA,2025-11-30,Instagram
+1541,Mathias Fonseca Novaes,mathias.fonseca.novaes@example.com,Uberlândia,MG,2025-11-30,Google
+1542,Isabel Mendonça Casa Grande,isabel_mendonca_casa_grande@example.com,Fortaleza,CE,2025-11-30,Google
+1543,Alice Vasconcelos Sales,alice_vasconcelos_sales@example.com,Manaus,AM,2025-11-30,Google
+1544,Luiza da Conceição Barbosa,luiza_da_conceicao_barbosa@example.com,Curitiba,PR,2025-12-01,Marketplace
+1545,Luiz Gustavo Sales Pacheco,luizgustavosalespacheco@example.com,Olinda,PE,2025-12-01,Marketplace
+1546,Francisco Mendes Ribeiro,francisco.mendes.ribeiro@example.com,Brasília,DF,2025-12-01,TikTok
+1547,Nicole Câmara Campos,nicolecamaracampos@example.com,Sobral,CE,2025-12-02,Google
+1548,Camila Peixoto Pimenta,camilapeixotopimenta@example.com,Porto Alegre,RS,2025-12-02,Google
+1549,Sabrina Vargas Souza,sabrina_vargas_souza@example.com,Campinas,SP,2025-12-02,Instagram
+1550,Juan Borges Silva,juan_borges_silva@example.com,Brasília,DF,2025-12-03,TikTok
+1551,Julia Duarte Guerra,juliaduarteguerra@example.com,Parintins,AM,2025-12-04,Google
+1552,Vitória Araújo Azevedo,vitoria.araujo.azevedo@example.com,São Paulo,SP,2025-12-04,Instagram
+1553,Manuella Freitas Borges,manuella.freitas.borges@example.com,araguaina,TO,2025-12-04,Google
+1554,Nina Gomes Leão,nina_gomes_leao@example.com,Brasília,DF,2025-12-04,Instagram
+1555,Maria Laura Rios Fogaça,maria_laura_rios_fogaca@example.com,Fortaleza,CE,2025-12-04,Instagram
+1556,Matheus Cavalcanti Pimenta,matheus_cavalcanti_pimenta@example.com,Fortaleza,CE,2025-12-05,Orgânico
+1557,Lunna Cavalcante da Conceição,lunna_cavalcante_da_conceicao@example.com,Sobral,CE,2025-12-05,Instagram
+1558,Lorenzo Ramos Jesus,lorenzo_ramos_jesus@example.com,Santos,SP,2025-12-05,Instagram
+1559,Theo da Paz Borges,theodapazborges@example.com,Sobral,CE,2025-12-05,Instagram
+1560,Ryan Sá Martins,ryansamartins@example.com,Juazeiro do Norte,CE,2025-12-06,Indicação
+1561,Josué Moreira Cassiano,josue_moreira_cassiano@example.com,São Paulo,SP,2025-12-06,Instagram
+1562,Ana Cecília Pimenta Pastor,anaceciliapimentapastor@example.com,Petrópolis,RJ,2025-12-07,Instagram
+1563,Sabrina Andrade Barbosa,sabrina.andrade.barbosa@example.com,Manaus,AM,2025-12-08,Google
+1564,Murilo da Rocha Nunes,murilo.da.rocha.nunes@example.com,sao paulo,SP,2025-12-08,Google
+1565,Mirella Rodrigues Leão,mirellarodriguesleao@example.com,Imperatriz,MA,2025-12-09,Orgânico
+1566,Yago Campos Freitas,yago_campos_freitas@example.com,Marabá,PA,2025-12-13,TikTok
+1567,Juliana Fogaça Rios,juliana_fogaca_rios@example.com,São Paulo,SP,2025-12-14,Google
+1568,Emilly da Rosa Carvalho,emillydarosacarvalho@example.com,Olinda,PE,2025-12-15,Marketplace
+1569,Nina Fonseca Araújo,nina_fonseca_araujo@example.com,São Paulo,SP,2025-12-15,Google
+1570,Evelyn Santos Ribeiro,evelynsantosribeiro@example.com,Joinville,SC,2025-12-17,Instagram
+1571,Thomas Vargas Nascimento,thomas_vargas_nascimento@example.com,Salvador,BA,2025-12-17,Marketplace
+1572,João Felipe da Luz Siqueira,joaofelipedaluzsiqueira@example.com,Sobral,CE,2025-12-18,Instagram
+1573,Alexandre Cunha Mendes,alexandrecunhamendes@example.com,Teresina,PI,2025-12-18,Google
+1574,Luiza Vieira Porto,luizavieiraporto@example.com,São Paulo,SP,2025-12-18,Indicação
+1575,Pedro Henrique Sá Pinto,pedro_henrique_sa_pinto@example.com,Belém,PA,2025-12-19,Instagram
+1576,Mirella Machado Teixeira,mirella_machado_teixeira@example.com,Porto Alegre,RS,2025-12-20,Marketplace
+1577,Elisa Azevedo Vieira,elisa.azevedo.vieira@example.com,Parintins,AM,2025-12-21,Google
+1578,Thales Ribeiro da Costa,thales.ribeiro.da.costa@example.com,Caxias,MA,2025-12-22,Orgânico
+1579,Lunna Martins Vargas,lunna_martins_vargas@example.com,Juiz de Fora,MG,2025-12-23,TikTok
+1580,André Souza Cunha,andresouzacunha@example.com,Campina Grande,PB,2025-12-23,Google
+1581,Maria Alice Viana Costela,mariaalicevianacostela@example.com,Ananindeua,PA,2025-12-23,Marketplace
+1582,Joana Montenegro Caldeira,joana.montenegro.caldeira@example.com,Teresina,PI,2025-12-24,Instagram
+1583,Luana Gonçalves Alves,luana_goncalves_alves@example.com,Juiz de Fora,MG,2025-12-25,Instagram
+1584,Maria Sophia Fogaça Aparecida,maria.sophia.fogaca.aparecida@example.com,Feira de Santana,BA,2025-12-25,Instagram
+1585,Enzo Gabriel Borges Lopes,enzo_gabriel_borges_lopes@example.com,Campina Grande,PB,2025-12-27,Google
+1586,Danilo Melo Moura,danilo_melo_moura@example.com,São Paulo,SP,2025-12-27,
+1587,Benjamim Cardoso Albuquerque,benjamim.cardoso.albuquerque@example.com,Recife,PE,2025-12-28,Google
+1588,Breno Garcia Porto,breno_garcia_porto@example.com,Goiânia,GO,2025-12-28,Instagram
+1589,Luara Ferreira Siqueira,luara_ferreira_siqueira@example.com,Parnamirim,RN,2025-12-31,TikTok
+1590,Pietra Correia Barros,pietracorreiabarros@example.com,Campinas,SP,2026-01-01,Instagram
+1591,João Miguel Ferreira das Neves,joaomiguelferreiradasneves@example.com,Mossoró,RN,2026-01-04,Indicação
+1592,Ana Sophia Albuquerque Santos, ana_sophia_albuquerque_santos@example.com ,Parnaíba,PI,2026-01-04,Instagram
+1593,Lucas Sá Moraes,lucas_sa_moraes@example.com,Rio de Janeiro,RJ,2026-01-04,Indicação
+1594,Stephany Rios Cunha,stephany.rios.cunha@example.com,Goiânia,GO,2026-01-05,Orgânico
+1595,Maria Vitória Oliveira Pereira,mariavitoriaoliveirapereira@example.com,Belém,PA,2026-01-06,Orgânico
+1596,Zoe Castro Barbosa,zoe.castro.barbosa@example.com,Ananindeua,PA,2026-01-07,Instagram
+1597,Ana Clara Ribeiro Caldeira,ana.clara.ribeiro.caldeira@example.com,Salvador,BA,2026-01-09,Google
+1598,Pedro Miguel Jesus da Rosa,pedromigueljesusdarosa@example.com,porto alegre,RS,2026-01-09,Marketplace
+1599,Emilly Martins Novaes,emilly_martins_novaes@example.com,Juiz de Fora,MG,2026-01-11,Google
+1600,Calebe Camargo Cassiano,calebe.camargo.cassiano@example.com,Belo Horizonte,MG,2026-01-12,Orgânico
+1601,Ana Carolina Freitas Pimenta,ana.carolina.freitas.pimenta@example.com,Caxias do Sul,RS,2026-01-12,Google
+1602,Marina Nogueira das Neves,marina.nogueira.das.neves@example.com,Olinda,PE,2026-01-12,Instagram
+1603,Esther Pinto Dias,esther.pinto.dias@example.com,Olinda,PE,2026-01-13,Google
+1604,Vitor Hugo Pinto Pereira,vitor_hugo_pinto_pereira@example.com,Vitória da Conquista,BA,2026-01-15,Instagram
+1605,Lavínia Peixoto Azevedo, laviniapeixotoazevedo@example.com ,São Luís,MA,2026-01-16,Orgânico
+1606,Leonardo da Costa Castro,leonardodacostacastro@example.com,Florianópolis,SC,2026-01-17,TikTok
+1607,Gustavo Silva Moreira,gustavo_silva_moreira@example.com,Rio de Janeiro,RJ,2026-01-17,Marketplace
+1608,Erick Rodrigues Dias,erick_rodrigues_dias@example.com,Feira de Santana,BA,2026-01-19,Orgânico
+1609,Eduardo Fonseca da Cunha,eduardofonsecadacunha@example.com,Juiz de Fora,MG,2026-01-19,Instagram
+1610,João Vitor Cavalcante Porto,joao_vitor_cavalcante_porto@example.com,Belém,PA,2026-01-19,TikTok
+1611,Renan Cavalcante Jesus,renancavalcantejesus@example.com,Arapiraca,AL,2026-01-20,TikTok
+1612,Joana Farias Nogueira,joanafariasnogueira@example.com,João Pessoa,PB,2026-01-20,Instagram
+1613,Rhavi Santos Castro,rhavi.santos.castro@example.com,Porto Velho,RO,2026-01-20,
+1614,Maria Luísa da Rocha Souza,maria_luisa_da_rocha_souza@example.com,João Pessoa,PB,2026-01-20,TikTok
+1615,Henry Gabriel Oliveira Camargo,henrygabrieloliveiracamargo@example.com,Imperatriz,MA,2026-01-20,Google
+1616,Ryan Martins Freitas,ryanmartinsfreitas@example.com,Manaus,AM,2026-01-20,Marketplace
+1617,Luiz Henrique Montenegro Caldeira,luiz.henrique.montenegro.caldeira@example.com,Fortaleza,CE,2026-01-22,Orgânico
+1618,Valentina Leão Pastor,valentina_leao_pastor@example.com,Vitória da Conquista,BA,2026-01-22,Google
+1619,Mathias Silva Sampaio,mathias_silva_sampaio@example.com,Cuiabá,MT,2026-01-23,Orgânico
+1620,Maria Liz Abreu Farias,maria_liz_abreu_farias@example.com,Salvador,BA,2026-01-23,TikTok
+1621,Antonella Sampaio Leão,antonellasampaioleao@example.com,Londrina,PR,2026-01-24,Instagram
+1622,Fernando Castro Rodrigues,fernando.castro.rodrigues@example.com,São Paulo,SP,2026-01-26,Instagram
+1623,Rhavi Araújo da Costa,rhaviaraujodacosta@example.com,Niterói,RJ,2026-01-28,Orgânico
+1624,Ana Carolina Viana Brito,ana.carolina.viana.brito@example.com,Manaus,AM,2026-01-28,Instagram
+1625,Matteo Siqueira Nogueira,matteo_siqueira_nogueira@example.com,Caruaru,PE,2026-01-28,TikTok
+1626,Gabrielly Fernandes Alves,gabrielly.fernandes.alves@example.com,Recife,PE,2026-01-30,Indicação
+1627,Mariana Borges Moraes,mariana_borges_moraes@example.com,São Paulo,SP,2026-01-30,Orgânico
+1628,Henry Gabriel Fonseca das Neves,henry_gabriel_fonseca_das_neves@example.com,São Paulo,SP,2026-01-31,Instagram
+1629,Luana Sousa Duarte,luana_sousa_duarte@example.com,Salvador,BA,2026-02-01,Instagram
+1630,Breno Silveira Gomes,breno.silveira.gomes@example.com,Brasília,DF,2026-02-01,Indicação
+1631,Mariah Cassiano Correia,mariah_cassiano_correia@example.com,Belém,PA,2026-02-02,Marketplace
+1632,Pietro Rios Fernandes,pietro_rios_fernandes@example.com,Goiânia,GO,2026-02-02,Orgânico
+1633,Cecilia Machado da Costa,cecilia.machado.da.costa@example.com,Niterói,RJ,2026-02-02,Orgânico
+1634,Ana Sophia Araújo Aragão,ana.sophia.araujo.aragao@example.com,Aracaju,SE,2026-02-04,Orgânico
+1635,Pedro Lopes Machado,pedrolopesmachado@example.com,São Paulo,SP,2026-02-05,Orgânico
+1636,Matteo Farias da Conceição,matteofariasdaconceicao@example.com,fortaleza,CE,2026-02-06,TikTok
+1637,Luiz Fernando Vasconcelos Rodrigues,luiz_fernando_vasconcelos_rodrigues@example.com,Fortaleza,CE,2026-02-07,Google
+1638,Aurora da Paz Ramos,aurora_da_paz_ramos@example.com,Ilhéus,BA,2026-02-07,Google
+1639,Marcelo Cavalcanti Sousa,marcelo.cavalcanti.sousa@example.com,Londrina,PR,2026-02-07,Instagram
+1640,Vitor Gabriel Vasconcelos Nogueira,vitor.gabriel.vasconcelos.nogueira@example.com,Arapiraca,AL,2026-02-08,TikTok
+1641,Bianca Campos Aparecida,bianca.campos.aparecida@example.com,Santarém,PA,2026-02-08,TikTok
+1642,João Pedro Dias Silva,joao.pedro.dias.silva@example.com,Belém,PA,2026-02-08,Indicação
+1643,Fernando da Rocha Duarte,fernando.da.rocha.duarte@example.com,Belo Horizonte,MG,2026-02-09,
+1644,Ana Carolina Costela Sá,anacarolinacostelasa@example.com,Ananindeua,PA,2026-02-09,Marketplace
+1645,Sara Fonseca Barbosa,sara_fonseca_barbosa@example.com,Santos,SP,2026-02-11,Instagram
+1646,Theodoro Aragão Borges,theodoroaragaoborges@example.com,Manaus,AM,2026-02-12,Marketplace
+1647,Thomas Melo Pires,thomas_melo_pires@example.com,Belo Horizonte,MG,2026-02-12,Google
+1648,Dante Pinto Porto,DANTE.PINTO.PORTO@EXAMPLE.COM,Juazeiro do Norte,CE,2026-02-13,Instagram
+1649,Alexia Sampaio Marques,alexiasampaiomarques@example.com,Aracaju,SE,2026-02-14,Instagram
+1650,Noah Rezende Rios,noah_rezende_rios@example.com,Belo Horizonte,MG,2026-02-14,Google
+1651,Luísa Rocha Cunha,luisa_rocha_cunha@example.com,Ribeirão Preto,SP,2026-02-15,Google
+1652,Agatha da Cruz Camargo,AGATHA.DA.CRUZ.CAMARGO@EXAMPLE.COM,Caucaia,CE,2026-02-15,Orgânico
+1653,Isabella Rezende Barros,isabellarezendebarros@example.com,manaus,AM,2026-02-17,Indicação
+1654,Isabella Dias Rezende,isabella_dias_rezende@example.com,Caruaru,PE,2026-02-17,Orgânico
+1655,Luana Garcia Costa,luanagarciacosta@example.com,Brasília,DF,2026-02-17,Marketplace
+1656,Arthur Gabriel Cavalcanti da Luz,arthur.gabriel.cavalcanti.da.luz@example.com,Salvador,BA,2026-02-19,Google
+1657,Paulo Azevedo Leão,pauloazevedoleao@example.com,São Paulo,SP,2026-02-22,Orgânico
+1658,Gael Aragão da Rocha,gael_aragao_da_rocha@example.com,Manaus,AM,2026-02-22,Marketplace
+1659,Vitória Ferreira Porto,vitoriaferreiraporto@example.com,Olinda,PE,2026-02-22,Google
+1660,Thiago Correia Camargo,thiago_correia_camargo@example.com,Maceió,AL,2026-02-22,Marketplace
+1661,Luiz Otávio Pinto Ribeiro,luiz_otavio_pinto_ribeiro@example.com,Feira de Santana,BA,2026-02-23,Marketplace
+1662,Erick da Mota Machado,erickdamotamachado@example.com,Fortaleza,CE,2026-02-25,Instagram
+1663,Maria Guerra Leão,maria_guerra_leao@example.com,São Paulo,SP,2026-02-25,Instagram
+1664,Ana Laura Sales Pacheco,analaurasalespacheco@example.com,Santos,SP,2026-02-25,Instagram
+1665,Enzo Caldeira da Luz,enzo_caldeira_da_luz@example.com,Manaus,AM,2026-02-25,TikTok
+1666,Ester Cunha Macedo,ester.cunha.macedo@example.com,Sobral,CE,2026-02-26,Instagram
+1667,Stephany Gonçalves Moura,stephany.goncalves.moura@example.com,Belo Horizonte,MG,2026-02-28,
+1668,Sophie da Paz Lima,sophie.da.paz.lima@example.com,Belo Horizonte,MG,2026-02-28,Google
+1669,Anthony Gabriel Montenegro Carvalho,anthonygabrielmontenegrocarvalho@example.com,Salvador,BA,2026-02-28,Instagram
+1670,Rael da Rosa Rodrigues,rael_da_rosa_rodrigues@example.com,Parintins,AM,2026-03-01,Indicação
+1671,Luiz Miguel Vasconcelos Barros,luiz.miguel.vasconcelos.barros@example.com,São Paulo,SP,2026-03-01,Marketplace
+1672,Ana Beatriz Fogaça Freitas,anabeatrizfogacafreitas@example.com,Santarém,PA,2026-03-02,Instagram
+1673,Ana Lima Abreu,ana_lima_abreu@example.com,Feira de Santana,BA,2026-03-03,Orgânico
+1674,Stella Rodrigues Melo,STELLA.RODRIGUES.MELO@EXAMPLE.COM,Aracaju,SE,2026-03-05,Instagram
+1675,Kaique Farias Barros,kaique.farias.barros@example.com,Marabá,PA,2026-03-07,Google
+1676,Maria Isis Câmara Costa,maria.isis.camara.costa@example.com,Caxias,MA,2026-03-08,Google
+1677,Nathan Oliveira Nascimento,nathanoliveiranascimento@example.com,Rio de Janeiro,RJ,2026-03-09,Google
+1678,Lavínia Mendes Nogueira,lavinia.mendes.nogueira@example.com,Petrolina,PE,2026-03-09,Indicação
+1679,Giovanna Ferreira Pastor,giovanna_ferreira_pastor@example.com,Manaus,AM,2026-03-10,Orgânico
+1680,Otávio Nogueira Sá,otavio_nogueira_sa@example.com,Belém,PA,2026-03-12,Orgânico
+1681,Valentina Aragão Ferreira,valentinaaragaoferreira@example.com,Salvador,BA,2026-03-12,Instagram
+1682,Daniela Barbosa Gonçalves,danielabarbosagoncalves@example.com,Mossoró,RN,2026-03-12,Marketplace
+1683,Luiz Felipe Novais Cavalcante,LUIZ.FELIPE.NOVAIS.CAVALCANTE@EXAMPLE.COM,Campina Grande,PB,2026-03-12,Google
+1684,Maria Cecília Nunes Souza,mariacecilianunessouza@example.com,São Paulo,SP,2026-03-12,Instagram
+1685,Sarah Lima Camargo,sarah_lima_camargo@example.com,Salvador,BA,2026-03-13,Instagram
+1686,Guilherme Cavalcanti Aparecida,guilherme.cavalcanti.aparecida@example.com,São Paulo,SP,2026-03-13,
+1687,Cauê Cassiano Cassiano,cauecassianocassiano@example.com,Florianópolis,SC,2026-03-15,Indicação
+1688,Marcelo Porto Ribeiro,marcelo.porto.ribeiro@example.com,sao paulo,SP,2026-03-18,Google
+1689,Luna Macedo Moura,luna_macedo_moura@example.com,Brasília,DF,2026-03-19,Instagram
+1690,Sofia Carvalho Gomes,sofia.carvalho.gomes@example.com,Juiz de Fora,MG,2026-03-19,
+1691,Luiz Fernando Marques Campos,luizfernandomarquescampos@example.com,Curitiba,PR,2026-03-19,Orgânico
+1692,Nina Silveira Pinto,NINASILVEIRAPINTO@EXAMPLE.COM,Belo Horizonte,MG,2026-03-21,Google
+1693,Isabelly Rocha Souza,isabelly_rocha_souza@example.com,Maceió,AL,2026-03-23,Instagram
+1694,Aurora Montenegro Gomes,aurora_montenegro_gomes@example.com,Salvador,BA,2026-03-25,Instagram
+1695,Evelyn Sales Casa Grande,evelyn_sales_casa_grande@example.com,Campinas,SP,2026-03-26,Instagram
+1696,Fernando Abreu das Neves,fernando.abreu.das.neves@example.com,Londrina,PR,2026-03-31,Instagram
+1697,Lorena Cavalcanti Caldeira,lorena_cavalcanti_caldeira@example.com,Petrolina,PE,2026-04-01,TikTok
+1698,Maria Alice Albuquerque Freitas,mariaalicealbuquerquefreitas@example.com,Juazeiro do Norte,CE,2026-04-01,Instagram
+1699,Maria Laura Montenegro Cassiano,maria_laura_montenegro_cassiano@example.com,Itacoatiara,AM,2026-04-03,Instagram
+1700,Emanuella Freitas da Paz,emanuellafreitasdapaz@example.com,Curitiba,PR,2026-04-04,Indicação
+1701,Mateus Fernandes Silveira,mateusfernandessilveira@example.com,Caucaia,CE,2026-04-08,Marketplace
+1702,Gael Henrique Mendonça Pimenta,gael.henrique.mendonca.pimenta@example.com,Porto Alegre,RS,2026-04-09,Marketplace
+1703,Catarina Vargas Casa Grande,catarinavargascasagrande@example.com,Imperatriz,MA,2026-04-10,Instagram
+1704,Isaac Cardoso Brito,isaaccardosobrito@example.com,Curitiba,PR,2026-04-11,Orgânico
+1705,Cauê Fogaça Albuquerque,cauefogacaalbuquerque@example.com,Ananindeua,PA,2026-04-11,Instagram
+1706,Cecília Novais Vieira,cecilia.novais.vieira@example.com,Feira de Santana,BA,2026-04-13,Google
+1707,Davi Lopes Ribeiro,davi_lopes_ribeiro@example.com,Lauro de Freitas,BA,2026-04-13,Instagram
+1708,Vitor Gabriel Duarte da Cruz,vitor_gabriel_duarte_da_cruz@example.com,Ananindeua,PA,2026-04-14,Google
+1709,Rhavi das Neves Viana,rhavi.das.neves.viana@example.com,Cuiabá,MT,2026-04-14,Indicação
+1710,Aylla Costa Marques,aylla_costa_marques@example.com,Niterói,RJ,2026-04-14,Indicação
+1711,Elisa Pastor Alves,elisa_pastor_alves@example.com,São Paulo,SP,2026-04-15,Marketplace
+1712,Catarina Vasconcelos Santos,catarina_vasconcelos_santos@example.com,Rio de Janeiro,RJ,2026-04-15,Instagram
+1713,Bruno Cassiano Duarte,bruno.cassiano.duarte@example.com,Ji-Paraná,RO,2026-04-16,Indicação
+1714,Luiz Felipe Teixeira Melo,luizfelipeteixeiramelo@example.com,Itacoatiara,AM,2026-04-17,Google
+1715,Emanuel Costela Cavalcante,emanuelcostelacavalcante@example.com,Juiz de Fora,MG,2026-04-17,Google
+1716,Juliana Martins Siqueira,julianamartinssiqueira@example.com,Mossoró,RN,2026-04-18,Indicação
+1717,Rodrigo Correia Pinto,rodrigocorreiapinto@example.com,Jaboatão dos Guararapes,PE,2026-04-22,Indicação
+1718,Joaquim Aragão da Costa, joaquimaragaodacosta@example.com ,Campinas,SP,2026-04-23,Instagram
+1719,Luiza Siqueira da Costa,luiza.siqueira.da.costa@example.com,São Luís,MA,2026-04-23,Indicação
+1720,Cecília Fogaça Marques,ceciliafogacamarques@example.com,Belém,PA,2026-04-24,Indicação
+1721,Valentim Silveira Novais,valentim.silveira.novais@example.com,goiania,GO,2026-04-25,Instagram
+1722,Jade Pires Cirino,jade_pires_cirino@example.com,Fortaleza,CE,2026-04-26,Google
+1723,Valentim Cirino Moreira,valentimcirinomoreira@example.com,Manaus,AM,2026-04-26,Google
+1724,Sarah Santos Fonseca,sarahsantosfonseca@example.com,Brasília,DF,2026-04-27,Indicação
+1725,Luiz Gustavo da Costa Pastor,luiz_gustavo_da_costa_pastor@example.com,Sobral,CE,2026-04-27,
+1726,Felipe Câmara Fogaça,felipe.camara.fogaca@example.com,Niterói,RJ,2026-04-27,Orgânico
+1727,Juliana Peixoto Casa Grande,juliana_peixoto_casa_grande@example.com,Juiz de Fora,MG,2026-04-28,Marketplace
+1728,Raul Dias Jesus,rauldiasjesus@example.com,Parnamirim,RN,2026-04-28,TikTok
+1729,Beatriz Borges Guerra,beatriz.borges.guerra@example.com,Manaus,AM,2026-04-29,Marketplace
+1730,João Vitor Azevedo Cavalcante,joao_vitor_azevedo_cavalcante@example.com,Goiânia,GO,2026-04-29,Orgânico
+1731,Mariah Rezende Dias,mariahrezendedias@example.com,Imperatriz,MA,2026-04-30,Google
+1732,Manuella da Luz Ferreira,manuella.da.luz.ferreira@example.com,belem,PA,2026-05-03,Indicação
+1733,Aylla Gomes Albuquerque,aylla.gomes.albuquerque@example.com,João Pessoa,PB,2026-05-09,Indicação
+1734,Carolina Camargo da Rocha,carolina_camargo_da_rocha@example.com,Feira de Santana,BA,2026-05-12,Google
+1735,Pedro Lucas Porto Correia,pedrolucasportocorreia@example.com,Juazeiro do Norte,CE,2026-05-12,Instagram
+1736,Maria Clara Almeida Campos,mariaclaraalmeidacampos@example.com,Ananindeua,PA,2026-05-12,Indicação
+1737,João Miguel Vasconcelos Camargo,joaomiguelvasconceloscamargo@example.com,Belém,PA,2026-05-13,Google
+1738,Emanuelly Teixeira Guerra,emanuelly.teixeira.guerra@example.com,Imperatriz,MA,2026-05-14,Google
+1739,João Guilherme Abreu Novaes,joaoguilhermeabreunovaes@example.com,São Paulo,SP,2026-05-14,Google
+1740,Marcela Caldeira Pimenta,marcela.caldeira.pimenta@example.com,Recife,PE,2026-05-15,Indicação
+1741,João Vitor Gomes Correia,joaovitorgomescorreia@example.com,São Paulo,SP,2026-05-19,Instagram
+1742,Francisco Montenegro Ramos,francisco.montenegro.ramos@example.com,Itacoatiara,AM,2026-05-19,Google
+1743,Cecília das Neves Fernandes,cecilia_das_neves_fernandes@example.com,Itacoatiara,AM,2026-05-20,Google
+1744,João Silveira Oliveira,joao.silveira.oliveira@example.com,Ribeirão Preto,SP,2026-05-21,Instagram
+1745,Isabel Montenegro Marques,isabel.montenegro.marques@example.com,Teresina,PI,2026-05-21,TikTok
+1746,Maria Flor Leão Araújo,maria.flor.leao.araujo@example.com,Caucaia,CE,2026-05-22,Instagram
+1747,Luiz Fernando Garcia das Neves,luiz.fernando.garcia.das.neves@example.com,Ribeirão Preto,SP,2026-05-22,Indicação
+1748,Maya Macedo Albuquerque,mayamacedoalbuquerque@example.com,Salvador,BA,2026-05-23,Instagram
+1749,Zoe Borges Pastor,zoe_borges_pastor@example.com,São Paulo,SP,2026-05-24,TikTok
+1750,Benicio Aparecida da Cruz,benicio.aparecida.da.cruz@example.com,Olinda,PE,2026-05-25,Marketplace
+1751,Henrique Mendonça Silva,henrique.mendonca.silva@example.com,Belém,PA,2026-05-25,Instagram
+1752,Calebe Ferreira Ramos,calebeferreiraramos@example.com,São Paulo,SP,2026-05-25,Marketplace
+1753,Stella Fogaça Vargas,stella.fogaca.vargas@example.com,Campinas,SP,2026-05-25,Instagram
+1754,Luara Ramos Barbosa,luara_ramos_barbosa@example.com,Boa Vista,RR,2026-05-25,Orgânico
+1755,Luiz Otávio Aragão da Luz,luiz_otavio_aragao_da_luz@example.com,Brasília,DF,2026-05-26,Instagram
+1756,Maysa da Paz Vasconcelos,maysadapazvasconcelos@example.com,Feira de Santana,BA,2026-05-26,Marketplace
+1757,Gabrielly Garcia Novaes,gabrielly_garcia_novaes@example.com,Santana,AP,2026-05-28,Marketplace
+1758,Raquel Porto da Mota,raquel.porto.da.mota@example.com,João Pessoa,PB,2026-05-28,Instagram
+1759,Luiz Miguel Cavalcante Cavalcanti,LUIZ_MIGUEL_CAVALCANTE_CAVALCANTI@EXAMPLE.COM,João Pessoa,PB,2026-05-29,Google
+1760,Luiz Miguel Nogueira da Rocha,luiz.miguel.nogueira.da.rocha@example.com,Brasília,DF,2026-05-30,Google
+1761,Nicole Guerra Rocha,nicole_guerra_rocha@example.com,Ananindeua,PA,2026-07-19,Google
+1762,Júlia Aparecida Nunes,julia_aparecida_nunes@example.com,Marabá,PA,2026-07-19,Google
+1763,Mirella Carvalho Porto,MIRELLA_CARVALHO_PORTO@EXAMPLE.COM,Feira de Santana,BA,2026-07-19,Indicação
+1764,Pietro Souza das Neves,pietro.souza.das.neves@example.com,São Luís,MA,2026-07-19,Google
+1765,Yasmin Melo da Cunha,yasminmelodacunha@example.com,Parintins,AM,2026-07-20,Orgânico
+1766,Lara Pinto Porto,larapintoporto@example.com,Caucaia,CE,2026-07-20,Indicação
+1767,Davi Miguel Martins da Paz,davimiguelmartinsdapaz@example.com,Salvador,BA,2026-07-20,Marketplace
+1768,Aurora da Mata Siqueira,aurora_da_mata_siqueira@example.com,ribeirao preto,SP,2026-07-21,TikTok
+1769,José Miguel Rios Rezende,josemiguelriosrezende@example.com,Mossoró,RN,2026-07-21,Instagram
+1770,Davi Miguel Correia Dias,davi_miguel_correia_dias@example.com,Campinas,SP,2026-07-21,Instagram
+1771,Sofia Abreu Peixoto,sofiaabreupeixoto@example.com,Curitiba,PR,2026-07-22,Orgânico
+1772,Eloá Pinto Sá,eloa_pinto_sa@example.com,Manaus,AM,2026-07-22,Instagram
+1773,Ísis Nogueira da Rocha,isis.nogueira.da.rocha@example.com,Goiânia,GO,2026-07-22,Orgânico
+1774,Bruno Barbosa Correia,bruno_barbosa_correia@example.com,Sobral,CE,2026-07-22,Indicação
+1775,Anna Liz Pimenta Câmara,annalizpimentacamara@example.com,Niterói,RJ,2026-07-22,Marketplace
+1776,Lucas Guerra Almeida,lucas.guerra.almeida@example.com,Olinda,PE,2026-07-22,Google
+1777,Matheus Dias Campos, matheusdiascampos@example.com ,Brasília,DF,2026-07-23,Instagram
+1778,Benjamim Fonseca Novaes,BENJAMIM.FONSECA.NOVAES@EXAMPLE.COM,Curitiba,PR,2026-07-23,Instagram
+1779,Apollo Moreira Caldeira,apollomoreiracaldeira@example.com,Sobral,CE,2026-07-23,Instagram
+1780,Heitor da Costa Garcia,heitordacostagarcia@example.com,Caruaru,PE,2026-07-24,Google
+1781,Marina Martins Sá,marina_martins_sa@example.com,Parintins,AM,2026-07-24,Instagram
+1782,Ravi Lucca Nogueira Cunha,ravi.lucca.nogueira.cunha@example.com,Olinda,PE,2026-07-24,Instagram
+1783,Stephany Sales Ramos,stephany_sales_ramos@example.com,Belém,PA,2026-07-24,TikTok
+1784,Maria Julia Sampaio Carvalho,mariajuliasampaiocarvalho@example.com,Aracaju,SE,2026-07-25,Instagram
+1785,Cecília Marques da Cunha,ceciliamarquesdacunha@example.com,Petrópolis,RJ,2026-07-25,Indicação
+1786,Davi Lucas Sá Souza,davi_lucas_sa_souza@example.com,Ananindeua,PA,2026-07-25,TikTok
+1787,Miguel Cassiano Freitas,miguelcassianofreitas@example.com,Santarém,PA,2026-07-26,Orgânico
+1788,Vinícius Viana Viana,vinicius.viana.viana@example.com,Curitiba,PR,2026-07-26,Indicação
+1789,Nicolas Jesus Montenegro,nicolas_jesus_montenegro@example.com,Vitória da Conquista,BA,2026-07-26,Google
+1790,Ravi Marques da Rocha,ravimarquesdarocha@example.com,Fortaleza,CE,2026-07-26,Orgânico
+1791,Isabella Sousa Carvalho,isabellasousacarvalho@example.com,Uberlândia,MG,2026-07-26,Marketplace
+1792,Emanuelly Fonseca Gomes,emanuelly_fonseca_gomes@example.com,Belém,PA,2026-07-27,Instagram
+1793,Juliana Rios Sousa,juliana.rios.sousa@example.com,Rio de Janeiro,RJ,2026-07-28,Orgânico
+1794,Dom Rodrigues da Mota,dom.rodrigues.da.mota@example.com,Recife,PE,2026-07-28,Indicação
+1795,Isabela Pastor Brito,isabela_pastor_brito@example.com,São Luís,MA,2026-07-29,Instagram
+1796,Cauã Vasconcelos Pires,cauavasconcelospires@example.com,Salvador,BA,2026-07-29,Marketplace
+1797,Maria Julia Pimenta Fernandes,maria_julia_pimenta_fernandes@example.com,Marabá,PA,2026-07-29,Instagram
+1798,Antônio Rodrigues Silveira,antonio_rodrigues_silveira@example.com,Manaus,AM,2026-07-30,Instagram
+1799,André Farias Vargas,andre_farias_vargas@example.com,Feira de Santana,BA,2026-07-30,Instagram
+1800,Cauê Correia Moreira,cauecorreiamoreira@example.com,Curitiba,PR,2026-07-30,Google
+1801,Vitor Barros Siqueira,vitorbarrossiqueira@example.com,Sorocaba,SP,2026-07-30,Orgânico
+1802,Olivia da Rosa Sampaio,oliviadarosasampaio@example.com,Maceió,AL,2026-07-30,Orgânico
+1803,Luiz Gustavo Jesus Alves,luiz.gustavo.jesus.alves@example.com,Petrópolis,RJ,2026-07-31,Orgânico
+1804,Isis da Mata Montenegro,isisdamatamontenegro@example.com,imperatriz,MA,2026-07-31,Indicação
+1805,Matheus da Cruz da Mota,matheus_da_cruz_da_mota@example.com,Ji-Paraná,RO,2026-07-31,Indicação
+1806,Luiz Felipe Siqueira Cardoso,luiz_felipe_siqueira_cardoso@example.com,São Paulo,SP,2026-07-31,Marketplace
+1807,Mariane Caldeira Albuquerque,mariane.caldeira.albuquerque@example.com,Maceió,AL,2026-08-01,Indicação
+1808,Arthur Gabriel Costa Moreira,arthur_gabriel_costa_moreira@example.com,Parintins,AM,2026-08-01,Indicação
+1809,Caroline Silva Barros,caroline.silva.barros@example.com,Santos,SP,2026-08-02,Indicação
+1810,Lívia Albuquerque Albuquerque,liviaalbuquerquealbuquerque@example.com,São Paulo,SP,2026-08-02,Google
+1811,Paulo Pires Souza,paulo_pires_souza@example.com,Belém,PA,2026-08-02,Instagram
+1812,Vitor Gabriel Oliveira Aparecida,vitor_gabriel_oliveira_aparecida@example.com,São Paulo,SP,2026-08-03,Indicação
+1813,Laura Viana Farias,laura_viana_farias@example.com,Goiânia,GO,2026-08-03,Indicação
+1814,Ágatha Moreira Freitas,agatha_moreira_freitas@example.com,Campina Grande,PB,2026-08-03,Instagram
+1815,Otávio Correia Sousa,otavio.correia.sousa@example.com,Belo Horizonte,MG,2026-08-04,Instagram
+1816,Luiz Otávio da Mota Martins,LUIZ.OTAVIO.DA.MOTA.MARTINS@EXAMPLE.COM,Imperatriz,MA,2026-08-05,Google
+1817,Erick Cirino Lopes,erickcirinolopes@example.com,Salvador,BA,2026-08-05,Instagram
+1818,Luiz Miguel da Rocha Brito,luizmigueldarochabrito@example.com,Fortaleza,CE,2026-08-05,TikTok
+1819,Arthur Miguel Silveira Siqueira,ARTHURMIGUELSILVEIRASIQUEIRA@EXAMPLE.COM,Campina Grande,PB,2026-08-05,Instagram
+1820,Isaac Souza da Conceição,isaac_souza_da_conceicao@example.com,São Luís,MA,2026-08-05,Orgânico
+1821,Davi Machado Caldeira,davimachadocaldeira@example.com,Cuiabá,MT,2026-08-06,Instagram
+1822,Cauã Vieira Pires,cauavieirapires@example.com,Parnaíba,PI,2026-08-06,Instagram
+1823,Caroline da Rocha Machado,carolinedarochamachado@example.com,Belo Horizonte,MG,2026-08-06,TikTok
+1824,Ana Julia Pimenta Rezende,ana.julia.pimenta.rezende@example.com,São Luís,MA,2026-08-07,Instagram
+1825,Guilherme Correia da Rocha,guilherme.correia.da.rocha@example.com,Rio de Janeiro,RJ,2026-08-07,Marketplace
+1826,Otávio Sales Nunes,otavio_sales_nunes@example.com,Nossa Senhora do Socorro,SE,2026-08-07,TikTok
+1827,Maria Julia Fonseca Gomes,maria.julia.fonseca.gomes@example.com,Fortaleza,CE,2026-08-07,TikTok
+1828,Helena Aragão Castro,helenaaragaocastro@example.com,São Paulo,SP,2026-08-07,Orgânico
+1829,Joana Pinto Souza,joana_pinto_souza@example.com,Manaus,AM,2026-08-08,TikTok
+1830,Aurora Pereira Casa Grande,aurora_pereira_casa_grande@example.com,Ananindeua,PA,2026-08-08,Google
+1831,Nicole Guerra Montenegro,nicole_guerra_montenegro@example.com,Santos,SP,2026-08-08,Instagram
+1832,João Lucas Vieira Sales,joao_lucas_vieira_sales@example.com,Belo Horizonte,MG,2026-08-08,Google
+1833,Valentim Barbosa Almeida,valentim_barbosa_almeida@example.com,Itacoatiara,AM,2026-08-08,Orgânico
+1834,Emanuel Gonçalves Silva,emanuel_goncalves_silva@example.com,Brasília,DF,2026-08-08,Google
+1835,Olivia Casa Grande Castro,oliviacasagrandecastro@example.com,Recife,PE,2026-08-08,Orgânico
+1836,Mariana Novais Teixeira,mariana_novais_teixeira@example.com,juiz de fora,MG,2026-08-09,Marketplace
+1837,Diogo Andrade da Rocha,diogo_andrade_da_rocha@example.com,São Paulo,SP,2026-08-09,Instagram
+1838,Ísis Mendonça Cassiano,isis.mendonca.cassiano@example.com,Juiz de Fora,MG,2026-08-09,Orgânico
+1839,Marcela Campos da Cruz,marcelacamposdacruz@example.com,Teresina,PI,2026-08-10,Marketplace
+1840,Otto Lopes Viana,ottolopesviana@example.com,Ananindeua,PA,2026-08-10,Google
+1841,Yasmin Garcia Marques,yasmin.garcia.marques@example.com,Brasília,DF,2026-08-10,Indicação
+1842,Hellena Jesus Vasconcelos,hellena_jesus_vasconcelos@example.com,Belém,PA,2026-08-10,Orgânico
+1843,Gael Moura Cassiano,gaelmouracassiano@example.com,Cuiabá,MT,2026-08-10,Indicação
+1844,Diogo Aragão Cavalcanti,diogoaragaocavalcanti@example.com,Londrina,PR,2026-08-10,Orgânico
+1845,Clara Novais Freitas,clara.novais.freitas@example.com,Curitiba,PR,2026-08-11,TikTok
+1846,Maria Luísa Vieira Vargas,maria_luisa_vieira_vargas@example.com,Salvador,BA,2026-08-11,Marketplace
+1847,João Vitor Sousa Cassiano,joao.vitor.sousa.cassiano@example.com,Niterói,RJ,2026-08-11,Marketplace
+1848,Theo da Mata Castro,theo.da.mata.castro@example.com,Uberlândia,MG,2026-08-12,Instagram
+1849,Rafaela Martins Aragão,rafaelamartinsaragao@example.com,Rio de Janeiro,RJ,2026-08-12,Google
+1850,Kaique da Mata Casa Grande,kaiquedamatacasagrande@example.com,Recife,PE,2026-08-12,Google
+1851,Joana da Mota Andrade,joanadamotaandrade@example.com,São Paulo,SP,2026-08-12,Instagram
+1852,Davi Lucca das Neves Gonçalves,davi_lucca_das_neves_goncalves@example.com,florianopolis,SC,2026-08-12,Orgânico
+1853,Alexia Monteiro Peixoto,alexia_monteiro_peixoto@example.com,Recife,PE,2026-08-12,Instagram
+1854,Mariana Moura Porto,marianamouraporto@example.com,João Pessoa,PB,2026-08-12,TikTok
+1855,Theodoro Novais Barbosa,theodoronovaisbarbosa@example.com,Itacoatiara,AM,2026-08-12,Indicação
+1856,Augusto da Cruz Aparecida,augusto.da.cruz.aparecida@example.com,Santos,SP,2026-08-12,Instagram
+1857,Luísa Cunha Borges,luisa_cunha_borges@example.com,Campo Grande,MS,2026-08-13,
+1858,Ana Liz Peixoto Souza,ana.liz.peixoto.souza@example.com,São Paulo,SP,2026-08-14,Instagram
+1859,Eloah Sampaio Nascimento,eloah_sampaio_nascimento@example.com,Belém,PA,2026-08-14,Indicação
+1860,Bruna da Luz Fonseca,brunadaluzfonseca@example.com,Campina Grande,PB,2026-08-14,Instagram
+1861,Cecília Campos Cavalcanti,cecilia.campos.cavalcanti@example.com,Goiânia,GO,2026-08-15,Instagram
+1862,Mariane Marques Cavalcante,mariane_marques_cavalcante@example.com,Palmas,TO,2026-08-15,Instagram
+1863,Bianca Souza Barbosa,biancasouzabarbosa@example.com,Rio de Janeiro,RJ,2026-08-15,TikTok
+1864,Arthur Gabriel da Luz Novaes,arthur_gabriel_da_luz_novaes@example.com,Sobral,CE,2026-08-16,Google
+1865,Dante Castro Caldeira,dante_castro_caldeira@example.com,Campina Grande,PB,2026-08-16,Marketplace
+1866,Matteo Marques Caldeira,matteomarquescaldeira@example.com,Manaus,AM,2026-08-17,Google
+1867,José Siqueira da Costa,jose_siqueira_da_costa@example.com,São Paulo,SP,2026-08-18,Google
+1868,Davi Miguel da Mota Vargas,davi.miguel.da.mota.vargas@example.com,Manaus,AM,2026-08-19,Instagram
+1869,Hadassa Ferreira Lima,HADASSAFERREIRALIMA@EXAMPLE.COM,Campinas,SP,2026-08-19,Marketplace
+1870,Heitor Aparecida Cavalcante,heitor.aparecida.cavalcante@example.com,Campinas,SP,2026-08-19,Marketplace
+1871,Leandro da Costa Cardoso,leandrodacostacardoso@example.com,Rio de Janeiro,RJ,2026-08-20,Instagram
+1872,Rafael Fonseca Cavalcanti,rafael_fonseca_cavalcanti@example.com,Caruaru,PE,2026-08-20,Google
+1873,José Pedro Nogueira da Cunha,JOSE.PEDRO.NOGUEIRA.DA.CUNHA@EXAMPLE.COM,Belo Horizonte,MG,2026-08-20,Marketplace
+1874,Heitor Farias da Paz,heitor.farias.da.paz@example.com,Imperatriz,MA,2026-08-20,Instagram
+1875,Fernanda Cirino Sá,fernanda_cirino_sa@example.com,Castanhal,PA,2026-08-20,Instagram
+1876,Ana Júlia Santos Sampaio, ana.julia.santos.sampaio@example.com ,Campinas,SP,2026-08-20,Instagram
+1877,Calebe Gomes Macedo,calebe_gomes_macedo@example.com,Parnaíba,PI,2026-08-20,Orgânico
+1878,Luigi Farias Fogaça,luigi.farias.fogaca@example.com,São Paulo,SP,2026-08-21,Instagram
+1879,Pedro Henrique Costa Costela,pedro.henrique.costa.costela@example.com,Recife,PE,2026-08-21,Marketplace
+1880,Rebeca Dias da Luz,rebeca_dias_da_luz@example.com,Curitiba,PR,2026-08-22,Indicação
+1881,Eloá Borges Lopes,eloa.borges.lopes@example.com,São Luís,MA,2026-08-22,Google
+1882,Kevin Jesus Sales,kevin.jesus.sales@example.com,Parintins,AM,2026-08-23,Instagram
+1883,Sara Garcia Dias,sara_garcia_dias@example.com,imperatriz,MA,2026-08-23,Instagram
+1884,Yuri Correia Silveira,yuri.correia.silveira@example.com,Olinda,PE,2026-08-23,
+1885,Caroline Campos Lima,caroline_campos_lima@example.com,Itacoatiara,AM,2026-08-23,Marketplace
+1886,Heloísa da Rocha Ramos,heloisa.da.rocha.ramos@example.com,ribeirao preto,SP,2026-08-23,Marketplace
+1887,Bryan Machado Oliveira,bryan_machado_oliveira@example.com,Curitiba,PR,2026-08-24,Marketplace
+1888,Isaac Souza Sá,isaacsouzasa@example.com,Sobral,CE,2026-08-24,
+1889,Esther Marques Souza,esthermarquessouza@example.com,Natal,RN,2026-08-24,Google
+1890,Gustavo Henrique Gomes Ribeiro,gustavo.henrique.gomes.ribeiro@example.com,Itacoatiara,AM,2026-08-24,Google
+1891,Alana Machado Cirino,alana.machado.cirino@example.com,Belém,PA,2026-08-24,Instagram
+1892,Ana Sophia Rios da Cunha,ana.sophia.rios.da.cunha@example.com,Belém,PA,2026-08-25,Orgânico
+1893,Jade Lima Moraes,jadelimamoraes@example.com,Parintins,AM,2026-08-25,Indicação
+1894,Lara da Rocha Cassiano,lara_da_rocha_cassiano@example.com,São Luís,MA,2026-08-25,Google
+1895,Eduarda Cassiano Vasconcelos,eduardacassianovasconcelos@example.com,Rio de Janeiro,RJ,2026-08-25,Marketplace
+1896,Luara Camargo Marques,luaracamargomarques@example.com,Fortaleza,CE,2026-08-26,Instagram
+1897,Gabriel Lopes Ribeiro,gabriel.lopes.ribeiro@example.com,Feira de Santana,BA,2026-08-26,Google
+1898,Apollo Souza da Cunha,apollo.souza.da.cunha@example.com,Belém,PA,2026-08-26,Orgânico
+1899,Ana Julia Pereira Borges,ANA.JULIA.PEREIRA.BORGES@EXAMPLE.COM,Brasília,DF,2026-08-26,Marketplace
+1900,Anthony da Luz Cavalcanti,anthony.da.luz.cavalcanti@example.com,Belém,PA,2026-08-26,Google
+1901,Diogo Sales Araújo,diogo_sales_araujo@example.com,Ananindeua,PA,2026-08-27,
+1902,Theo Castro Duarte,theo.castro.duarte@example.com,João Pessoa,PB,2026-08-27,Instagram
+1903,Manuela Garcia Garcia,manuelagarciagarcia@example.com,Manaus,AM,2026-08-27,Instagram
+1904,Benício Cavalcanti Dias,benicio.cavalcanti.dias@example.com,Goiânia,GO,2026-08-27,Google
+1905,Gabrielly Dias Pires,gabrielly.dias.pires@example.com,Olinda,PE,2026-08-28,Google
+1906,Bryan Lima Barros,bryan.lima.barros@example.com,Manaus,AM,2026-08-28,Google
+1907,Davi Miguel Montenegro Ramos,davi_miguel_montenegro_ramos@example.com,Rio de Janeiro,RJ,2026-08-29,Instagram
+1908,Francisco Ferreira Câmara,francisco_ferreira_camara@example.com,Caruaru,PE,2026-08-29,Marketplace
+1909,Ana Vitória Viana Mendonça,anavitoriavianamendonca@example.com,Salvador,BA,2026-08-29,Orgânico
+1910,Arthur Miguel Fonseca das Neves,arthurmiguelfonsecadasneves@example.com,São Paulo,SP,2026-08-31,Orgânico
+1911,João Lucas Porto da Rosa,joao.lucas.porto.da.rosa@example.com,São Paulo,SP,2026-08-31,Google
+1912,Luiz Henrique Montenegro Nogueira,LUIZ_HENRIQUE_MONTENEGRO_NOGUEIRA@EXAMPLE.COM,Macapá,AP,2026-08-31,
+1913,Aurora Moraes Barros,aurora.moraes.barros@example.com,Campinas,SP,2026-08-31,Marketplace
+1914,Nathan Ribeiro Moreira,nathan.ribeiro.moreira@example.com,São Luís,MA,2026-08-31,Indicação
+1915,Ana Cecília Câmara da Rosa,ana.cecilia.camara.da.rosa@example.com,Salvador,BA,2026-09-01,Instagram
+1916,Júlia Carvalho Pires,julia_carvalho_pires@example.com,Salvador,BA,2026-09-01,Orgânico
+1917,Antony Sampaio Cavalcante,antonysampaiocavalcante@example.com,Mossoró,RN,2026-09-01,Orgânico
+1918,Raul Gomes Borges,raul_gomes_borges@example.com,Salvador,BA,2026-09-01,TikTok
+1919,Camila Rocha Peixoto,camila.rocha.peixoto@example.com,Juiz de Fora,MG,2026-09-02,Instagram
+1920,Asafe Gomes Melo,asafegomesmelo@example.com,Parintins,AM,2026-09-02,Google
+1921,Aylla Vasconcelos Nunes,aylla.vasconcelos.nunes@example.com,Ananindeua,PA,2026-09-03,Google
+1922,Maysa Freitas Moreira,maysa_freitas_moreira@example.com,Olinda,PE,2026-09-03,TikTok
+1923,Letícia Borges da Rocha,leticia_borges_da_rocha@example.com,Recife,PE,2026-09-03,Marketplace
+1924,Luan Monteiro Ferreira,luanmonteiroferreira@example.com,Uberlândia,MG,2026-09-04,Orgânico
+1925,Marina Cassiano Borges,marinacassianoborges@example.com,Campinas,SP,2026-09-04,Instagram
+1926,Olívia da Costa da Mota,oliviadacostadamota@example.com,Macapá,AP,2026-09-05,Orgânico
+1927,Kevin Macedo Azevedo,kevin_macedo_azevedo@example.com,Aracaju,SE,2026-09-05,Orgânico
+1928,Ana Clara Melo Almeida,ana.clara.melo.almeida@example.com,São Paulo,SP,2026-09-06,Orgânico
+1929,Davi Novaes Montenegro,davinovaesmontenegro@example.com,João Pessoa,PB,2026-09-06,Indicação
+1930,Pedro Aparecida Araújo,PEDROAPARECIDAARAUJO@EXAMPLE.COM,Campinas,SP,2026-09-06,Instagram
+1931,Nathan Cardoso Fernandes,nathancardosofernandes@example.com,Salvador,BA,2026-09-06,Indicação
+1932,José Pedro Pereira Nogueira,jose_pedro_pereira_nogueira@example.com,Campinas,SP,2026-09-06,Instagram
+1933,Ágatha Silva Duarte,agatha_silva_duarte@example.com,Teresina,PI,2026-09-07,Instagram
+1934,Murilo Mendes Dias,murilo.mendes.dias@example.com,Belo Horizonte,MG,2026-09-07,Instagram
+1935,Lunna Nogueira Cunha,lunnanogueiracunha@example.com,Palmas,TO,2026-09-07,Marketplace
+1936,Hellena Machado Pires,hellena_machado_pires@example.com,São Paulo,SP,2026-09-07,Google
+1937,Kaique Fonseca Gonçalves, kaique_fonseca_goncalves@example.com ,São Paulo,SP,2026-09-07,Instagram
+1938,Ana Clara da Luz Cavalcanti,ana.clara.da.luz.cavalcanti@example.com,Londrina,PR,2026-09-08,
+1939,Yuri Moreira Marques,YURIMOREIRAMARQUES@EXAMPLE.COM,Santos,SP,2026-09-08,Marketplace
+1940,Brenda da Rosa Albuquerque,brenda.da.rosa.albuquerque@example.com,São Paulo,SP,2026-09-09,Marketplace
+1941,Guilherme Duarte Fonseca,guilhermeduartefonseca@example.com,São Luís,MA,2026-09-09,Instagram
+1942,Luigi Nascimento Siqueira,luigi_nascimento_siqueira@example.com,Niterói,RJ,2026-09-10,Google
+1943,Ana Luiza Moraes Gonçalves,analuizamoraesgoncalves@example.com,Ilhéus,BA,2026-09-10,Instagram
+1944,Ravy Machado Sá,ravy_machado_sa@example.com,São Paulo,SP,2026-09-10,Instagram
+1945,Hadassa Monteiro Guerra,hadassa.monteiro.guerra@example.com,Caxias do Sul,RS,2026-09-11,Google
+1946,Ian Moura Moraes,ian_moura_moraes@example.com,Ribeirão Preto,SP,2026-09-11,Orgânico
+1947,Arthur Sousa Fernandes,arthursousafernandes@example.com,Sobral,CE,2026-09-11,Instagram
+1948,Guilherme Viana da Paz,guilherme_viana_da_paz@example.com,São Luís,MA,2026-09-11,Instagram
+1949,Sophie Câmara Carvalho,sophiecamaracarvalho@example.com,Uberlândia,MG,2026-09-11,TikTok
+1950,João Miguel Campos Aparecida,joao.miguel.campos.aparecida@example.com,manaus,AM,2026-09-11,Google
+1951,Enzo Gabriel das Neves Costela,enzogabrieldasnevescostela@example.com,Manaus,AM,2026-09-11,Instagram
+1952,Maria Julia Rezende Vasconcelos,maria_julia_rezende_vasconcelos@example.com,Goiânia,GO,2026-09-11,Instagram
+1953,Aurora Martins Macedo,auroramartinsmacedo@example.com,natal,RN,2026-09-12,Google
+1954,Pietro da Cunha Pereira,pietro.da.cunha.pereira@example.com,Vitória da Conquista,BA,2026-09-12,Orgânico
+1955,Laura Rezende Cavalcante,laura_rezende_cavalcante@example.com,Niterói,RJ,2026-09-12,Indicação
+1956,Arthur Miguel Caldeira Guerra,arthurmiguelcaldeiraguerra@example.com,São Paulo,SP,2026-09-12,Instagram
+1957,Luiz Henrique Melo Dias, luiz.henrique.melo.dias@example.com ,Ilhéus,BA,2026-09-12,Indicação
+1958,Sofia Melo Novais,sofia_melo_novais@example.com,Belo Horizonte,MG,2026-09-13,Google
+1959,Anthony Sá Vargas,anthony.sa.vargas@example.com,Salvador,BA,2026-09-14,Indicação
+1960,Bárbara Vargas Pinto,barbara.vargas.pinto@example.com,Salvador,BA,2026-09-14,Marketplace
+1961,Renan Vieira Monteiro,renan_vieira_monteiro@example.com,Ananindeua,PA,2026-09-14,Google
+1962,Luana Silveira Gonçalves,luanasilveiragoncalves@example.com,Goiânia,GO,2026-09-14,
+1963,Asafe Pastor Novaes,asafe.pastor.novaes@example.com,Caxias do Sul,RS,2026-09-15,Instagram
+1964,Natália Viana Montenegro,nataliavianamontenegro@example.com,São Paulo,SP,2026-09-15,Google
+1965,Rael da Rosa Santos,rael.da.rosa.santos@example.com,Campo Grande,MS,2026-09-15,Instagram
+1966,Gustavo Gomes Montenegro,gustavo_gomes_montenegro@example.com,Salvador,BA,2026-09-15,Google
+1967,Manuela Pastor da Mota,manuela.pastor.da.mota@example.com,Belo Horizonte,MG,2026-09-16,
+1968,Ana Cecília Pastor Lima,ana.cecilia.pastor.lima@example.com,Salvador,BA,2026-09-16,Marketplace
+1969,Isadora Lima Rodrigues,isadora_lima_rodrigues@example.com,Brasília,DF,2026-09-16,Indicação
+1970,Marcelo Dias Machado,marcelodiasmachado@example.com,Arapiraca,AL,2026-09-16,Instagram
+1971,Gael Barros Rios,gaelbarrosrios@example.com,Caruaru,PE,2026-09-16,Marketplace
+1972,Maria Sophia Santos Alves,mariasophiasantosalves@example.com,Sobral,CE,2026-09-18,Orgânico
+1973,Enzo Gabriel das Neves Novais,enzo_gabriel_das_neves_novais@example.com,Manaus,AM,2026-09-19,Google
+1974,Liz Cavalcante Pimenta,liz.cavalcante.pimenta@example.com,curitiba,PR,2026-09-19,Google
+1975,Hadassa Sales Cassiano,hadassasalescassiano@example.com,São Paulo,SP,2026-09-20,Indicação
+1976,Leandro Nunes Nunes,leandronunesnunes@example.com,Belém,PA,2026-09-20,Google
+1977,Luiz Henrique Nunes Nunes,luiz_henrique_nunes_nunes@example.com,São Paulo,SP,2026-09-20,Google
+1978,Rafaela Albuquerque Sousa,rafaela.albuquerque.sousa@example.com,Sorocaba,SP,2026-09-20,Marketplace
+1979,Yuri Novais Albuquerque,YURINOVAISALBUQUERQUE@EXAMPLE.COM,Itacoatiara,AM,2026-09-21,Orgânico
+1980,Júlia Aragão Cassiano,julia.aragao.cassiano@example.com,Belém,PA,2026-09-21,Instagram
+1981,Helena Cassiano Novais,helena.cassiano.novais@example.com,Parnaíba,PI,2026-09-21,Orgânico
+1982,Ana Sophia da Costa da Luz,anasophiadacostadaluz@example.com,Teresina,PI,2026-09-22,Orgânico
+1983,Ana Carolina Novaes Cardoso,anacarolinanovaescardoso@example.com,Petrópolis,RJ,2026-09-22,Orgânico
+1984,Bruno das Neves Viana,brunodasnevesviana@example.com,Goiânia,GO,2026-09-22,Instagram
+1985,João Guilherme Moura Fonseca,joao.guilherme.moura.fonseca@example.com,Fortaleza,CE,2026-09-22,Indicação
+1986,Antonella Castro Gonçalves,antonella_castro_goncalves@example.com,Belém,PA,2026-09-22,TikTok
+1987,Gabrielly da Mota Marques,gabriellydamotamarques@example.com,Sobral,CE,2026-09-23,Google
+1988,Dante da Conceição Azevedo,DANTEDACONCEICAOAZEVEDO@EXAMPLE.COM,Porto Alegre,RS,2026-09-23,Google
+1989,Luiz Fernando Melo Moreira,luiz.fernando.melo.moreira@example.com,Uberlândia,MG,2026-09-23,Google
+1990,Leandro Alves Marques, leandro_alves_marques@example.com ,Feira de Santana,BA,2026-09-23,Google
+1991,Lucca Ribeiro Barros,lucca.ribeiro.barros@example.com,Parnamirim,RN,2026-09-24,Google
+1992,Vinícius Costela da Cruz,vinicius_costela_da_cruz@example.com,Fortaleza,CE,2026-09-24,Google
+1993,Theo Campos Marques,theocamposmarques@example.com,Ananindeua,PA,2026-09-25,Instagram
+1994,Letícia Novais Monteiro,leticia_novais_monteiro@example.com,Juiz de Fora,MG,2026-09-25,Instagram
+1995,Lorenzo Brito Cunha,lorenzobritocunha@example.com,brasilia,DF,2026-09-25,Instagram
+1996,Eloá Oliveira Correia,eloa_oliveira_correia@example.com,Natal,RN,2026-09-26,Indicação
+1997,Amanda Viana Rodrigues,amanda_viana_rodrigues@example.com,Niterói,RJ,2026-09-26,Instagram
+1998,Lorenzo Costa Pereira,lorenzocostapereira@example.com,Manaus,AM,2026-09-27,Google
+1999,Natália Câmara Novaes,natalia.camara.novaes@example.com,Santana,AP,2026-09-27,Indicação
+2000,Valentim Azevedo Garcia,valentimazevedogarcia@example.com,Teresina,PI,2026-09-27,Google

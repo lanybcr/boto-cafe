@@ -1,0 +1,41 @@
+﻿produto_id;produto;categoria;preco;custo;margem_unitaria;margem_pct
+1;Cerrado Mineiro Torra Média 250g;Grãos;42,9;19,0;23,9;0,5571
+2;Matas de Minas Torra Clara 250g;Grãos;46,9;21,0;25,9;0,5522
+3;Sul de Minas Torra Média 250g;Grãos;39,9;18,0;21,9;0,5489
+4;Mogiana Torra Escura 250g;Grãos;37,9;17,0;20,9;0,5515
+5;Cerrado Mineiro Torra Média 1kg;Grãos;139,9;66,0;73,9;0,5282
+6;Sul de Minas Torra Média 1kg;Grãos;129,9;62,0;67,9;0,5227
+7;Conilon Capixaba Robusta 250g;Grãos;33,9;15,0;18,9;0,5575
+8;Microlote Bourbon Amarelo 250g;Grãos;79,9;36,0;43,9;0,5494
+9;Microlote Natural Fermentação Controlada 250g;Grãos;89,9;42,0;47,9;0,5328
+10;Robusta Amazônico de Rondônia 250g;Grãos;54,9;25,0;29,9;0,5446
+11;Blend da Casa Boto 250g;Grãos;35,9;15,0;20,9;0,5822
+12;Café Descafeinado Suave 250g;Grãos;44,9;21,0;23,9;0,5323
+13;Orgânico Chapada Diamantina 250g;Grãos;52,9;24,0;28,9;0,5463
+14;Moagem Grossa para Cold Brew 250g;Grãos;40,9;18,0;22,9;0,5599
+15;Prensa Francesa 600ml;Cafeteiras;119,9;62,0;57,9;0,4829
+16;Coador V60 de Cerâmica;Cafeteiras;149,9;80,0;69,9;0,4663
+17;Aeropress Clássica;Cafeteiras;259,9;150,0;109,9;0,4229
+18;Cafeteira Italiana Moka 3 xícaras;Cafeteiras;99,9;52,0;47,9;0,4795
+19;Cafeteira Elétrica Programável;Cafeteiras;349,9;215,0;134,9;0,3855
+20;Cafeteira Cold Brew 1L;Cafeteiras;139,9;72,0;67,9;0,4853
+21;Máquina de Espresso Manual Compacta;Cafeteiras;899,9;600,0;299,9;0,3333
+22;Moedor Manual de Cerâmica;Acessórios;189,9;95,0;94,9;0,4997
+23;Moedor Elétrico de Rebarbas;Acessórios;429,9;270,0;159,9;0,3719
+24;Filtros de Papel V60 (100 un);Acessórios;29,9;12,0;17,9;0,5987
+25;Filtros de Papel nº 103 (30 un);Acessórios;14,9;6,0;8,9;0,5973
+26;Chaleira Bico de Ganso 1L;Acessórios;229,9;125,0;104,9;0,4563
+27;Balança Digital com Timer;Acessórios;169,9;90,0;79,9;0,4703
+28;Caneca de Cerâmica Boto;Acessórios;49,9;20,0;29,9;0,5992
+29;Xícaras de Espresso (par);Acessórios;69,9;30,0;39,9;0,5708
+30;Garrafa Térmica 350ml;Acessórios;89,9;42,0;47,9;0,5328
+31;Termômetro para Café;Acessórios;59,9;25,0;34,9;0,5826
+32;Kit Iniciante (V60 + café 250g);Kits Presente;189,9;100,0;89,9;0,4734
+33;Kit Degustação 4 Origens;Kits Presente;159,9;75,0;84,9;0,531
+34;Kit Presente Boto Café;Kits Presente;249,9;125,0;124,9;0,4998
+35;Kit Dia dos Pais Barista;Kits Presente;299,9;160,0;139,9;0,4665
+36;Kit Natal Café & Caneca;Kits Presente;219,9;110,0;109,9;0,4998
+37;Assinatura Mensal 250g;Assinaturas;39,9;18,0;21,9;0,5489
+38;Assinatura Mensal 500g;Assinaturas;74,9;35,0;39,9;0,5327
+39;Assinatura Trimestral 250g (3 envios);Assinaturas;109,9;52,0;57,9;0,5268
+40;Assinatura Semestral 500g (6 envios);Assinaturas;399,9;195,0;204,9;0,5124

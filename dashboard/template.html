@@ -1,0 +1,471 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Boto Café · Dashboard RFM</title>
+<meta name="description" content="Dashboard RFM do Boto Café (dados fictícios): visão geral, segmentos, clientes VIP e churn.">
+<style>
+  :root {
+    --cafe: #3E2723; --cafe-suave: #6D4C41; --rosa: #E8A0B4; --verde: #2E5E4E;
+    --creme: #F5EDE0; --ouro: #C8963E; --fundo: #FBF7F0; --borda: #E9DFD0; --alerta: #B5475F;
+    --raio: 10px;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; background: var(--fundo); color: var(--cafe);
+         font: 14px/1.45 "Segoe UI", system-ui, -apple-system, Roboto, sans-serif; }
+  button, select, input { font: inherit; color: inherit; }
+  .app { display: grid; grid-template-columns: 200px 1fr; min-height: 100vh; }
+
+  /* ── navegação lateral ── */
+  nav { background: var(--cafe); color: var(--creme); padding: 20px 14px; position: sticky; top: 0;
+        height: 100vh; display: flex; flex-direction: column; gap: 6px; }
+  .marca { font-size: 18px; font-weight: 700; margin: 0 6px 16px; }
+  .marca small { display: block; font-weight: 400; font-size: 12px; opacity: .75; }
+  nav button { background: none; border: 0; color: inherit; text-align: left; padding: 10px 12px;
+               border-radius: 8px; cursor: pointer; }
+  nav button:hover { background: rgba(255,255,255,.08); }
+  nav button[aria-selected="true"] { background: var(--verde); font-weight: 600; }
+  nav button:focus-visible, select:focus-visible, input:focus-visible, .btn:focus-visible {
+    outline: 3px solid var(--ouro); outline-offset: 2px; }
+  .aviso { margin-top: auto; font-size: 12px; opacity: .8; padding: 0 6px; }
+
+  /* ── conteúdo ── */
+  main { padding: 0 24px 32px; min-width: 0; }
+  .filtros { position: sticky; top: 0; z-index: 5; background: var(--fundo); padding: 14px 0 12px;
+             border-bottom: 1px solid var(--borda); display: flex; flex-wrap: wrap; gap: 10px 14px; align-items: end; }
+  .filtros label { display: flex; flex-direction: column; font-size: 12px; color: var(--cafe-suave); gap: 3px; }
+  select { background: #fff; border: 1px solid var(--borda); border-radius: 8px; padding: 6px 8px; min-width: 120px; }
+  .btn { background: #fff; border: 1px solid var(--borda); border-radius: 8px; padding: 7px 12px; cursor: pointer; }
+  .btn:hover { border-color: var(--ouro); }
+  h1 { font-size: 22px; margin: 18px 0 2px; }
+  .sub { margin: 0 0 14px; color: var(--cafe-suave); }
+  section.pagina { display: none; }
+  section.pagina.ativa { display: block; }
+
+  .cartoes { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 12px; margin-bottom: 12px; }
+  .cartao { background: var(--creme); border: 1px solid var(--ouro); border-radius: var(--raio); padding: 12px 14px; }
+  .cartao .rotulo { font-size: 12px; color: var(--cafe-suave); }
+  .cartao .valor { font-size: 26px; font-weight: 600; line-height: 1.25; }
+  .cartao .nota { font-size: 11px; color: var(--cafe-suave); }
+  .grade { display: grid; grid-template-columns: minmax(0, 1fr); gap: 12px; margin-bottom: 12px; }
+  .g2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .painel { background: #fff; border: 1px solid var(--borda); border-radius: var(--raio); padding: 10px 12px; min-width: 0; }
+  .painel h2 { font-size: 14px; margin: 2px 0 6px; }
+  .grafico { width: 100%; height: 300px; }
+  .alto { height: 380px; }
+  .vazio { color: var(--cafe-suave); padding: 24px 8px; text-align: center; }
+
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th, td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--borda); white-space: nowrap; }
+  th { font-weight: 600; color: var(--cafe-suave); position: sticky; top: 0; background: #fff; }
+  td.n, th.n { text-align: right; font-variant-numeric: tabular-nums; }
+  .rolagem { overflow: auto; max-height: 420px; }
+  .selo { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: 6px; }
+  .ok { color: var(--verde); font-weight: 600; } .ruim { color: var(--alerta); font-weight: 600; }
+
+  .heat { border-collapse: separate; border-spacing: 3px; width: auto; margin: 0 auto; }
+  .heat td, .heat th { text-align: center; border: 0; padding: 0; white-space: normal; }
+  .heat td { width: 62px; height: 46px; border-radius: 6px; font-weight: 600; }
+  .heat th { background: none; position: static; color: var(--cafe-suave); font-weight: 500; font-size: 12px; padding: 2px 4px; }
+
+  .sim { display: grid; grid-template-columns: 1fr 1fr; gap: 10px 18px; align-items: center; }
+  .sim input[type=range] { width: 100%; accent-color: var(--verde); }
+  .sim .res { grid-column: 1 / -1; background: var(--creme); border-radius: 8px; padding: 10px 12px; }
+  .rodape { margin-top: 18px; font-size: 12px; color: var(--cafe-suave); }
+
+  @media (max-width: 900px) {
+    .app { grid-template-columns: 1fr; }
+    nav { position: static; height: auto; flex-direction: row; flex-wrap: wrap; padding: 10px 12px; }
+    .marca { margin: 0 12px 0 0; } .marca small, .aviso { display: none; }
+    main { padding: 0 16px 24px; }
+    .g2 { grid-template-columns: 1fr; }
+    .filtros { position: static; }
+  }
+  @media print { nav, .filtros { display: none; } section.pagina { display: block !important; break-after: page; } }
+</style>
+</head>
+<body>
+<div class="app">
+  <nav role="tablist" aria-label="Páginas do dashboard">
+    <div class="marca">☕ Boto Café<small>Dashboard RFM</small></div>
+    <button role="tab" data-pg="geral" aria-selected="true">Visão Geral</button>
+    <button role="tab" data-pg="rfm" aria-selected="false">RFM</button>
+    <button role="tab" data-pg="vip" aria-selected="false">Clientes VIP</button>
+    <button role="tab" data-pg="churn" aria-selected="false">Churn e Ações</button>
+    <div class="aviso">Dados fictícios, gerados para estudo.</div>
+  </nav>
+
+  <main>
+    <div class="filtros" role="group" aria-label="Filtros">
+      <label>De <select id="f-mi"></select></label>
+      <label>Até <select id="f-mf"></select></label>
+      <label>Região <select id="f-reg"></select></label>
+      <label>Estado <select id="f-uf"></select></label>
+      <label>Categoria <select id="f-cat"></select></label>
+      <label>Segmento <select id="f-seg"></select></label>
+      <button class="btn" id="limpar" type="button">Limpar filtros</button>
+    </div>
+
+    <!-- ═════════ Página 1 ═════════ -->
+    <section class="pagina ativa" id="pg-geral" role="tabpanel">
+      <h1>Como está o negócio?</h1>
+      <p class="sub" id="sub-geral"></p>
+      <div class="cartoes" id="cartoes-geral"></div>
+      <div class="grade">
+        <div class="painel"><h2>Receita por mês e média móvel de 3 meses</h2><div class="grafico" id="g-mes" role="img" aria-label="Receita mensal com média móvel"></div></div>
+      </div>
+      <div class="grade g2">
+        <div class="painel"><h2>Receita por região</h2><div class="grafico" id="g-regiao" role="img" aria-label="Receita por região"></div></div>
+        <div class="painel"><h2>Receita por categoria</h2><div class="grafico" id="g-categoria" role="img" aria-label="Receita por categoria"></div></div>
+      </div>
+    </section>
+
+    <!-- ═════════ Página 2 ═════════ -->
+    <section class="pagina" id="pg-rfm" role="tabpanel">
+      <h1>Quem são os nossos clientes?</h1>
+      <p class="sub">Segmentos são uma foto de todo o histórico: o filtro de período não os recalcula.</p>
+      <div class="grade g2">
+        <div class="painel"><h2>Matriz Recência × Frequência (nº de clientes)</h2><div id="heat" class="rolagem"></div></div>
+        <div class="painel"><h2>Clientes por segmento</h2><div class="grafico" id="g-seg-cli" role="img" aria-label="Clientes por segmento"></div></div>
+      </div>
+      <div class="grade g2">
+        <div class="painel"><h2>% da receita por segmento</h2><div class="grafico" id="g-seg-rec" role="img" aria-label="Percentual da receita por segmento"></div></div>
+        <div class="painel"><h2>Resumo por segmento</h2><div class="rolagem" id="tb-seg"></div></div>
+      </div>
+    </section>
+
+    <!-- ═════════ Página 3 ═════════ -->
+    <section class="pagina" id="pg-vip" role="tabpanel">
+      <h1>Quem sustenta a receita?</h1>
+      <p class="sub" id="sub-vip"></p>
+      <div class="cartoes" id="cartoes-vip"></div>
+      <div class="grade g2">
+        <div class="painel"><h2>Top 15 clientes por receita</h2><div class="grafico alto" id="g-top" role="img" aria-label="Top 15 clientes por receita"></div></div>
+        <div class="painel"><h2>Receita por canal de aquisição</h2><div class="grafico alto" id="g-canal" role="img" aria-label="Receita por canal de aquisição"></div></div>
+      </div>
+      <div class="painel"><h2>Detalhe dos 15 maiores clientes</h2><div class="rolagem" id="tb-vip"></div></div>
+    </section>
+
+    <!-- ═════════ Página 4 ═════════ -->
+    <section class="pagina" id="pg-churn" role="tabpanel">
+      <h1>Quem a gente ainda consegue recuperar?</h1>
+      <p class="sub">Risco = Precisam de Atenção + Prestes a Dar Churn + Hibernando. Os números desta página são a foto do histórico completo (não seguem o período).</p>
+      <div class="cartoes" id="cartoes-churn"></div>
+      <div class="grade g2">
+        <div class="painel"><h2>Clientes em risco por região e segmento</h2><div class="grafico" id="g-risco" role="img" aria-label="Clientes em risco por região e segmento"></div></div>
+        <div class="painel">
+          <h2>Quanto de desconto ainda compensa?</h2>
+          <p class="sub" style="margin:0 0 10px">Regra: o cupom só dá lucro se <b>desconto &lt; % incremental × margem</b>. “Incremental” é a fatia dos pedidos que só acontece por causa do cupom.</p>
+          <div class="sim">
+            <label>% incremental: <b id="v-inc"></b><input type="range" id="s-inc" min="0" max="100" step="5" value="50"></label>
+            <label>Desconto do cupom: <b id="v-desc"></b><input type="range" id="s-desc" min="0" max="50" step="1" value="15"></label>
+            <div class="res" id="res-sim" aria-live="polite"></div>
+          </div>
+          <h2 style="margin-top:12px">Premissas do projeto, por segmento</h2>
+          <div class="rolagem" style="max-height:230px" id="tb-cupom"></div>
+        </div>
+      </div>
+      <div class="painel">
+        <div style="display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap">
+          <h2>Lista de ação: clientes em risco, do maior gasto para o menor</h2>
+          <button class="btn" id="baixar" type="button">Baixar CSV</button>
+        </div>
+        <div class="rolagem" id="tb-acao"></div>
+      </div>
+    </section>
+
+    <p class="rodape">Boto Café é uma loja fictícia. Data de referência: <span id="data-ref"></span>. Receita = valor pago (com desconto) de pedidos pago/enviado/entregue.
+      O filtro de categoria só afeta receita, pedidos e ticket (não os números do histórico de cada cliente).</p>
+  </main>
+</div>
+
+<script type="application/json" id="dados">/*__DADOS__*/</script>
+<script>/*__PLOTLY__*/</script>
+<script>
+"use strict";
+// ───────────────────────── dados ─────────────────────────
+const D = JSON.parse(document.getElementById("dados").textContent);
+const CI = Object.fromEntries(D.colunasClientes.map((c, i) => [c, i]));   // nome da coluna -> posição
+const CLI = D.clientes;
+const [IT_C, IT_M, IT_K, IT_P, IT_R] = D.itens;      // itens válidos: cliente, mês, categoria, pedido, receita
+const [PE_C, PE_M, PE_S, PE_V, PE_U] = D.pedidos;    // pedidos: cliente, mês, status, válido, usou cupom
+const NM = D.meses.length;
+const MARGEM = D.margem;
+const IDX_RISCO = new Set(D.emRisco.map(s => D.segmentos.indexOf(s)));
+const IDX_CANCEL = [D.status.indexOf("cancelado"), D.status.indexOf("devolvido")];
+
+const COR = { cafe: "#3E2723", rosa: "#E8A0B4", verde: "#2E5E4E", creme: "#F5EDE0", ouro: "#C8963E", borda: "#E9DFD0" };
+const COR_SEG = {
+  "Campeões": "#C8963E", "Clientes Fiéis": "#2E5E4E", "Potenciais Fiéis": "#5E9C84", "Novos": "#9FCBB8",
+  "Promissores": "#F2D3DC", "Precisam de Atenção": "#E8C27A", "Prestes a Dar Churn": "#E8A0B4",
+  "Hibernando": "#8D6E63", "Perdidos": "#BCAAA4", "Sem compra válida": "#D7CCC8",
+};
+
+// ───────────────────────── formatação (pt-BR) ─────────────────────────
+const brl0 = new Intl.NumberFormat("pt-BR", { style: "currency", currency: "BRL", maximumFractionDigits: 0 });
+const brl2 = new Intl.NumberFormat("pt-BR", { style: "currency", currency: "BRL" });
+const num0 = new Intl.NumberFormat("pt-BR", { maximumFractionDigits: 0 });
+const num1 = new Intl.NumberFormat("pt-BR", { maximumFractionDigits: 1 });
+const pct1 = v => (v * 100).toLocaleString("pt-BR", { maximumFractionDigits: 1, minimumFractionDigits: 1 }) + "%";
+const NOMES_MES = ["jan", "fev", "mar", "abr", "mai", "jun", "jul", "ago", "set", "out", "nov", "dez"];
+const rotuloMes = m => { const [a, n] = D.meses[m].split("-"); return `${NOMES_MES[+n - 1]}/${a}`; };
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const seloSeg = s => `<span class="selo" style="background:${COR_SEG[s]}"></span>${esc(s)}`;
+
+// ───────────────────────── filtros ─────────────────────────
+const F = { mi: 0, mf: NM - 1, reg: -1, uf: "", cat: -1, seg: -1 };
+const $ = id => document.getElementById(id);
+
+function preencher(sel, opcoes, valor) {      // opcoes: [[valor, rótulo], ...]
+  sel.innerHTML = opcoes.map(([v, r]) => `<option value="${esc(v)}">${esc(r)}</option>`).join("");
+  sel.value = String(valor);
+}
+function montarEstados() {
+  const ufs = [...new Set(CLI.filter(c => F.reg < 0 || c[CI.regiao] === F.reg).map(c => c[CI.estado]))].sort();
+  if (!ufs.includes(F.uf)) F.uf = "";
+  preencher($("f-uf"), [["", "Todos"], ...ufs.map(u => [u, u])], F.uf);
+}
+function iniciarFiltros() {
+  const meses = D.meses.map((_, i) => [i, rotuloMes(i)]);
+  preencher($("f-mi"), meses, F.mi); preencher($("f-mf"), meses, F.mf);
+  preencher($("f-reg"), [[-1, "Todas"], ...D.regioes.map((r, i) => [i, r])], F.reg);
+  preencher($("f-cat"), [[-1, "Todas"], ...D.categorias.map((r, i) => [i, r])], F.cat);
+  preencher($("f-seg"), [[-1, "Todos"], ...D.segmentos.map((r, i) => [i, r])], F.seg);
+  montarEstados();
+  $("f-mi").onchange = e => { F.mi = +e.target.value; if (F.mf < F.mi) { F.mf = F.mi; $("f-mf").value = F.mf; } desenhar(); };
+  $("f-mf").onchange = e => { F.mf = +e.target.value; if (F.mi > F.mf) { F.mi = F.mf; $("f-mi").value = F.mi; } desenhar(); };
+  $("f-reg").onchange = e => { F.reg = +e.target.value; montarEstados(); desenhar(); };
+  $("f-uf").onchange = e => { F.uf = e.target.value; desenhar(); };
+  $("f-cat").onchange = e => { F.cat = +e.target.value; desenhar(); };
+  $("f-seg").onchange = e => { F.seg = +e.target.value; desenhar(); };
+  $("limpar").onclick = () => {
+    Object.assign(F, { mi: 0, mf: NM - 1, reg: -1, uf: "", cat: -1, seg: -1 });
+    iniciarFiltros(); desenhar();
+  };
+}
+
+// ───────────────────────── cálculo ─────────────────────────
+/** Passa uma vez pelos dados e junta tudo que as 4 páginas precisam. */
+function calcular() {
+  const n = CLI.length;
+  // quais clientes passam nos filtros de cliente (região, estado, segmento)
+  const ok = CLI.map(c => (F.reg < 0 || c[CI.regiao] === F.reg) && (!F.uf || c[CI.estado] === F.uf) && (F.seg < 0 || c[CI.seg] === F.seg));
+  const A = {
+    ok, receita: 0, pedidos: 0,
+    recMes: new Array(NM).fill(0), recReg: new Array(D.regioes.length).fill(0),
+    recCat: new Array(D.categorias.length).fill(0), recCanal: new Array(D.canais.length).fill(0),
+    recSeg: new Array(D.segmentos.length).fill(0), pedSeg: new Array(D.segmentos.length).fill(0),
+    recCli: new Float64Array(n), pedCli: new Int32Array(n),
+  };
+  const vistos = new Set();
+  for (let i = 0; i < IT_C.length; i++) {
+    const c = IT_C[i], m = IT_M[i];
+    if (!ok[c] || m < F.mi || m > F.mf || (F.cat >= 0 && IT_K[i] !== F.cat)) continue;
+    const r = IT_R[i], row = CLI[c];
+    A.receita += r; A.recMes[m] += r; A.recCat[IT_K[i]] += r; A.recReg[row[CI.regiao]] += r;
+    A.recCanal[row[CI.canal]] += r; A.recSeg[row[CI.seg]] += r; A.recCli[c] += r;
+    if (!vistos.has(IT_P[i])) {           // um pedido tem vários itens: conta uma vez só
+      vistos.add(IT_P[i]); A.pedidos++; A.pedCli[c]++; A.pedSeg[row[CI.seg]]++;
+    }
+  }
+  A.compradores = []; A.compRisco = 0;
+  for (let c = 0; c < n; c++) if (A.recCli[c] > 0) { A.compradores.push(c); if (CLI[c][CI.risco]) A.compRisco++; }
+
+  // pedidos (todos os status), para cancelamento e cupom: respeitam período e filtros de cliente, não categoria
+  let tot = 0, ruins = 0, validos = 0, comCupom = 0;
+  for (let i = 0; i < PE_C.length; i++) {
+    if (!ok[PE_C[i]] || PE_M[i] < F.mi || PE_M[i] > F.mf) continue;
+    tot++; if (IDX_CANCEL.includes(PE_S[i])) ruins++;
+    if (PE_V[i]) { validos++; if (PE_U[i]) comCupom++; }
+  }
+  A.pctCancel = tot ? ruins / tot : 0; A.pctCupom = validos ? comCupom / validos : 0;
+  return A;
+}
+
+// ───────────────────────── blocos de UI ─────────────────────────
+const cartao = (rotulo, valor, nota = "") =>
+  `<div class="cartao"><div class="rotulo">${esc(rotulo)}</div><div class="valor">${valor}</div>${nota ? `<div class="nota">${esc(nota)}</div>` : ""}</div>`;
+
+function tabela(colunas, linhas) {   // colunas: [{t, n?}] ; linhas: arrays de HTML já seguro
+  if (!linhas.length) return `<div class="vazio">Nenhum dado para os filtros escolhidos.</div>`;
+  return `<table><thead><tr>${colunas.map(c => `<th class="${c.n ? "n" : ""}">${esc(c.t)}</th>`).join("")}</tr></thead><tbody>` +
+    linhas.map(l => `<tr>${l.map((v, i) => `<td class="${colunas[i].n ? "n" : ""}">${v}</td>`).join("")}</tr>`).join("") + `</tbody></table>`;
+}
+
+const CFG = { displayModeBar: false, responsive: true };
+function layout(extra = {}) {
+  return Object.assign({
+    margin: { l: 50, r: 16, t: 8, b: 40 }, paper_bgcolor: "rgba(0,0,0,0)", plot_bgcolor: "rgba(0,0,0,0)",
+    font: { family: "Segoe UI, system-ui, sans-serif", color: COR.cafe, size: 12 }, showlegend: false,
+    xaxis: { gridcolor: COR.borda, zeroline: false }, yaxis: { gridcolor: COR.borda, zeroline: false },
+  }, extra);
+}
+function grafico(id, dados, lay) {
+  const el = $(id);
+  if (!dados.length || dados.every(t => !(t.x || t.values || []).length)) { Plotly.purge(el); el.innerHTML = `<div class="vazio">Nenhum dado para os filtros escolhidos.</div>`; return; }
+  if (el.querySelector(".vazio")) el.innerHTML = "";
+  Plotly.react(el, dados, lay, CFG);
+}
+// Barras horizontais ordenadas, maior em cima.
+function barrasH(id, rotulos, valores, cores, fmt, margemEsq = 110) {
+  const ord = rotulos.map((r, i) => i).sort((a, b) => valores[b] - valores[a]);
+  grafico(id, [{
+    type: "bar", orientation: "h", x: ord.map(i => valores[i]), y: ord.map(i => rotulos[i]),
+    marker: { color: ord.map(i => Array.isArray(cores) ? cores[i] : cores) },
+    text: ord.map(i => fmt(valores[i])), textposition: "outside", cliponaxis: false,
+    hovertemplate: "%{y}: %{text}<extra></extra>",
+  }], layout({ margin: { l: margemEsq, r: 70, t: 8, b: 30 }, yaxis: { autorange: "reversed", gridcolor: "rgba(0,0,0,0)" }, xaxis: { visible: false } }));
+}
+
+// ───────────────────────── páginas ─────────────────────────
+function paginaGeral(A) {
+  $("sub-geral").textContent = `${rotuloMes(F.mi)} a ${rotuloMes(F.mf)} · ${num0.format(A.compradores.length)} clientes compraram`;
+  $("cartoes-geral").innerHTML =
+    cartao("Receita", brl0.format(A.receita)) + cartao("Pedidos", num0.format(A.pedidos)) +
+    cartao("Ticket médio", A.pedidos ? brl2.format(A.receita / A.pedidos) : "—") +
+    cartao("% clientes em risco", A.compradores.length ? pct1(A.compRisco / A.compradores.length) : "—", "entre quem comprou no período");
+
+  const x = D.meses.map((_, i) => rotuloMes(i)).slice(F.mi, F.mf + 1);
+  const rec = A.recMes.slice(F.mi, F.mf + 1);
+  const mm = rec.map((_, i) => { const j = rec.slice(Math.max(0, i - 2), i + 1); return j.reduce((a, b) => a + b, 0) / j.length; });
+  grafico("g-mes", [
+    { type: "bar", x, y: rec, name: "Receita", marker: { color: COR.verde }, hovertemplate: "%{x}: %{y:,.0f}<extra></extra>" },
+    { type: "scatter", mode: "lines", x, y: mm, name: "Média móvel 3M", line: { color: COR.ouro, width: 3 } },
+  ], layout({ showlegend: true, legend: { orientation: "h", y: 1.12 }, yaxis: { tickprefix: "R$ ", gridcolor: COR.borda }, xaxis: { type: "category" } }));
+  barrasH("g-regiao", D.regioes, A.recReg, COR.verde, brl0.format, 100);
+  barrasH("g-categoria", D.categorias, A.recCat, COR.ouro, brl0.format, 100);
+}
+
+function paginaRfm(A) {
+  // matriz R × F: conta clientes compradores em cada célula
+  const m = Array.from({ length: 5 }, () => new Array(5).fill(0));
+  A.compradores.forEach(c => { const r = CLI[c][CI.R], f = CLI[c][CI.F]; if (r && f) m[r - 1][f - 1]++; });
+  const max = Math.max(1, ...m.flat());
+  let h = `<table class="heat" aria-label="Matriz Recência por Frequência"><tr><th></th>${[1, 2, 3, 4, 5].map(f => `<th>F=${f}</th>`).join("")}</tr>`;
+  for (let r = 5; r >= 1; r--) {
+    h += `<tr><th>R=${r}</th>` + [1, 2, 3, 4, 5].map(f => {
+      const v = m[r - 1][f - 1], t = v / max;
+      const bg = `rgb(${Math.round(245 - t * (245 - 46))},${Math.round(237 - t * (237 - 94))},${Math.round(224 - t * (224 - 78))})`;
+      return `<td style="background:${bg};color:${t > .55 ? "#fff" : COR.cafe}">${v}</td>`;
+    }).join("") + "</tr>";
+  }
+  $("heat").innerHTML = h + `</table><p class="nota" style="font-size:12px;color:#6D4C41;text-align:center;margin:6px 0 0">R=5 comprou há pouco · F=5 compra muito</p>`;
+
+  const segs = D.segmentos.map((s, i) => i).filter(i => D.segmentos[i] !== "Sem compra válida");
+  const nCli = segs.map(i => A.compradores.filter(c => CLI[c][CI.seg] === i).length);
+  const nomes = segs.map(i => D.segmentos[i]), cores = segs.map(i => COR_SEG[D.segmentos[i]]);
+  barrasH("g-seg-cli", nomes, nCli, cores, num0.format, 130);
+  barrasH("g-seg-rec", nomes, segs.map(i => A.receita ? A.recSeg[i] / A.receita : 0), cores, pct1, 130);
+
+  const linhas = segs.map((i, k) => {
+    if (!nCli[k]) return null;
+    const cs = A.compradores.filter(c => CLI[c][CI.seg] === i);
+    const recMedia = cs.reduce((a, c) => a + CLI[c][CI.recencia], 0) / cs.length;
+    return [seloSeg(D.segmentos[i]), num0.format(nCli[k]), num0.format(recMedia),
+            num1.format(A.pedSeg[i] / nCli[k]), A.pedSeg[i] ? brl2.format(A.recSeg[i] / A.pedSeg[i]) : "—"];
+  }).filter(Boolean);
+  $("tb-seg").innerHTML = tabela([{ t: "Segmento" }, { t: "Clientes", n: 1 }, { t: "Recência média (dias)", n: 1 },
+    { t: "Pedidos por cliente", n: 1 }, { t: "Ticket médio", n: 1 }], linhas);
+}
+
+function paginaVip(A) {
+  const ordenados = [...A.compradores].sort((a, b) => A.recCli[b] - A.recCli[a]);
+  const n = ordenados.length, k = Math.max(1, Math.round(n * 0.1));
+  const recTop = ordenados.slice(0, k).reduce((a, c) => a + A.recCli[c], 0);
+  const iCamp = D.segmentos.indexOf("Campeões");
+  $("sub-vip").textContent = n ? `Entre ${num0.format(n)} clientes que compraram no período, os ${num0.format(k)} maiores (10%) são o grupo VIP.` : "";
+  $("cartoes-vip").innerHTML =
+    cartao("Clientes Campeões", num0.format(A.compradores.filter(c => CLI[c][CI.seg] === iCamp).length)) +
+    cartao("% da receita nos 10% maiores", A.receita ? pct1(recTop / A.receita) : "—", "concentração: quanto menor, mais espalhada") +
+    cartao("Receita do top 15", brl0.format(ordenados.slice(0, 15).reduce((a, c) => a + A.recCli[c], 0)));
+
+  const top = ordenados.slice(0, 15);
+  barrasH("g-top", top.map(c => CLI[c][CI.nome]), top.map(c => A.recCli[c]),
+          top.map(c => COR_SEG[D.segmentos[CLI[c][CI.seg]]]), brl0.format, 160);
+  const canais = D.canais.map((_, i) => i).filter(i => A.recCanal[i] > 0);
+  grafico("g-canal", [{ type: "pie", hole: .55, labels: canais.map(i => D.canais[i]), values: canais.map(i => A.recCanal[i]),
+    marker: { colors: [COR.verde, COR.ouro, COR.rosa, "#5E9C84", "#8D6E63", "#9FCBB8"] }, textinfo: "percent", textposition: "inside",
+    hovertemplate: "%{label}: R$ %{value:,.0f}<extra></extra>", sort: false }], layout({ margin: { l: 10, r: 10, t: 10, b: 10 }, showlegend: true, legend: { orientation: "h", y: -0.05 } }));
+  $("tb-vip").innerHTML = tabela([{ t: "Cliente" }, { t: "Cidade/UF" }, { t: "Segmento" }, { t: "Pedidos", n: 1 },
+    { t: "Recência (dias)", n: 1 }, { t: "Receita", n: 1 }],
+    top.map(c => [esc(CLI[c][CI.nome]), `${esc(CLI[c][CI.cidade])}/${esc(CLI[c][CI.estado])}`, seloSeg(D.segmentos[CLI[c][CI.seg]]),
+                  num0.format(A.pedCli[c]), CLI[c][CI.recencia] ?? "—", brl2.format(A.recCli[c])]));
+}
+
+let LISTA_ACAO = [];
+function paginaChurn(A) {
+  // foto do histórico: clientes em risco que passam nos filtros de cliente
+  const risco = CLI.map((c, i) => i).filter(i => A.ok[i] && CLI[i][CI.risco]);
+  risco.sort((a, b) => CLI[b][CI.monet] - CLI[a][CI.monet]);
+  LISTA_ACAO = risco;
+  const gasto = risco.reduce((a, i) => a + CLI[i][CI.monet], 0);
+  $("cartoes-churn").innerHTML =
+    cartao("Clientes em risco", num0.format(risco.length)) + cartao("Gasto histórico em risco", brl0.format(gasto), "o que já gastaram, até hoje") +
+    cartao("% cancelado ou devolvido", pct1(A.pctCancel), "pedidos do período") + cartao("% pedidos com cupom", pct1(A.pctCupom), "entre os pedidos válidos");
+
+  // barras empilhadas: região × segmento (só os 3 segmentos de risco)
+  const traces = D.emRisco.map(s => {
+    const si = D.segmentos.indexOf(s);
+    return { type: "bar", name: s, x: D.regioes, marker: { color: COR_SEG[s] },
+      y: D.regioes.map((_, r) => risco.filter(i => CLI[i][CI.regiao] === r && CLI[i][CI.seg] === si).length) };
+  });
+  grafico("g-risco", traces, layout({ barmode: "stack", showlegend: true, legend: { orientation: "h", y: 1.15 } }));
+
+  $("tb-acao").innerHTML = tabela([{ t: "Cliente" }, { t: "E-mail" }, { t: "UF" }, { t: "Segmento" }, { t: "Dias sem comprar", n: 1 },
+    { t: "Gasto histórico", n: 1 }, { t: "Cupom sugerido" }],
+    risco.slice(0, 100).map(i => { const c = CLI[i]; return [esc(c[CI.nome]), esc(c[CI.email]), esc(c[CI.estado]),
+      seloSeg(D.segmentos[c[CI.seg]]), num0.format(c[CI.recencia]), brl2.format(c[CI.monet]), esc(c[CI.cupom])]; }));
+  if (risco.length > 100) $("tb-acao").insertAdjacentHTML("beforeend", `<p class="nota" style="font-size:12px">Mostrando 100 de ${num0.format(risco.length)}. O CSV traz todos.</p>`);
+}
+
+function simulador() {
+  const inc = +$("s-inc").value / 100, desc = +$("s-desc").value / 100, eq = inc * MARGEM;
+  $("v-inc").textContent = `${Math.round(inc * 100)}%`; $("v-desc").textContent = `${Math.round(desc * 100)}%`;
+  const ok = desc < eq;
+  $("res-sim").innerHTML = `Margem bruta real: <b>${pct1(MARGEM)}</b>. Desconto de equilíbrio: <b>${pct1(eq)}</b>.<br>` +
+    `Com ${Math.round(desc * 100)}% de desconto, o cupom <span class="${ok ? "ok" : "ruim"}">${ok ? "compensa" : "dá prejuízo"}</span> (sem contar custo de contato).`;
+}
+function tabelaCupons() {
+  const linhas = D.segmentos.filter(s => D.cupons[s]).map(s => {
+    const p = D.cupons[s], eq = p.incremental * MARGEM;
+    const veredito = p.desconto === 0 ? "Sem desconto" : (p.desconto < eq ? `<span class="ok">Compensa</span>` : `<span class="ruim">Não compensa</span>`);
+    return [seloSeg(s), esc(p.cupom), p.desconto ? pct1(p.desconto) : "—", pct1(p.incremental), pct1(eq), veredito];
+  });
+  $("tb-cupom").innerHTML = tabela([{ t: "Segmento" }, { t: "Cupom" }, { t: "Desconto", n: 1 }, { t: "Incremental (hipótese)", n: 1 },
+    { t: "Equilíbrio", n: 1 }, { t: "Veredito" }], linhas);
+}
+
+function baixarCsv() {
+  const cab = ["cliente", "email", "estado", "segmento", "dias_sem_comprar", "gasto_historico", "cupom_sugerido"];
+  const celula = v => `"${String(v ?? "").replace(/"/g, '""')}"`;
+  const linhas = LISTA_ACAO.map(i => { const c = CLI[i];
+    return [c[CI.nome], c[CI.email], c[CI.estado], D.segmentos[c[CI.seg]], c[CI.recencia],
+            String(c[CI.monet]).replace(".", ","), c[CI.cupom]].map(celula).join(";"); });
+  const blob = new Blob(["﻿" + [cab.join(";"), ...linhas].join("\r\n")], { type: "text/csv;charset=utf-8" });
+  const a = Object.assign(document.createElement("a"), { href: URL.createObjectURL(blob), download: "boto_cafe_lista_de_acao.csv" });
+  a.click(); URL.revokeObjectURL(a.href);
+}
+
+// ───────────────────────── orquestra ─────────────────────────
+let paginaAtual = "geral";
+function desenhar() {
+  const A = calcular();
+  // só desenha a página visível (os gráficos precisam de uma área com tamanho)
+  ({ geral: paginaGeral, rfm: paginaRfm, vip: paginaVip, churn: paginaChurn })[paginaAtual](A);
+}
+function irPara(pg) {
+  paginaAtual = pg;
+  document.querySelectorAll("nav button").forEach(b => b.setAttribute("aria-selected", String(b.dataset.pg === pg)));
+  document.querySelectorAll("section.pagina").forEach(s => s.classList.toggle("ativa", s.id === "pg-" + pg));
+  desenhar();
+  window.scrollTo({ top: 0 });
+}
+document.querySelectorAll("nav button").forEach(b => b.onclick = () => irPara(b.dataset.pg));
+$("s-inc").oninput = simulador; $("s-desc").oninput = simulador; $("baixar").onclick = baixarCsv;
+$("data-ref").textContent = D.geradoEm.split("-").reverse().join("/");
+iniciarFiltros(); simulador(); tabelaCupons(); desenhar();
+</script>
+</body>
+</html>

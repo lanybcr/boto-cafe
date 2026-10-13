@@ -1,0 +1,40 @@
+{
+  "name": "Boto Café",
+  "dataColors": ["#3E2723", "#2E5E4E", "#C8963E", "#E8A0B4", "#5E9C84", "#8D6E63", "#9FCBB8", "#E8C27A"],
+  "background": "#FFFFFF",
+  "foreground": "#3E2723",
+  "tableAccent": "#2E5E4E",
+  "good": "#2E5E4E",
+  "neutral": "#C8963E",
+  "bad": "#B5475F",
+  "maximum": "#2E5E4E",
+  "center": "#F5EDE0",
+  "minimum": "#FBF7F0",
+  "textClasses": {
+    "callout": { "fontSize": 28, "fontFace": "Segoe UI Semibold", "color": "#3E2723" },
+    "title": { "fontSize": 14, "fontFace": "Segoe UI Semibold", "color": "#3E2723" },
+    "header": { "fontSize": 12, "fontFace": "Segoe UI Semibold", "color": "#3E2723" },
+    "label": { "fontSize": 10, "fontFace": "Segoe UI", "color": "#6D4C41" }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "title": [{ "show": true, "fontColor": { "solid": { "color": "#3E2723" } }, "fontSize": 13 }],
+        "background": [{ "show": true, "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 0 }],
+        "border": [{ "show": true, "color": { "solid": { "color": "#E9DFD0" } }, "radius": 8 }],
+        "visualHeader": [{ "show": false }]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#FBF7F0" } }, "transparency": 0 }]
+      }
+    },
+    "card": {
+      "*": {
+        "background": [{ "show": true, "color": { "solid": { "color": "#F5EDE0" } }, "transparency": 0 }],
+        "border": [{ "show": true, "color": { "solid": { "color": "#C8963E" } }, "radius": 8 }]
+      }
+    }
+  }
+}

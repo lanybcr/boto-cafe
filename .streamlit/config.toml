@@ -1,0 +1,10 @@
+[theme]
+# Paleta Boto Café
+primaryColor = "#2E5E4E"
+backgroundColor = "#FBF7F0"
+secondaryBackgroundColor = "#F5EDE0"
+textColor = "#3E2723"
+font = "sans serif"
+
+[browser]
+gatherUsageStats = false

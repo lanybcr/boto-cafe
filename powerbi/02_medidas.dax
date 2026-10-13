@@ -1,0 +1,194 @@
+// ============================================================================
+// Boto Café · Medidas DAX
+// Cole cada medida na tabela _Medidas (Modelagem > Nova medida).
+// Convenção: nomes em português, sem prefixo; medidas auxiliares começam com "_".
+// Executadas no Power BI Desktop (painel de 4 páginas montado e conferido). Correções feitas na montagem:
+// "% Receita do Segmento" e "Desconto de Equilíbrio". "% Clientes do Segmento" (seção 2) não foi usada no painel
+// e tem o mesmo defeito do ALLSELECTED antigo: se for usá-la, aplique o mesmo REMOVEFILTERS.
+// Use a conferência do guia (seção 5).
+// Separadores: vírgula entre argumentos e ponto nos decimais (o Power BI em português do autor rejeitou ";", então este é o padrão aqui).
+// Se o seu aceitar só ";" entre argumentos, troque "," por ";" e "0.1" por "0,1".
+// ============================================================================
+
+
+// ───────────── 1. BÁSICAS (batem com o dashboard Streamlit) ─────────────
+
+// Receita = valor pago (já com desconto), só de pedidos válidos.
+// Usa fato_itens para respeitar o filtro de categoria.
+Receita =
+CALCULATE (
+    SUM ( fato_itens[receita_rateada] ),
+    fato_itens[valido] = 1
+)
+
+// Pedidos distintos (um pedido tem vários itens, por isso DISTINCTCOUNT).
+Pedidos =
+CALCULATE (
+    DISTINCTCOUNT ( fato_itens[pedido_id] ),
+    fato_itens[valido] = 1
+)
+
+// Ticket médio = receita por pedido.
+Ticket Médio =
+DIVIDE ( [Receita], [Pedidos] )
+
+// Clientes que compraram dentro do filtro atual (período, categoria, segmento…).
+Clientes Compradores =
+CALCULATE (
+    DISTINCTCOUNT ( fato_itens[cliente_id] ),
+    fato_itens[valido] = 1
+)
+
+// Itens vendidos (unidades).
+Unidades Vendidas =
+CALCULATE ( SUM ( fato_itens[quantidade] ), fato_itens[valido] = 1 )
+
+
+// ───────────── 2. RFM E SEGMENTOS ─────────────
+
+// Fatia da receita de cada segmento sobre o total (respeita data, região, estado e categoria).
+// Por que dois REMOVEFILTERS: "segmento" é ordenado por "segmento_ordem", e o Power BI agrupa pelas duas colunas.
+// Limpar só "segmento" deixava cada segmento sozinho no denominador e o gráfico saía 100% em todas as barras.
+// (A versão anterior, com ALLSELECTED só em "segmento", tinha o mesmo defeito.)
+// Se no seu modelo esta forma não limpar o filtro, a alternativa é trocar o 2º argumento do CALCULATE por
+// ALLEXCEPT ( dim_clientes, dim_clientes[regiao], dim_clientes[estado], dim_clientes[canal_aquisicao] ).
+% Receita do Segmento =
+DIVIDE (
+    [Receita],
+    CALCULATE ( [Receita], REMOVEFILTERS ( dim_clientes[segmento], dim_clientes[segmento_ordem] ) )
+)
+
+// Fatia de clientes de cada segmento.
+% Clientes do Segmento =
+DIVIDE (
+    [Clientes Compradores],
+    CALCULATE ( [Clientes Compradores], ALLSELECTED ( dim_clientes[segmento] ) )
+)
+
+// "Em risco" = Precisam de Atenção + Prestes a Dar Churn + Hibernando
+// (coluna dim_clientes[em_risco], mesma definição do dashboard).
+Clientes em Risco =
+CALCULATE (
+    [Clientes Compradores],
+    dim_clientes[em_risco] = "Sim"
+)
+
+% Clientes em Risco =
+DIVIDE ( [Clientes em Risco], [Clientes Compradores] )
+
+// Quanto os clientes em risco já gastaram na vida toda (valor a recuperar).
+// Atenção: usa o histórico completo (dim_clientes[monetario]), não respeita o filtro de período.
+Gasto Histórico em Risco =
+CALCULATE (
+    SUM ( dim_clientes[monetario] ),
+    dim_clientes[em_risco] = "Sim"
+)
+
+// Média de dias sem comprar (foto na data de referência).
+Recência Média (dias) =
+AVERAGE ( dim_clientes[recencia] )
+
+// Pedidos por cliente comprador.
+Frequência Média =
+DIVIDE ( [Pedidos], [Clientes Compradores] )
+
+
+// ───────────── 3. VIPs ─────────────
+
+// Posição do cliente por receita dentro do filtro atual (1 = maior).
+// Use em tabelas; para "Top 15" prefira o filtro de visual "N primeiros".
+Ranking Cliente =
+IF (
+    ISINSCOPE ( dim_clientes[nome] ),
+    RANKX ( ALLSELECTED ( dim_clientes[nome] ), [Receita], , DESC, DENSE )
+)
+
+// Concentração: quanto da receita vem dos 10% maiores clientes.
+// Resposta típica a "dependemos de poucos clientes?".
+% Receita Top 10% Clientes =
+VAR _clientes =
+    ADDCOLUMNS (
+        VALUES ( dim_clientes[cliente_id] ),
+        "@rec", [Receita]
+    )
+VAR _n = COUNTROWS ( FILTER ( _clientes, [@rec] > 0 ) )
+VAR _top = MAX ( 1, ROUND ( _n * 0.1, 0 ) )
+VAR _receitaTop = SUMX ( TOPN ( _top, _clientes, [@rec], DESC ), [@rec] )
+RETURN
+    DIVIDE ( _receitaTop, [Receita] )
+
+
+// ───────────── 4. TEMPO ─────────────
+// Exigem dim_calendario marcada como tabela de datas.
+// A base cobre ~2 anos (out/2024 a out/2026): comparações anuais só valem a partir de out/2025.
+
+Receita Ano Anterior =
+CALCULATE ( [Receita], SAMEPERIODLASTYEAR ( dim_calendario[data] ) )
+
+// Crescimento sobre o mesmo período do ano anterior. Vazio quando não há base de comparação.
+Crescimento YoY =
+DIVIDE ( [Receita] - [Receita Ano Anterior], [Receita Ano Anterior] )
+
+Receita Acumulada no Ano =
+TOTALYTD ( [Receita], dim_calendario[data] )
+
+// Média móvel de 3 meses (suaviza a sazonalidade): receita dos 3 últimos meses ÷ nº de meses.
+// (O divisor é a contagem de meses, para os 2 primeiros meses não ficarem artificialmente baixos.)
+Receita Média Móvel 3M =
+VAR _janela =
+    DATESINPERIOD ( dim_calendario[data], MAX ( dim_calendario[data] ), -3, MONTH )
+RETURN
+    DIVIDE (
+        CALCULATE ( [Receita], _janela ),
+        CALCULATE ( DISTINCTCOUNT ( dim_calendario[ano_mes] ), _janela )
+    )
+
+
+// ───────────── 5. CUPONS E MARGEM ─────────────
+
+// Custo dos produtos vendidos (preço de custo × quantidade).
+Custo dos Produtos =
+CALCULATE (
+    SUMX ( fato_itens, fato_itens[quantidade] * RELATED ( dim_produtos[custo] ) ),
+    fato_itens[valido] = 1
+)
+
+Lucro Bruto =
+[Receita] - [Custo dos Produtos]
+
+// Receita já está líquida de desconto, então esta margem é a "real" depois de cupons.
+Margem Bruta % =
+DIVIDE ( [Lucro Bruto], [Receita] )
+
+// Fatia dos pedidos que usaram cupom. Vem de fato_pedidos: NÃO responde ao filtro de categoria.
+% Pedidos com Cupom =
+DIVIDE (
+    CALCULATE ( COUNTROWS ( fato_pedidos ), fato_pedidos[valido] = 1, fato_pedidos[usou_cupom] = 1 ),
+    CALCULATE ( COUNTROWS ( fato_pedidos ), fato_pedidos[valido] = 1 )
+)
+
+// Total de desconto concedido em pedidos válidos (de fato_pedidos, ignora categoria).
+Desconto Concedido =
+CALCULATE ( SUM ( fato_pedidos[desconto_valor] ), fato_pedidos[valido] = 1 )
+
+// Taxa de cancelamento e devolução, sobre todos os pedidos (fato_pedidos guarda todos os status).
+% Cancelado ou Devolvido =
+DIVIDE (
+    CALCULATE ( COUNTROWS ( fato_pedidos ), fato_pedidos[status] IN { "cancelado", "devolvido" } ),
+    COUNTROWS ( fato_pedidos )
+)
+
+
+// ───────────── 6. PONTO DE EQUILÍBRIO DO CUPOM (parâmetro "e se?") ─────────────
+// Passo: Modelagem > Novo parâmetro > Intervalo numérico
+//   Nome: "% Incremental", mínimo 0, máximo 1, incremento 0,05, valor padrão 0,5.
+// O Power BI cria a tabela "% Incremental" e a medida "% Incremental Valor" automaticamente.
+// Regra da Fase 3: o cupom só compensa se  desconto < incremental × margem.
+
+// Desconto máximo que ainda dá lucro, dado o % incremental escolhido no controle deslizante.
+// Lê o controle "% Incremental" (estilo "Menor ou igual a", uma bolinha só) com MAX.
+// Atenção: a margem aqui é sobre a receita já com desconto (~46,8%), não sobre o preço de tabela (~48,4% da Fase 3).
+Desconto de Equilíbrio =
+MAX ( '% Incremental'[% Incremental] ) * [Margem Bruta %]
+// Exemplo de leitura: com margem de ~48% e metade dos pedidos sendo "só por causa do cupom"
+// (incremental = 50%), qualquer desconto acima de ~24% dá prejuízo.

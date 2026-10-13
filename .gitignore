@@ -1,0 +1,14 @@
+# Ambiente virtual e caches do Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Configuração local do Claude Code (só serve para testar o dashboard)
+.claude/
+
+# Arquivos temporários do Power BI e do Windows
+*.pbi*.tmp
+~$*
+Thumbs.db
+.DS_Store
