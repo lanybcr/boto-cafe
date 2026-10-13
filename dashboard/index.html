@@ -5,6 +5,17 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Boto Café · Dashboard RFM</title>
 <meta name="description" content="Dashboard RFM do Boto Café (dados fictícios): visão geral, segmentos, clientes VIP e churn.">
+<meta name="author" content="Alany Cruz">
+<meta name="color-scheme" content="light">
+<!-- Pré-visualização do link (LinkedIn, WhatsApp, etc.). A imagem é servida pelo GitHub Pages. -->
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:title" content="Boto Café · Dashboard RFM">
+<meta property="og:description" content="Quem sustenta a receita, quem está sumindo e quanto vale tentar recuperar. Projeto de portfólio com dados fictícios.">
+<meta property="og:url" content="https://lanybcr.github.io/boto-cafe/dashboard/">
+<meta property="og:image" content="https://lanybcr.github.io/boto-cafe/dashboard/capa.png">
+<meta property="og:image:alt" content="Dashboard Boto Café: cartões de receita, pedidos, ticket médio e clientes em risco, com gráficos por mês, região e categoria.">
+<meta name="twitter:card" content="summary_large_image">
 <style>
   :root {
     --cafe: #3E2723; --cafe-suave: #6D4C41; --rosa: #E8A0B4; --verde: #2E5E4E;
@@ -177,7 +188,8 @@
     </section>
 
     <p class="rodape">Boto Café é uma loja fictícia. Data de referência: <span id="data-ref"></span>. Receita = valor pago (com desconto) de pedidos pago/enviado/entregue.
-      O filtro de categoria só afeta receita, pedidos e ticket (não os números do histórico de cada cliente).</p>
+      O filtro de categoria só afeta receita, pedidos e ticket (não os números do histórico de cada cliente).<br>
+      Projeto de portfólio de Alany Cruz · <a href="https://github.com/lanybcr/boto-cafe">código e dados no GitHub</a>.</p>
   </main>
 </div>
 
@@ -3952,7 +3964,8 @@ function paginaGeral(A) {
   grafico("g-mes", [
     { type: "bar", x, y: rec, name: "Receita", marker: { color: COR.verde }, hovertemplate: "%{x}: %{y:,.0f}<extra></extra>" },
     { type: "scatter", mode: "lines", x, y: mm, name: "Média móvel 3M", line: { color: COR.ouro, width: 3 } },
-  ], layout({ showlegend: true, legend: { orientation: "h", y: 1.12 }, yaxis: { tickprefix: "R$ ", gridcolor: COR.borda }, xaxis: { type: "category" } }));
+  ], layout({ showlegend: true, legend: { orientation: "h", y: 1.12 }, margin: { l: 50, r: 44, t: 8, b: 56 },  // r/b maiores: o último rótulo inclinado (out/2026) não pode ser cortado
+              yaxis: { tickprefix: "R$ ", gridcolor: COR.borda }, xaxis: { type: "category" } }));
   barrasH("g-regiao", D.regioes, A.recReg, COR.verde, brl0.format, 100);
   barrasH("g-categoria", D.categorias, A.recCat, COR.ouro, brl0.format, 100);
 }
