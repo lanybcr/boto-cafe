@@ -3,8 +3,8 @@
 // Cole cada medida na tabela _Medidas (Modelagem > Nova medida).
 // Convenção: nomes em português, sem prefixo; medidas auxiliares começam com "_".
 // Executadas no Power BI Desktop (painel de 4 páginas montado e conferido). Correções feitas na montagem:
-// "% Receita do Segmento" e "Desconto de Equilíbrio". "% Clientes do Segmento" (seção 2) não foi usada no painel
-// e tem o mesmo defeito do ALLSELECTED antigo: se for usá-la, aplique o mesmo REMOVEFILTERS.
+// "% Receita do Segmento" e "Desconto de Equilíbrio". "% Clientes do Segmento" recebeu a mesma correção da
+// % Receita do Segmento, mas não é usada no painel e por isso NÃO foi testada no Power BI.
 // Use a conferência do guia (seção 5).
 // Separadores: vírgula entre argumentos e ponto nos decimais (o Power BI em português do autor rejeitou ";", então este é o padrão aqui).
 // Se o seu aceitar só ";" entre argumentos, troque "," por ";" e "0.1" por "0,1".
@@ -58,11 +58,11 @@ DIVIDE (
     CALCULATE ( [Receita], REMOVEFILTERS ( dim_clientes[segmento], dim_clientes[segmento_ordem] ) )
 )
 
-// Fatia de clientes de cada segmento.
+// Fatia de clientes de cada segmento (mesma correção da % Receita do Segmento: remove as duas colunas).
 % Clientes do Segmento =
 DIVIDE (
     [Clientes Compradores],
-    CALCULATE ( [Clientes Compradores], ALLSELECTED ( dim_clientes[segmento] ) )
+    CALCULATE ( [Clientes Compradores], REMOVEFILTERS ( dim_clientes[segmento], dim_clientes[segmento_ordem] ) )
 )
 
 // "Em risco" = Precisam de Atenção + Prestes a Dar Churn + Hibernando
@@ -187,7 +187,7 @@ DIVIDE (
 
 // Desconto máximo que ainda dá lucro, dado o % incremental escolhido no controle deslizante.
 // Lê o controle "% Incremental" (estilo "Menor ou igual a", uma bolinha só) com MAX.
-// Atenção: a margem aqui é sobre a receita já com desconto (~46,8%), não sobre o preço de tabela (~48,4% da Fase 3).
+// Atenção: a margem aqui é sobre a receita já com desconto (~46,8%), não sobre as vendas antes do desconto (~48,4%, usada na Fase 3).
 Desconto de Equilíbrio =
 MAX ( '% Incremental'[% Incremental] ) * [Margem Bruta %]
 // Exemplo de leitura: com margem de ~48% e metade dos pedidos sendo "só por causa do cupom"
