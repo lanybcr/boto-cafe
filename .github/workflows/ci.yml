@@ -30,6 +30,7 @@ jobs:
           python -m src.html_dashboard
 
       - name: Rodar os testes
+        shell: bash   # com shell explícito o GitHub liga o "pipefail": a falha do pytest não é escondida pelo tee
         run: pytest -q --tb=short 2>&1 | tee pytest.log
 
       # Se algum teste falhar, mostra o resumo como anotação na página da execução (sem precisar abrir o log).
