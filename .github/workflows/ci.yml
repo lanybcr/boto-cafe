@@ -30,4 +30,9 @@ jobs:
           python -m src.html_dashboard
 
       - name: Rodar os testes
-        run: pytest -q
+        run: pytest -q --tb=short 2>&1 | tee pytest.log
+
+      # Se algum teste falhar, mostra o resumo como anotação na página da execução (sem precisar abrir o log).
+      - name: Resumo das falhas
+        if: failure()
+        run: grep -E "^(FAILED|ERROR)|^E  " pytest.log | head -20 | while read -r linha; do echo "::error::${linha}"; done
