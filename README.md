@@ -68,7 +68,7 @@ Só contam pedidos pagos, enviados ou entregues; cancelados, devolvidos e penden
 - **Margem calculada do custo real dos produtos**, não chutada.
 - **A análise nunca vê o gabarito.** O gerador grava os perfis "verdadeiros" em arquivo separado, só para conferir se
   a segmentação encontra o que foi plantado.
-- **Mesmos números nos três dashboards** (R$ 4.149.292, 1.981 compradores, 30,3% em risco), inclusive ao filtrar por estado.
+- **Mesmos números nos três dashboards** (R$ 4.149.292, 1.981 compradores, 30,3% em risco).
 - **Modelo estrela no Power BI**, com medidas DAX documentadas.
 
 ## Limitações
