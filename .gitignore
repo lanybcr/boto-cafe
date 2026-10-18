@@ -12,3 +12,6 @@ __pycache__/
 ~$*
 Thumbs.db
 .DS_Store
+
+# Planos de fundo do Power BI (já estão embutidos no .pbix; ficam só na máquina)
+powerbi/powerbi-bg-*.png
